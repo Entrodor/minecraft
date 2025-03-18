@@ -1,0 +1,9 @@
+ServerEvents.recipes(event => {
+    event.shapeless(
+        Item.of('eccentrictome:tome[eccentrictome:mod_list={actuallyadditions:[{count:1,id:"actuallyadditions:booklet"}],ae2:[{count:1,id:"ae2:guide"}],allthemodium:[{components:{"patchouli:book":"allthemodium:allthemodium_book"},count:1,id:"patchouli:guide_book"}],apotheosis:[{components:{"patchouli:book":"apotheosis:apoth_chronicle"},count:1,id:"patchouli:guide_book"}],ars_nouveau:[{count:1,id:"ars_nouveau:worn_notebook"}],buildinggadgets2:[{components:{"patchouli:book":"buildinggadgets2:buildinggadgets2book"},count:1,id:"patchouli:guide_book"}],dimdungeons:[{components:{"patchouli:book":"dimdungeons:guide_book"},count:1,id:"patchouli:guide_book"}],iceandfire:[{components:{"patchouli:book":"iceandfire:iceandfire"},count:1,id:"patchouli:guide_book"}],immersiveengineering:[{count:1,id:"immersiveengineering:manual"}],industrialforegoing:[{components:{"patchouli:book":"industrialforegoing:industrial_foregoing"},count:1,id:"patchouli:guide_book"}],irons_spellbooks:[{components:{"patchouli:book":"irons_spellbooks:iss_guide_book"},count:1,id:"patchouli:guide_book"}],justdirethings:[{components:{"patchouli:book":"justdirethings:justdirethingsbook"},count:1,id:"patchouli:guide_book"}],mysticalagriculture:[{components:{"patchouli:book":"mysticalagriculture:guide"},count:1,id:"patchouli:guide_book"}],powah:[{count:1,id:"powah:book"}],productivebees:[{components:{"patchouli:book":"productivebees:guide"},count:1,id:"patchouli:guide_book"}],rftoolsbase:[{count:1,id:"rftoolsbase:manual"}],touhou_little_maid:[{components:{"patchouli:book":"touhou_little_maid:memorizable_gensokyo"},count:1,id:"patchouli:guide_book"}]}]', 1), // arg 1: output
+        [
+          'minecraft:diamond',
+          'eccentrictome:tome' 	       
+        ]
+      )
+})

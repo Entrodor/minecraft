@@ -1,0 +1,13 @@
+ServerEvents.tags('entity_type', event => {
+    event.add("forbidden_arcanus:quantum_catcher_blacklisted", "doggytalents:dog")
+    event.add("forbidden_arcanus:boss_catcher_blacklisted", "doggytalents:dog")
+    event.add("forbidden_arcanus:quantum_catcher_blacklisted", "iceandfire:fire_dragon")
+    event.add("forbidden_arcanus:boss_catcher_blacklisted", "iceandfire:fire_dragon")
+    event.add("forbidden_arcanus:quantum_catcher_blacklisted", "iceandfire:ice_dragon")
+    event.add("forbidden_arcanus:boss_catcher_blacklisted", "iceandfire:ice_dragon")
+    event.add("forbidden_arcanus:quantum_catcher_blacklisted", "iceandfire:lightning_dragon")
+    event.add("forbidden_arcanus:boss_catcher_blacklisted", "iceandfire:lightning_dragon")
+    event.add("justdirethings:creature_catcher_deny", "iceandfire:fire_dragon")
+    event.add("justdirethings:creature_catcher_deny", "iceandfire:ice_dragon")
+    event.add("justdirethings:creature_catcher_deny", "iceandfire:lightning_dragon")
+})
