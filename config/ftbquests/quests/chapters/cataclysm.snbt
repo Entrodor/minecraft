@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "7D1F8A710A58AAA9"
+	id: "5FE142F1BF47A07F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

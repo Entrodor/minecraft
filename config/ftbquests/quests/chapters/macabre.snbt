@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "macabre"
+	group: "70DEA18A0327F7F7"
+	id: "04607E84EA1DF8CE"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+}

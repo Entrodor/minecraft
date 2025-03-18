@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crystal_chronicles"
+	group: "70DEA18A0327F7F7"
+	id: "2B05F3CDD2DCCE53"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

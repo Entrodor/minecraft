@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "74FDE0A48BB346DA"
+	id: "22D3727CEB9F417A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "31FC038EAFE19742"
+		rewards: [
+			{
+				id: "75837B8F489E134D"
+				item: {
+					components: {
+						"eccentrictome:mod_list": {
+							actuallyadditions: [{
+								count: 1
+								id: "actuallyadditions:booklet"
+							}]
+							ae2: [{
+								count: 1
+								id: "ae2:guide"
+							}]
+							allthemodium: [{
+								components: {
+									"patchouli:book": "allthemodium:allthemodium_book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							apotheosis: [{
+								components: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							ars_nouveau: [{
+								count: 1
+								id: "ars_nouveau:worn_notebook"
+							}]
+							buildinggadgets2: [{
+								components: {
+									"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							dimdungeons: [{
+								components: {
+									"patchouli:book": "dimdungeons:guide_book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							iceandfire: [{
+								components: {
+									"patchouli:book": "iceandfire:iceandfire"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							immersiveengineering: [{
+								count: 1
+								id: "immersiveengineering:manual"
+							}]
+							industrialforegoing: [{
+								components: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							irons_spellbooks: [{
+								components: {
+									"patchouli:book": "irons_spellbooks:iss_guide_book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							justdirethings: [{
+								components: {
+									"patchouli:book": "justdirethings:justdirethingsbook"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							mysticalagriculture: [{
+								components: {
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							powah: [{
+								count: 1
+								id: "powah:book"
+							}]
+							productivebees: [{
+								components: {
+									"patchouli:book": "productivebees:guide"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							rftoolsbase: [{
+								count: 1
+								id: "rftoolsbase:manual"
+							}]
+							touhou_little_maid: [{
+								components: {
+									"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+						}
+					}
+					count: 1
+					id: "eccentrictome:tome"
+				}
+				type: "item"
+			}
+			{
+				id: "249E97B3908DCF45"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+		]
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: {
+				id: "kubejs:completed_black_hole"
+			}
+			id: "2142409CB902670B"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "doggy_talents"
+	group: "7F9438889CB40B51"
+	id: "6D0AFF6F36F1301D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

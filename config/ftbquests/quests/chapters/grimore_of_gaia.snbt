@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "grimore_of_gaia"
+	group: "7D1F8A710A58AAA9"
+	id: "15F2BEE1D1977381"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

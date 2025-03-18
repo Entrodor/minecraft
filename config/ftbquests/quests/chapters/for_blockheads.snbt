@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "for_blockheads"
+	group: "375753674AC829E2"
+	id: "0343433AA5E46026"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}
