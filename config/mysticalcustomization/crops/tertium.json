@@ -1,0 +1,20 @@
+{
+  "name": "Tertium",
+  "glint": "false",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "mysticalagriculture:tertium_essence"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": true
+  },
+  "color": "B74900",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

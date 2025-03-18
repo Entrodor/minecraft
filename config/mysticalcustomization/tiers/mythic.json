@@ -1,0 +1,8 @@
+{
+    "name": "§6Mythic",
+    "value": 8,
+    "farmland": "mysticalagradditions:insanium_farmland",
+    "essence": "mysticalagradditions:creative_essence",
+    "fertilizable": false,
+    "secondarySeedDrop": false
+}

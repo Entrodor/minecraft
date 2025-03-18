@@ -1,0 +1,20 @@
+{
+  "name": "Prosperity Shard",
+  "glint": "false",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "mysticalagriculture:prosperity_shard"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": true
+  },
+  "color": "A3C5C5",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_tall_gem"
+  }
+}

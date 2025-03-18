@@ -1,0 +1,20 @@
+{
+  "name": "Cognizant Dust",
+  "glint": "true",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:mythic",
+  "ingredient": {
+    "item": "mysticalagriculture:cognizant_dust"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": true
+  },
+  "color": "C47200",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

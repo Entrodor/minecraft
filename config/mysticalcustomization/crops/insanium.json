@@ -1,0 +1,20 @@
+{
+  "name": "Insanium",
+  "glint": "true",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mysticalagradditions:insanium_essence"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": true
+  },
+  "color": "78D00DE",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}
