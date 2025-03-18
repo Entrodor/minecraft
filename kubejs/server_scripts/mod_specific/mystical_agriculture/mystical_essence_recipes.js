@@ -32,6 +32,26 @@ ServerEvents.recipes(event => {
     ]
   )
 
+  event.shaped('8x xycraft_world:xychorium_gem_red', ['AAA', 'A A', 'AAA'], {
+    A: 'mysticalagriculture:red_xychorium_gem_essence'
+  })
+
+  event.shaped('8x xycraft_world:xychorium_gem_green', ['AAA', 'A A', 'AAA'], {
+    A: 'mysticalagriculture:green_xychorium_gem_essence'
+  })
+
+  event.shaped('8x xycraft_world:xychorium_gem_blue', ['AAA', 'A A', 'AAA'], {
+    A: 'mysticalagriculture:blue_xychorium_gem_essence'
+  })
+
+  event.shaped('8x xycraft_world:xychorium_gem_light', ['AAA', 'A A', 'AAA'], {
+    A: 'mysticalagriculture:light_xychorium_gem_essence'
+  })
+
+  event.shaped('8x xycraft_world:xychorium_gem_dark', ['AAA', 'A A', 'AAA'], {
+    A: 'mysticalagriculture:dark_xychorium_gem_essence'
+  })
+
   event.shaped('16x forbidden_arcanus:aurum_log', ['AAA', 'ABA', 'AAA'], {
     A: 'mysticalagriculture:wood_essence',
     B: 'mysticalagriculture:gold_essence'
