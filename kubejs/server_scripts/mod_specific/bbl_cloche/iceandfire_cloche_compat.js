@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     tree(1200, 1.0, 2, "iceandfire:dreadwood_log", 0.2, 1, "iceandfire:dreadwood_sapling", "iceandfire:dreadwood_sapling", 2, "iceandfire:dreadwood_leaves", "floabg:farmland_grass")
 
     crop(1200, 1.0, 1, "iceandfire:lightning_lily", "iceandfire:lightning_lily", "floabg:farmland_grass")
-    crop(1200, 1.0, 1, "iceandfire:frost_lily", "iceandfire:frost_lily", "floabg:farmland_grass")
+    crop(1200, 1.0, 1, "iceandfire:fire_lily", "iceandfire:fire_lily", "floabg:farmland_grass")
     crop(1200, 1.0, 1, "iceandfire:frost_lily", "iceandfire:frost_lily", "floabg:farmland_grass")
 
     function crop(duration, chance, output_amount, output, seed, farmland_tag) {
