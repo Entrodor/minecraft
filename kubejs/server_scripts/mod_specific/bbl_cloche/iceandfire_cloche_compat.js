@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         }
       })}      
   
-  function tree(duration, chance, output_amount, output, chance_2, output_amount_2, output_2, sapling, farmland_tag) {
+  function tree(duration, chance, output_amount, output, chance_2, output_amount_2, output_2, sapling, leaf_amount, leaf, farmland_tag) {
 
       event.custom({
         "type": "cloche:cloche",
@@ -49,12 +49,16 @@ ServerEvents.recipes(event => {
                 "id": output_2
               }
             }
-        ],
-        "seed": {
-          "item": sapling
-        },
-        "soil": {
-          "tag": farmland_tag
-        }
+          ],
+          "seed": {
+            "item": sapling
+          },
+          "shears_result": {
+            "count": leaf_amount,
+            "id": leaf
+          },
+          "soil": {
+            "tag": farmland_tag
+          }
       })} 
 })

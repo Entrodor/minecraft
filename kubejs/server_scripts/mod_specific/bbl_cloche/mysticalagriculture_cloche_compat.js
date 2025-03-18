@@ -114,24 +114,24 @@ ServerEvents.recipes(event => {
 
     function crop(duration, chance, output_amount, output, seed, farmland_tag) {
 
-        event.custom({
-          "type": "cloche:cloche",
-          "catalyst": [],
-          "duration": duration,
-          "results": [
-            {
-              "chance": chance,
-              "item": {                
-                "count": output_amount,
-                 output
-              }
+      event.custom({
+        "type": "cloche:cloche",
+        "catalyst": [],
+        "duration": duration,
+        "results": [
+          {
+            "chance": chance,
+            "item": {                
+              "count": output_amount,
+              "id": output
             }
-          ],
-          "seed": {
-            "item": seed
-          },
-          "soil": {
-            "tag": farmland_tag
           }
-        })}  
+        ],
+        "seed": {
+          "item": seed
+        },
+        "soil": {
+          "tag": farmland_tag
+        }
+      })}  
 })
