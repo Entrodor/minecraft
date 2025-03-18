@@ -47,6 +47,7 @@ config/xaerominimap_entities.json
 config/iris.properties
 config/sound_physics_remastered/*
 
+kubejs/server_scripts/mod_specific/.vs/slnx.sqlite
 kubejs/config/probe-settings.json
 kubejs/config/web_server.json
 kubejs/client_scripts/jsconfig.json
