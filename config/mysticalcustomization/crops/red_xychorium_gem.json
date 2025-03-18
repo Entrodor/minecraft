@@ -1,0 +1,20 @@
+{
+  "name": "Red Xycraft Gems",
+  "glint": "true",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "xycraft_world:xycraft_gem_red"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": true
+  },
+  "color": "FF0000",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

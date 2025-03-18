@@ -69,6 +69,11 @@ ServerEvents.recipes(event => {
     seed("alltheores:lead_block", "mysticalagriculture:tertium_essence", "mysticalagriculture:lead_seeds")
     seed("allthecompressed:sky_stone_block_1x", "mysticalagriculture:tertium_essence", "mysticalagriculture:sky_stone_seeds")
     seed("ae2:quartz_block", "mysticalagriculture:tertium_essence", "mysticalagriculture:certus_quartz_seeds")
+    seed("xycraft_world:xychorium_storage_red", "mysticalagriculture:tertium_essence", "mysticalagriculture:red_xychorium_gem_seeds")
+    seed("xycraft_world:xychorium_storage_green", "mysticalagriculture:tertium_essence", "mysticalagriculture:green_xychorium_gem_seeds")
+    seed("xycraft_world:xychorium_storage_blue", "mysticalagriculture:tertium_essence", "mysticalagriculture:blue_xychorium_gem_seeds")
+    seed("xycraft_world:xychorium_storage_light", "mysticalagriculture:tertium_essence", "mysticalagriculture:light_xychorium_gem_seeds")
+    seed("xycraft_world:xychorium_storage_dark", "mysticalagriculture:tertium_essence", "mysticalagriculture:dark_xychorium_gem_seeds")
 //Seed Tier 4
     seed("minecraft:gold_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:gold_seeds")
     seed("minecraft:lapis_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:lapis_lazuli_seeds")
