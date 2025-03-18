@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rf_tools"
+	group: "60727D1667A82BB8"
+	id: "4F36BBF92D1D70D2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

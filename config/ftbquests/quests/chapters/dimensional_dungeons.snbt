@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensional_dungeons"
+	group: "70DEA18A0327F7F7"
+	id: "2C632871D74DF825"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

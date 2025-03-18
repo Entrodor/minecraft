@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_out"
+	group: "57971926FD205C72"
+	id: "73BB868C4E262B76"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}
