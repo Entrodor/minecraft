@@ -1,0 +1,21 @@
+ServerEvents.recipes(event => {
+    event.custom({
+        "type":"mekanism:metallurgic_infusing",
+        "chemical_input":
+        {
+            "amount":10,
+            "tag":"mekanism:refined_obsidian"
+        },
+        "item_input":
+        {
+            "count":1,
+            "tag":"c:dusts/redstone"
+        },
+        "output":
+        {
+            "count":4,
+            "id":"fluxnetworks:flux_dust"
+        },
+        "per_tick_usage":false
+    })
+})

@@ -7,7 +7,6 @@ ServerEvents.tags('item', event => {
     //Example event.add('c:stones', '#minecraft:dirt') This makes it so any item that has the "minecraft:dirt" tag will now have the "c:stones" tag
     //Removing a tag from and item = event.remove('item_tag', 'item')
     //Example = event.remove('minecraft:dirt', 'minecraft:grass') This will remove the minecraft:dirt tag from the Grass Block
-
     event.add('c:salts', 'mekanism:salt')
     event.add('c:salts', 'alltheores:salt')
     event.add('c:salt', 'mekanism:salt')
