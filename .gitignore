@@ -85,6 +85,8 @@ kubejs/startup_scripts/jsconfig.json
 !/config/asteorbar-client.toml
 !/config/bhc
 !/config/crash_assistant
+!/config/wormhole-common.toml
+
 !/config/cumulus_menus-client.toml
 !/config/dynamic_fps.json
 !/config/dynamicview.json
