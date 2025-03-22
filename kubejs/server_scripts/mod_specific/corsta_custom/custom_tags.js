@@ -224,6 +224,9 @@ ServerEvents.tags('item', event => {
     event.add('floabg:resource_seed', 'mysticalagriculture:allthemodium_seeds')
     event.add('floabg:resource_seed', 'mysticalagriculture:vibranium_seeds')
     event.add('floabg:resource_seed', 'mysticalagriculture:unobtainium_seeds')
+
+    event.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
+    event.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
 })
 
 ServerEvents.tags('block', event => {
@@ -231,4 +234,8 @@ ServerEvents.tags('block', event => {
     event.add('floabg:claims_blockuse_exempt', 'supplementaries:globe')
     event.add('floabg:claims_blockuse_exempt', 'supplementaries:globe_sepia')
     event.add('floabg:claims_blockuse_exempt', '#tombstone:graves')
+//Entangled Blacklist
+    event.add('entangled:invalid_targets',
+        ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
+    )
 })
