@@ -13,7 +13,7 @@
 
     # How much idle power does the portal drain per block of its size?
     # Allowed range: 0.0 ~ 1000000.0 - Default: 0.5
-    sizePowerDrain = 10
+    sizePowerDrain = 10.0
 
     # How much power will be drained when an entity is teleported?
     # Allowed range: 0 ~ 1000000 - Default: 100
