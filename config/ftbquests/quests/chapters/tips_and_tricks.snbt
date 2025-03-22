@@ -6,5 +6,132 @@
 	id: "20267E7D79F1B2E5"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "74CBBDB32DED6205"
+			rewards: [
+				{
+					id: "4CE6CF4DFD3E8701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					command: "/give @p diamond 1"
+					id: "02F9B47D4632BC4B"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3EE8486000AD6B37"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "7F1A11703ECB2756"
+			rewards: [{
+				id: "547A4B9CB25267E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30F8E1E3529F585D"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74CBBDB32DED6205"]
+			id: "38B90AAF99A49B5E"
+			rewards: [{
+				id: "6DB71E07DC5AED30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0024E4ED7F1FADA9"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CBBDB32DED6205"]
+			id: "044069E44FBEDB45"
+			rewards: [
+				{
+					id: "442594A895C7D9F5"
+					item: {
+						count: 1
+						id: "enderstorage:ender_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "294938B37F7AFC31"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "370A4A47EB87C9EA"
+					item: { count: 1, id: "enderstorage:ender_chest" }
+					type: "item"
+				}
+				{
+					id: "53BCCA25E6464FCB"
+					item: { count: 1, id: "enderstorage:ender_tank" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["044069E44FBEDB45"]
+			id: "02B6A03F72D17608"
+			rewards: [{
+				id: "630013024052CC35"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "35A03D5E6DFD2D2C"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74CBBDB32DED6205"]
+			id: "6D2150F7EB73A8D8"
+			rewards: [{
+				id: "34358128FF429F7F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "642C16F7201706A4"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+				{
+					id: "146BC6B0E59DFC8F"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
 }

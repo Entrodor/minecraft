@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "actually_additions"
+	group: "60727D1667A82BB8"
+	id: "78C0663E6C47260E"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+}

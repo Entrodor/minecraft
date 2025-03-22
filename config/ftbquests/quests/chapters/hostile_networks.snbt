@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_networks"
+	group: "3A55D13B47F16C8F"
+	id: "04903DB0CD6EF5A5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

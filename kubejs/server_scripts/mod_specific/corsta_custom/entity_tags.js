@@ -10,4 +10,6 @@ ServerEvents.tags('entity_type', event => {
     event.add("justdirethings:creature_catcher_deny", "iceandfire:fire_dragon")
     event.add("justdirethings:creature_catcher_deny", "iceandfire:ice_dragon")
     event.add("justdirethings:creature_catcher_deny", "iceandfire:lightning_dragon")
+    event.add("c:bosses", "#neoforge:bosses")
+    //event.add("shrink:shrink_denylist", "#c:bosses")
 })

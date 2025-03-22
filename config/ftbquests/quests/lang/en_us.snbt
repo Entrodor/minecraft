@@ -1,6 +1,7 @@
 {
 	chapter.0343433AA5E46026.title: "For Blockheads"
 	chapter.04607E84EA1DF8CE.title: "Macabre"
+	chapter.04903DB0CD6EF5A5.title: "Hostile Networks"
 	chapter.08E7EC48E4943543.title: "Apotheosis"
 	chapter.0D784EADC12F0346.title: "Nether"
 	chapter.1045B116AB0950B3.title: "Mekanism"
@@ -37,6 +38,7 @@
 	chapter.6DFD8907DE91836E.title: "Ice and Fire"
 	chapter.73BB868C4E262B76.title: "Starting out"
 	chapter.74436712402AF9E2.title: "Artifacts"
+	chapter.78C0663E6C47260E.title: "Actually Additions"
 	chapter_group.1A26E5C97F305F62.title: "Curios"
 	chapter_group.246FA60C46CF4A12.title: "Storage"
 	chapter_group.375753674AC829E2.title: "Foodz"
@@ -49,13 +51,51 @@
 	chapter_group.74FDE0A48BB346DA.title: "FLoaBG"
 	chapter_group.7D1F8A710A58AAA9.title: "Bosses"
 	chapter_group.7F9438889CB40B51.title: "Pets"
+	quest.02B6A03F72D17608.quest_desc: ["You can make the &3Ender Chest&r and &6Ender Tank&r private by &o&eright clicking&r a diamond on the &3lock&r of the &3Ender Chest&r and on the &6knob&r on the &6Ender Tank&r."]
+	quest.02B6A03F72D17608.quest_subtitle: "My Precious!"
+	quest.02B6A03F72D17608.title: "Private Storage"
+	quest.044069E44FBEDB45.quest_desc: [
+		"&3Ender Chests&r from the Ender Storage mod are an upgrade to the vanilla ender chest, with a few differences. First the new &3Ender Chest&r and the &6Ender Tank&r works on a freqency system and is now global."
+		""
+		"You can change the frequency by either; crafting the inital &3Ender Chest&r or &6Ender Tank&r with a specific colored wool, placing the crafted &3Ender chest&r or&6 Ender Tank&r in the middle of the crafting table and placing 3 dyes of any color in the top 3 slots of the crafting table or you can change the frequency by right clicking the frequency idicators on the top of the &3Ender Chest&r or &6Ender Tank&r with a different colored dye."
+		""
+		"You can &o&eShift Right Click&r the &5Ender Pouch&r on the &3Ender Chest&r to link the frequency and setting of the &3Ender Chest&r to the &5Ender Pouch&r."
+	]
+	quest.044069E44FBEDB45.quest_subtitle: "My Enderchest is Your Enderchest"
+	quest.044069E44FBEDB45.title: "Global Storage"
 	quest.31FC038EAFE19742.quest_desc: [
-		"Welcome to For Lack Of A Better Game's modpack."
+		"Welcome to &cFor Lack Of A Better Game's&r modpack."
 		""
 		"This modpack is still under development and further quests and custom recipes will be added during future development."
 		""
 		"You can craft the eccentric tome with a diamond to replace your tome if it becomes lost or destroyed."
 	]
-	quest.31FC038EAFE19742.quest_subtitle: "Where am I?"
+	quest.31FC038EAFE19742.quest_subtitle: "It's dangerous to go alone!"
+	quest.38B90AAF99A49B5E.quest_desc: [
+		"Here are some useful commands for players to use."
+		""
+		"/&9tpa&r &a{username}&r will allow players to request to teleport to another player. That player can then click the &2Accept&r or &4Deny&r button in the ingame chat."
+		""
+		"/&9tpahere&r &a{username}&r will request that player to teleport to your position. They can choose to either &2Accept&r or &4Deny&r your request by clicking the corresponding button in the ingame chat."
+		""
+		"/&9rtp&r will randomly teleport a player to a coordinate between a minimun and maximum distance set in the config."
+		""
+		"/&9back&r will teleport the player back to the last known location from the last teleport or death."
+	]
+	quest.38B90AAF99A49B5E.quest_subtitle: "Sir Yes Sir!"
+	quest.6D2150F7EB73A8D8.quest_desc: [
+		"The &eExplorer's Compass&r allows you to find a specific structure in the world to a max range of &b10,000 blocks&r. So if no structure is found; it just means that it is either in a different dimension or is not within the &b10,000&r block range."
+		""
+		"The &2Nature's Compass&r allows you to find a specific biome in the world to a max range of &b2,500&r. So if the selected biome is not located; it is either in a different biome or not within the &b2,500&r block range."
+	]
+	quest.6D2150F7EB73A8D8.quest_subtitle: "Are we there yet?"
+	quest.6D2150F7EB73A8D8.title: "The Compasses"
+	quest.74CBBDB32DED6205.quest_desc: ["Here are some useful tips, items or blocks that may make your life easier in this Modpack."]
+	quest.74CBBDB32DED6205.quest_subtitle: "Sharp like an arrow?"
+	quest.7F1A11703ECB2756.quest_desc: ["Here are some tricks that may come in handy."]
+	quest.7F1A11703ECB2756.quest_subtitle: "Is it Halloween?"
+	task.0024E4ED7F1FADA9.title: "Commands"
 	task.2142409CB902670B.title: "Joined the World!"
+	task.30F8E1E3529F585D.title: "Tricks"
+	task.3EE8486000AD6B37.title: "Tips"
 }
