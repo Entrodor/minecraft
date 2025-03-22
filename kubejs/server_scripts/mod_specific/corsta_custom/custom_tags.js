@@ -24,6 +24,7 @@ ServerEvents.tags('item', event => {
     event.remove('c:nuggets/coal', 'create_d2d:coal_piece')
     event.remove('silentgear:greedy_magnet_attracted', 'create_d2d:coal_piece')
     event.remove('silentgear:gold_digger_drops', 'create_d2d:coal_piece')
+    event.add('c:plates/plastic', 'mekanism:hdpe_sheet')
 //Open parties and claims Item exemption floabg:claims_itemuse_exempt
     event.add('floabg:claims_itemuse_exempt', 'sophisticatedbackpacks:backpack')
     event.add('floabg:claims_itemuse_exempt', 'sophisticatedbackpacks:iron_backpack')
