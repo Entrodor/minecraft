@@ -4,17 +4,6 @@
 		power: 1
 		condition: "always_active"
 	}
-	membertest: {
-		name: "Member Test"
-		power: 5
-		ftbranks.name_format: "&4VIP&r {name}"
-		condition: {
-			type: "playtime"
-			time: 3
-			time_unit: "minutes"
-		}
-		command.fly: true
-	}
 	memberone: {
 		name: "Member +"
 		power: 2

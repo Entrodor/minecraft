@@ -63,6 +63,9 @@
 	]
 	quest.044069E44FBEDB45.quest_subtitle: "My Enderchest is Your Enderchest"
 	quest.044069E44FBEDB45.title: "Global Storage"
+	quest.1117A6A3F27D1462.quest_desc: ["Simple Magnets is a useful mod, allow players to attract items and experience from a distance away. The &7Basic Magnet&r can be toggled on and off be &bRight Clicking&r whilst holding the magnet."]
+	quest.1117A6A3F27D1462.quest_subtitle: "GET OVER HERE!"
+	quest.1117A6A3F27D1462.title: "Magnets"
 	quest.31FC038EAFE19742.quest_desc: [
 		"Welcome to &cFor Lack Of A Better Game's&r modpack."
 		""
@@ -83,6 +86,26 @@
 		"/&9back&r will teleport the player back to the last known location from the last teleport or death."
 	]
 	quest.38B90AAF99A49B5E.quest_subtitle: "Sir Yes Sir!"
+	quest.395333E99CB1CECE.quest_desc: [
+		"The Shrink Device can allow you to shrink or expand. Shrinking may help with getting into hard to reach places or just to hide from your friends."
+		""
+		"&4Please note: The Device would normally work on mobs but has been disabled in this modpack. This also means you cannot use it on other players either.&r"
+	]
+	quest.395333E99CB1CECE.quest_subtitle: "What happened to Stuart Little?"
+	quest.395333E99CB1CECE.title: "Shinktastic"
+	quest.4323C192241B7DBA.quest_desc: [
+		"In this modpack you will be able to set up a &dhome&r by using /&dhome&r or /&dhome&r &cname&r."
+		""
+		"You will be able to unlock upto 2 more &dhomes&r by playing in the world for &424&r hours (&41&r day) and &4168&r hours (&47&r days)."
+		""
+		"If playing in a single player world; you can adjust the amount of homes in the world folder (e.g. saves/{your world}/serverconfig/ftbranks/ranks.snbt)."
+		""
+		"If you are playing on a server, well it is upto the server owner/admin to adjust these settings."
+	]
+	quest.4323C192241B7DBA.quest_subtitle: "Homes you say?"
+	quest.4C8F34B35B933702.quest_desc: ["Oh no! You have perished, but don't worry. You can combine your key with an &2Ender Pearl&r to teleport to your grave."]
+	quest.4C8F34B35B933702.quest_subtitle: "A coin for the ferryman!"
+	quest.4C8F34B35B933702.title: "&4You DIED!&r"
 	quest.6D2150F7EB73A8D8.quest_desc: [
 		"The &eExplorer's Compass&r allows you to find a specific structure in the world to a max range of &b10,000 blocks&r. So if no structure is found; it just means that it is either in a different dimension or is not within the &b10,000&r block range."
 		""
@@ -96,6 +119,9 @@
 	quest.7F1A11703ECB2756.quest_subtitle: "Is it Halloween?"
 	task.0024E4ED7F1FADA9.title: "Commands"
 	task.2142409CB902670B.title: "Joined the World!"
+	task.28C75CC51B59A8E1.title: "Magnets"
+	task.2CD647FC0FF73EA5.title: "Demagnetization Coils"
 	task.30F8E1E3529F585D.title: "Tricks"
 	task.3EE8486000AD6B37.title: "Tips"
+	task.7AF29117A4B33D4E.title: "Homes"
 }

@@ -9,19 +9,11 @@
 	quests: [
 		{
 			id: "74CBBDB32DED6205"
-			rewards: [
-				{
-					id: "4CE6CF4DFD3E8701"
-					type: "xp"
-					xp: 100
-				}
-				{
-					command: "/give @p diamond 1"
-					id: "02F9B47D4632BC4B"
-					permission_level: 2
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "4CE6CF4DFD3E8701"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3EE8486000AD6B37"
 				type: "checkmark"
@@ -130,8 +122,112 @@
 					type: "item"
 				}
 			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38B90AAF99A49B5E"]
+			id: "4323C192241B7DBA"
+			rewards: [
+				{
+					id: "721BED0B30AB33EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E21706B3254DC81"
+					item: {
+						count: 1
+						id: "minecraft:red_bed"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AF29117A4B33D4E"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74CBBDB32DED6205"]
+			id: "395333E99CB1CECE"
+			rewards: [{
+				id: "53D30F507E66BCEC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "141CE89A6E7F26CA"
+				item: { count: 1, id: "shrink:shrinking_device" }
+				type: "item"
+			}]
 			x: -2.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7F1A11703ECB2756"]
+			id: "4C8F34B35B933702"
+			rewards: [
+				{
+					id: "440A5201D775656E"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "33AB6FFF756F9130"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"extra\":[{\"color\":\"gold\",\"italic\":false,\"text\":\"Ferryman's Coin\"}],\"text\":\"\"}"
+						}
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "354AEDDBC0EB0363"
+				item: { count: 1, id: "tombstone:grave_key" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "simplemagnets:advancedmagnet"
+			}
+			id: "1117A6A3F27D1462"
+			rewards: [{
+				id: "59CBADF80B2D42DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "simplemagnets:advancedmagnet"
+					}
+					id: "28C75CC51B59A8E1"
+					item: { components: { "ftbfiltersystem:filter": "or(item(simplemagnets:advancedmagnet)item(simplemagnets:basicmagnet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "simplemagnets:advanced_demagnetization_coil"
+					}
+					id: "2CD647FC0FF73EA5"
+					item: { components: { "ftbfiltersystem:filter": "or(item(simplemagnets:basic_demagnetization_coil)item(simplemagnets:advanced_demagnetization_coil))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 }

@@ -112,3 +112,4 @@ kubejs/startup_scripts/jsconfig.json
 !/config/appflux-common.toml
 !/config/ars_additions-server.toml
 !/config/asteorbar-client.toml
+!/config/memorysweep.json5
