@@ -199,9 +199,7 @@
 			y: 2.5d
 		}
 		{
-			icon: {
-				id: "simplemagnets:advancedmagnet"
-			}
+			dependencies: ["74CBBDB32DED6205"]
 			id: "1117A6A3F27D1462"
 			rewards: [{
 				id: "59CBADF80B2D42DE"
@@ -228,6 +226,87 @@
 			]
 			x: -1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["7F1A11703ECB2756"]
+			id: "134C5E17C94F5349"
+			rewards: [
+				{
+					count: 16
+					id: "62A2D69B8DD568CE"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "3DD030396169B971"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "282E8FE8116A3E13"
+					item: {
+						count: 1
+						id: "minecraft:soul_lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "290C88F01A5070DB"
+					item: { count: 1, id: "torchmaster:megatorch" }
+					type: "item"
+				}
+				{
+					id: "1B6C52C4B7DC5CC1"
+					item: { count: 1, id: "torchmaster:dreadlamp" }
+					type: "item"
+				}
+				{
+					id: "06EA6660BF220C4A"
+					item: { count: 1, id: "torchmaster:feral_flare_lantern" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F1A11703ECB2756"]
+			id: "6D6781DB8A38BACE"
+			rewards: [
+				{
+					id: "72C476EC507C3F59"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "0DEC1657DCDCFFFD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "50FD750ADDDB0F7E"
+					item: { count: 1, id: "minecraft:beacon" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0B7E438FD0C66EE2"
+					item: { count: 9, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
 		}
 	]
 }

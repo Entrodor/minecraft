@@ -63,9 +63,26 @@
 	]
 	quest.044069E44FBEDB45.quest_subtitle: "My Enderchest is Your Enderchest"
 	quest.044069E44FBEDB45.title: "Global Storage"
-	quest.1117A6A3F27D1462.quest_desc: ["Simple Magnets is a useful mod, allow players to attract items and experience from a distance away. The &7Basic Magnet&r can be toggled on and off be &bRight Clicking&r whilst holding the magnet."]
+	quest.1117A6A3F27D1462.quest_desc: [
+		"Simple Magnets is a useful mod, allow players to attract items and experience from a distance away. The &7Basic Magnet&r can be toggled on and off be &bRight Clicking&r whilst holding the magnet."
+		""
+		"The &6Advanced Magnet&r allows you to configure a whitelist/blacklist as well as the range and toggling either &citem&r or &aexperience&r magnetization."
+		""
+		"The &8demagnetization coils&r prevent the Simple Magnets from working in an area around the coil. Both versions can be configured when it comes to the area of effect. You can see the area of effect by looking at the coil or clicking the option in the coils UI. The advanced coil haves a greater range as well as having a whitelist or blacklist."
+		""
+		"&4Note: You can complete this quest with either Magnet and either Coil."
+	]
 	quest.1117A6A3F27D1462.quest_subtitle: "GET OVER HERE!"
 	quest.1117A6A3F27D1462.title: "Magnets"
+	quest.134C5E17C94F5349.quest_desc: [
+		"The &eMegatorch&r is a torch like no other. It only lights up the area of a vanilla torch but prevents hostile mob spawns within a 64 block radius (doesn't effect spawners or modded ways of spawning mobs such as mechanical dirt from industrial foregoing)."
+		""
+		"The &5Dread Lamp&r is simular to the &eMegatorch&r but effects passive mobs from natually spawning withing a 64 block radius (also doesn't effect spawners or othe methods of spawning mobs)."
+		""
+		"The &9Feral Flare Lantern&r places invisible light sources within a 16 block radius although it may take a while before finishing this task."
+	]
+	quest.134C5E17C94F5349.quest_subtitle: "As bright as the Sun!"
+	quest.134C5E17C94F5349.title: "Useful Torches"
 	quest.31FC038EAFE19742.quest_desc: [
 		"Welcome to &cFor Lack Of A Better Game's&r modpack."
 		""
@@ -101,6 +118,8 @@
 		"If playing in a single player world; you can adjust the amount of homes in the world folder (e.g. saves/{your world}/serverconfig/ftbranks/ranks.snbt)."
 		""
 		"If you are playing on a server, well it is upto the server owner/admin to adjust these settings."
+		""
+		"&4Note: You may need to relog onto the server or reload your save to have the effect of new ranks.&r"
 	]
 	quest.4323C192241B7DBA.quest_subtitle: "Homes you say?"
 	quest.4C8F34B35B933702.quest_desc: ["Oh no! You have perished, but don't worry. You can combine your key with an &2Ender Pearl&r to teleport to your grave."]
@@ -113,6 +132,7 @@
 	]
 	quest.6D2150F7EB73A8D8.quest_subtitle: "Are we there yet?"
 	quest.6D2150F7EB73A8D8.title: "The Compasses"
+	quest.6D6781DB8A38BACE.quest_subtitle: "I thought that said bacon! I am sad now!"
 	quest.74CBBDB32DED6205.quest_desc: ["Here are some useful tips, items or blocks that may make your life easier in this Modpack."]
 	quest.74CBBDB32DED6205.quest_subtitle: "Sharp like an arrow?"
 	quest.7F1A11703ECB2756.quest_desc: ["Here are some tricks that may come in handy."]
