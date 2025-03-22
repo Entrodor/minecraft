@@ -14,15 +14,19 @@
     },
     {
       "block": "minecraft:emerald_block",
-      "amplifier": 1
+      "amplifier": 0
     },
     {
       "block": "minecraft:diamond_block",
-      "amplifier": 2
+      "amplifier": 0
     },
     {
       "block": "minecraft:netherite_block",
-      "amplifier": 2
+      "amplifier": 0
+    },
+    {
+      "block": "allthemodium:unobtainium_vibranium_alloy_block",
+      "amplifier": 1
     }
   ]
 }

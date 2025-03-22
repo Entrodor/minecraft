@@ -234,6 +234,9 @@ ServerEvents.tags('block', event => {
     event.add('floabg:claims_blockuse_exempt', 'supplementaries:globe')
     event.add('floabg:claims_blockuse_exempt', 'supplementaries:globe_sepia')
     event.add('floabg:claims_blockuse_exempt', '#tombstone:graves')
+    event.add('minecraft:beacon_base_blocks', 'allthemodium:unobtainium_vibranium_alloy_block')
+    event.add('minecraft:beacon_base_blocks', 'allthemodium:vibranium_allthemodium_alloy_block')
+    event.add('minecraft:beacon_base_blocks', 'allthemodium:unobtainium_allthemodium_alloy_block')
 //Entangled Blacklist
     event.add('entangled:invalid_targets',
         ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
