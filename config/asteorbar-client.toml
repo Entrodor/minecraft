@@ -12,7 +12,7 @@
 	#The text scale of the overlay
 	# Default: 1.0
 	# Range: 0.1 ~ 10.0
-	overlayTextScale = 1.0
+	overlayTextScale = 0.9
 	#Full food level value. If you are using a mod that changes the max food level, you may need to change this value.
 	# Default: 20
 	# Range: > 1
@@ -38,7 +38,7 @@
 	# Range: > 1
 	fullHealthValue = 20
 	#Whether to enable stack health bar. If enabled, the health bar will be displayed like multiple health bars with different colors stacked together. Note that once enabled, the health bar color in specific conditions will be rendered half transparently on the health bar, and if the absorption display mode is 0, it will be changed to 2  in game dynamically to avoid ambiguity.
-	enableStackHealthBar = false
+	enableStackHealthBar = true
 	#The color list of the stack health bar. Split by commas, each color must be in ARGB format, no space, no illegal characters, no tail comma. For example: '#FF00FF00,#FFFF0000,#FF0000FF', the health bars will pick colors from the list sequentially, and return to the first color when the list is exhausted.
 	stackHealthBarColors = "#ffff4545,#ffefa360,#ff966acc,#ffcc64a8,#ff1dc29b,#ff9acc64"
 	#If a bar value is not changing in some seconds, then hide them. 0 to disable.
@@ -297,6 +297,8 @@
 	healthBarHealthColorEmpty = -1434451968
 
 [hook]
+	#Whether to hook Iron's Spellbooks. If enabled, the mod will display the mana bar.
+	ironsSpellbooks = true
 	#Whether to hook Tough As Nails. If enabled, the mod will display the thirst bar.
 	toughAsNails = true
 	#Whether to hook Thirst Was Taken. If enabled, the mod will display the thirst bar.
@@ -307,8 +309,6 @@
 	dehydration = true
 	#Whether to hook Parcool. If enabled, the mod will display the energy bar.
 	parcool = true
-	#Whether to hook Iron's Spellbooks. If enabled, the mod will display the mana bar.
-	ironsSpellbooks = true
 	#Whether to hook Feathers. If enabled, the mod will display the energy bar.
 	feathers = true
 	#Whether to hook AppleSkin. If enabled, the mod will display health and food preview.
