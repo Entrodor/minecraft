@@ -1,0 +1,49 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+	}
+	membertest: {
+		name: "Member Test"
+		power: 5
+		ftbranks.name_format: "&4VIP&r {name}"
+		condition: {
+			type: "playtime"
+			time: 3
+			time_unit: "minutes"
+		}
+		command.fly: true
+	}
+	memberone: {
+		name: "Member +"
+		power: 2
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "days"
+		}
+		ftbessentials.home.max: 2
+	}
+	membertwo: {
+		name: "Member ++"
+		power: 3
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "weeks"
+		}
+		ftbessentials.home.max: 3
+	}
+	vip: {
+		name: "VIP"
+		power: 50
+		ftbranks.name_format: "&4VIP&r {name}"
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&6Admin&r &b{name}&r"
+	}
+}
