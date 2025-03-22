@@ -225,8 +225,8 @@ ServerEvents.tags('item', event => {
     event.add('floabg:resource_seed', 'mysticalagriculture:vibranium_seeds')
     event.add('floabg:resource_seed', 'mysticalagriculture:unobtainium_seeds')
 
-    floabg.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
-    floabg.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
+    event.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
+    event.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
 })
 
 ServerEvents.tags('block', event => {
