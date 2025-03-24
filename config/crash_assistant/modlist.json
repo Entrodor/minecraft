@@ -566,6 +566,14 @@
     "modId": "entangled",
     "version": "1.3.20+a"
   },
+  "entity_model_features_neoforge_1.21.1-2.4.1.jar": {
+    "modId": "entity_model_features",
+    "version": "2.4.1"
+  },
+  "entity_texture_features_neoforge_1.21.1-6.2.9.jar": {
+    "modId": "entity_texture_features",
+    "version": "6.2.9"
+  },
   "entityculling-neoforge-1.7.3-mc1.21.jar": {
     "modId": "entityculling",
     "version": "1.7.3"
@@ -794,6 +802,10 @@
     "modId": "incendium",
     "version": "5.4.3"
   },
+  "industrial-foregoing-souls-1.21.1-1.10.4.jar": {
+    "modId": "industrialforegoingsouls",
+    "version": "1.10.4"
+  },
   "industrialforegoing-1.21-3.6.24.jar": {
     "modId": "industrialforegoing",
     "version": "1.21-3.6.24"
@@ -918,6 +930,10 @@
   "lionfishapi-2.6.jar": {
     "modId": "lionfishapi",
     "version": "2.6"
+  },
+  "lithium-neoforge-0.15.0+mc1.21.1.jar": {
+    "modId": "lithium",
+    "version": "0.15.0+mc1.21.1"
   },
   "lithostitched-neoforge-1.21.1-1.4.5.jar": {
     "modId": "lithostitched",
