@@ -259,6 +259,10 @@
     "modId": "bwncr",
     "version": "3.20.3"
   },
+  "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.60.jar": {
+    "modId": "c2me",
+    "version": "0.3.0+alpha.0.60+1.21.1"
+  },
   "caelus-neoforge-7.0.1+1.21.1.jar": {
     "modId": "caelus",
     "version": "7.0.1+1.21.1"
@@ -278,10 +282,6 @@
   "chipped-neoforge-1.21.1-4.0.2.jar": {
     "modId": "chipped",
     "version": "4.0.2"
-  },
-  "chunkactivitytracker-neoforge-1.0.1-1.21.1.jar": {
-    "modId": "chunkactivitytracker",
-    "version": "1.0.1"
   },
   "chunksending-1.21-2.8.jar": {
     "modId": "chunksending",
@@ -505,10 +505,6 @@
   "dynamic-fps-3.9.0+minecraft-1.21.0-neoforge.jar": {
     "modId": "dynamic_fps",
     "version": "3.9.0"
-  },
-  "dynview-1.21-4.0.jar": {
-    "modId": "dynview",
-    "version": "4.0"
   },
   "easy-piglins-neoforge-1.21.1-1.1.0.jar": {
     "modId": "easy_piglins",

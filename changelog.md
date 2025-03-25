@@ -33,5 +33,9 @@ Notes:
 - still more to come! stay tuned.
 
 # V0.3.0 - Beta
+## not released yet.
 
-- Soon
+- Added Lithium
+- Added Concurrent Chunk Management Engine (C2ME)
+- Removed Dynamic View (not compatible with C2ME)
+- 
