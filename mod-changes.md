@@ -15,14 +15,12 @@
 - Ars Nouveau [5.7.2]
 - Ars Nouveau's Flavors & Delight [2.1.5]
 - Artifacts [12.1.1]
-- AsteorBar [1.5.1]
 - AzureLib [3.0.9]
 - BBL Cloche [1.2.0]
 - BBL Core [1.2.21]
 - Balm [21.0.37]
 - Baubley Heart Canisters [1.21.1-1.2.2]
 - Better Compatibility Checker [21.1.3]
-- Bibliocraft Legacy [1.4.1]
 - CommonCapabilities [2.9.7]
 - Corail Tombstone [9.2.8]
 - CraterLib [2.1.4]
@@ -50,7 +48,6 @@
 - Handcrafted [4.0.3]
 - Ice And Fire Community Edition [1.0-beta.6]
 - Inventory Tweaks Refoxed [1.21.1-1.2.2]
-- Iris [1.8.1+mc1.21.1]
 - Iron's Gems 'n Jewelry [1.21.1-1.0.11]
 - Iron's Spells 'n Spellbooks [1.21.1-3.10.2]
 - Jade [15.10.0+neoforge]
@@ -115,5 +112,7 @@
 - Can't Sleep Clowns Will Eat Me [2.0.0.0]
 - Steve's Realistic Sleep [1.11.2+mc1.21-1.21.1]
 - Mekanism Turrets [2.1.3]
-- Mekanism Weaponry [2.0.0]
 
+# Removed
+
+- Does it Tick

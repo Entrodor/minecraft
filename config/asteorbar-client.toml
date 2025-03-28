@@ -1,14 +1,10 @@
 [overlay]
-	#0: Absorption will be displayed together with health bar. 1: Absorption will be displayed half transparently on the health bar. 2: Absorption will be displayed as bounds. Note: Since the absorption value can be higher than the max health, an extra number will be displayed to indicate value of absorption/max health, you can turn it off by editing 'displayAbsorptionDivMaxHealth'.
-	# Default: 2
-	# Range: 0 ~ 2
-	displayAbsorptionMethod = 2
-	#Whether to enable the overlay. If disabled, all other overlay options will be ignored.
-	enableOverlay = true
 	#The layout style of the overlay. 0: none, 1: above hot bar long, 2: above hot bar short, 3: top left, 4: top right, 5: bottom left, 6: bottom right
 	# Default: 2
 	# Range: 0 ~ 8
 	overlayLayoutStyle = 1
+	#Whether to enable the overlay. If disabled, all other overlay options will be ignored.
+	enableOverlay = true
 	#The text scale of the overlay
 	# Default: 1.0
 	# Range: 0.1 ~ 10.0
@@ -185,6 +181,10 @@
 	displayExperienceLevel = true
 	#Whether to display health text.
 	displayHealthText = true
+	#0: Absorption will be displayed together with health bar. 1: Absorption will be displayed half transparently on the health bar. 2: Absorption will be displayed as bounds. Note: Since the absorption value can be higher than the max health, an extra number will be displayed to indicate value of absorption/max health, you can turn it off by editing 'displayAbsorptionDivMaxHealth'.
+	# Default: 2
+	# Range: 0 ~ 2
+	displayAbsorptionMethod = 2
 	#Whether to display the value of (absorption / max health). To avoid ambiguity, turn it to true if you hide the health text and don't display absorption bar together with health bar, or you may not be able to get correct absorption value.
 	displayAbsorptionDivMaxHealth = false
 	#0: Absorption text will be displayed together with health text. for example: 15(+10)/20. 1: Absorption text will be displayed separately. for example: 10 15/20. Note: if 'displayHealthText' is false, absorption text will be disabled.
