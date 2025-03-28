@@ -40,6 +40,10 @@ Notes:
 ## Added: 
 - Added Lithium
 - Added Concurrent Chunk Management Engine (C2ME)
+- Added Can't Sleep Clowns Will Eat Me 
+- Added Steve's Realistic Sleep 
+- Added Mekanism Turrets 
+- Added Mods Optimizer 
 
 ## Removed: 
 - Removed Dynamic View (not compatible with C2ME)
