@@ -38,6 +38,7 @@ Notes:
 - Added Lithium
 - Added Concurrent Chunk Management Engine (C2ME)
 - Removed Dynamic View (not compatible with C2ME)
+- Removed Does It Tick?
 
 Updates:
 - Updated 3D skinlkayers from 1.7.4 to 1.7.5
@@ -68,7 +69,6 @@ Updates:
 - Updated Create: Structures Arise from 148.21.22 to 151.24.23
 - Updated Curios API from 9.2.3 to 9.4.0
 - Updated Cyclops Core from 1.25.7 to 1.25.8
-- Updated Does it tick from 1.1.0 to 1.1.4
 - Updated Doggy Talents Next from 1.18.42 to 1.18.44
 - Updated Dynamic FPS from 3.9.0 to 3.9.2
 - Updated Enchantment Description from 21.1.5 to 21.1.7
