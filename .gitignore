@@ -46,6 +46,7 @@ servers.dat_old
 config/xaerominimap_entities.json
 config/iris.properties
 config/sound_physics_remastered/*
+/.mixin.out
 
 kubejs/server_scripts/mod_specific/.vs/slnx.sqlite
 kubejs/config/probe-settings.json
