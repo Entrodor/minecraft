@@ -89,6 +89,7 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:fluix_essence", "mysticalagriculture:fluix_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:energized_steel_essence", "mysticalagriculture:energized_steel_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:blazing_crystal_essence", "mysticalagriculture:blazing_crystal_seeds","floabg:farmland_4")
+    
     //Tier 5
     crop(1200, 1.0, 12, "mysticalagriculture:inferium_essence", "mysticalagriculture:supremium_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:prosperity_shard_essence", "mysticalagriculture:prosperity_shard_seeds","floabg:farmland_5")
@@ -111,6 +112,8 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:allthemodium_essence", "mysticalagriculture:allthemodium_seeds","floabg:farmland_6")
     crop(1200, 1.0, 1, "mysticalagriculture:vibranium_essence", "mysticalagriculture:vibranium_seeds","floabg:farmland_6")
     crop(1200, 1.0, 1, "mysticalagriculture:unobtainium_essence", "mysticalagriculture:unobtainium_seeds","floabg:farmland_6")
+    //Tier Magic
+    crop(1200, 1.0, 1, "mysticalagriculture:deorum_essence", "mysticalagriculture:deorum_seeds","floabg:farmland_f_magic")
 
     function crop(duration, chance, output_amount, output, seed, farmland_tag) {
 

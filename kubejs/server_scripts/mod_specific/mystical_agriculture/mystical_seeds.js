@@ -121,7 +121,8 @@ ServerEvents.recipes(event => {
     seed("allthemodium:vibranium_block", "mysticalagradditions:creative_essence", "mysticalagriculture:vibranium_seeds")
     seed("allthemodium:unobtainium_block", "mysticalagradditions:creative_essence", "mysticalagriculture:unobtainium_seeds")
     seed("mysticalagriculture:awakened_supremium_block","mysticalagradditions:creative_essence","mysticalagriculture:cognizant_dust_seeds")
-
+//Seed Tier Magical
+    seed("forbidden_arcanus:deorum_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:deorum_seeds")
 function seed (input, essence, output){
     event.custom({
         "type": "mysticalagriculture:infusion",

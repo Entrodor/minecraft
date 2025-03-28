@@ -1,0 +1,8 @@
+{
+    "name": "§bMagic",
+    "value": 7,
+    "farmland": "forbidden_arcanus:magical_farmland",
+    "essence": "forbidden_arcanus:arcane_bone_meal",
+    "fertilizable": true,
+    "secondarySeedDrop": false
+}

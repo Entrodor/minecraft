@@ -24,6 +24,10 @@ ServerEvents.recipes(event => {
   event.shaped('forbidden_arcanus:arcane_crystal', ['AAA', 'AAA', 'AAA'], {
     A: 'mysticalagriculture:arcane_crystal_essence'
   })
+
+  event.shaped('forbidden_arcanus:deorum_nugget', ['AAA', 'A A', 'AAA'], {
+    A: 'mysticalagriculture:deorum_essence'
+  })
   
   event.shapeless(
     Item.of('forbidden_arcanus:arcane_crystal_dust_speck', 1),
