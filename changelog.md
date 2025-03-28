@@ -33,7 +33,6 @@ Notes:
 - still more to come! stay tuned.
 
 # V0.3.0 - Beta
-## not released yet.
 
 ## Changes:
 - Neoforge 21.1.131 - 21.1.139
