@@ -35,7 +35,9 @@ Notes:
 # V0.3.0 - Beta
 ## not released yet.
 
+## Changes:
 - Neoforge 21.1.131 - 21.1.139
+- Added New Mystical seed for Deorum since Golden Orchid was removed from Forbidden Arcanus
 
 ## Added: 
 - Added Lithium
@@ -44,7 +46,7 @@ Notes:
 - Added Steve's Realistic Sleep 
 - Added Mekanism Turrets 
 - Added Mods Optimizer
-- Added New Mystical seed for Deorum since Golden Orchid was removed from Forbidden Arcanus
+- Added ScalableLux
 
 ## Removed: 
 - Removed Dynamic View (not compatible with C2ME)
