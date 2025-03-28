@@ -35,6 +35,8 @@ Notes:
 # V0.3.0 - Beta
 ## not released yet.
 
+- Neoforge 21.1.131 - 
+
 - Added Lithium
 - Added Concurrent Chunk Management Engine (C2ME)
 - Removed Dynamic View (not compatible with C2ME)

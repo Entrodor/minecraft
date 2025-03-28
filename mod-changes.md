@@ -66,7 +66,6 @@
 - Mekanism: Generators [10.7.13]
 - Mekanism: Tools [10.7.13]
 - Modonomicon [1.114.1]
-- Mods Optimizer [2.1.0]
 - Moonlight Lib [1.21-2.17.37]
 - NotEnoughAnimations [1.9.3]
 - Oh The Biomes We've Gone [2.3.10]
@@ -112,6 +111,7 @@
 - Can't Sleep Clowns Will Eat Me [2.0.0.0]
 - Steve's Realistic Sleep [1.11.2+mc1.21-1.21.1]
 - Mekanism Turrets [2.1.3]
+- Mods Optimizer [2.1.0]
 
 # Removed
 
