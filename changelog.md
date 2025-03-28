@@ -43,7 +43,8 @@ Notes:
 - Added Can't Sleep Clowns Will Eat Me 
 - Added Steve's Realistic Sleep 
 - Added Mekanism Turrets 
-- Added Mods Optimizer 
+- Added Mods Optimizer
+- Added New Mystical seed for Deorum since Golden Orchid was removed from Forbidden Arcanus
 
 ## Removed: 
 - Removed Dynamic View (not compatible with C2ME)
