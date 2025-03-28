@@ -99,7 +99,6 @@
 - Touhou Little Maid [1.2.1]
 - TxniLib [1.0.23]
 - Valhelsia Core [1.1.5]
-- What Are They Up To [1.21.0-1.2.3]
 - XNet [1.21-7.0.4]
 - Xaero's Minimap [25.2.0]
 - YUNG's Better End Island [1.21.1-NeoForge-3.1.2]
@@ -116,3 +115,5 @@
 # Removed
 
 - Does it Tick
+- What Are They Up To
+
