@@ -35,16 +35,23 @@ Notes:
 # V0.3.0 - Beta
 ## not released yet.
 
-- Neoforge 21.1.131 - 
+- Neoforge 21.1.131 - 21.1.139
 
+## Added: 
 - Added Lithium
 - Added Concurrent Chunk Management Engine (C2ME)
+- Added Can't Sleep Clowns Will Eat Me 
+- Added Steve's Realistic Sleep 
+- Added Mekanism Turrets 
+- Added Mods Optimizer 
+
+## Removed: 
 - Removed Dynamic View (not compatible with C2ME)
 - Removed Does It Tick?
 - Removed Fixes for Forbidden Arcanus since seed was removed
 - Removed What Are They Up To?
 
-Updates:
+## Updates:
 - Updated 3D skinlkayers from 1.7.4 to 1.7.5
 - Updated Actually additions from 1.3.16 to 1.3.16
 - Updated Amendments from 1.2.24 to 1.2.24
