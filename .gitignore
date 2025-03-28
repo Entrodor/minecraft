@@ -115,3 +115,4 @@ kubejs/startup_scripts/jsconfig.json
 !/config/asteorbar-client.toml
 !/config/memorysweep.json5
 !config/better_beacons.json5
+!/config/cant_sleep_clowns_will_eat_me-common.toml
