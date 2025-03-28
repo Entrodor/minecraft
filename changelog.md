@@ -39,6 +39,8 @@ Notes:
 - Added Concurrent Chunk Management Engine (C2ME)
 - Removed Dynamic View (not compatible with C2ME)
 - Removed Does It Tick?
+- Removed Fixes for Forbidden Arcanus since seed was removed
+- Removed What Are They Up To?
 
 Updates:
 - Updated 3D skinlkayers from 1.7.4 to 1.7.5
@@ -50,12 +52,11 @@ Updates:
 - Updated Applied Energistics from 19.2.5-beta to 19.2.7
 - Updated Applied Flux from 2.0.5 to 2.1.0
 - Updated Aquaculture 2 from 2.7.13 to 2.7.14
-- Updated Ars ADdtions from 21.2.0 to 21.2.1
+- Updated Ars Addtions from 21.2.0 to 21.2.1
 - Updated Ars Elemental from 0.7.2.4 to 0.7.2.7
 - Updated Ars Nouveau from 5.6.0 to 5.7.2
 - Updated Ars Nouveau's Flavors and Delight from 2.1.4 to 2.1.5
 - Updated Artifacts from 12.0.5 to 12.1.1
-- Updated AstroBar from 1.4.6 1.5.1
 - Updated AzureLib from 3.0.8 to 3.0.9
 - Updated Balm from 21.0.31 to 21.0.37
 - Updated Baubley Heart Conisters from 1.2.1 to 1.2.2
@@ -85,7 +86,7 @@ Updates:
 - Updated Gravitational Modulating Additional Unit from 6.0 to 6.1
 - Updated GuideMe from 21.1.4 to 21.1.6
 - Updated Handcrafted from 4.0.2 to 4.0.3
-- Updated Ice and Fire from to 1.0-beta.6
+- Updated Ice and Fire from 1.0-beta.4 to 1.0-beta.6
 - Updated Inventory Tweaks Refoxed from 1.2.0 to 1.2.2
 - Updated Iron's Gems 'n Jewelry from 1.0.9 to 1.0.11
 - Updated Iron's Spells 'n Spellbooks 3.9.1 to 3.10.2
@@ -105,7 +106,7 @@ Updates:
 - Updated Mekanism Lasers from 1.1.10 to 1.1.10.1
 - Updated McJtyLib from 9.0.5 to 9.0.7
 - Updated Modonomicon from 1.114.0 to 1.114.1
-- Updated Moodlight Lib from 2.17.34 to 2.17.37
+- Updated Moonlight Lib from 2.17.34 to 2.17.37
 - Updated Not Enough Animations from 1.9.2 to 1.9.3
 - Updated Oh the Biomes We've Gone from 2.3.8 to 2.3.10
 - Updated Oh the Trees You'll Grow from 5.0.6 to 5.0.9
@@ -133,14 +134,12 @@ Updates:
 - Updated Sophisticated Storage from 1.4.0 to 1.4.1.1080
 - Updated Sound Physics Remastered from 1.4.8 to 1.4.10
 - Updated Supplementaries from 3.0.41-beta to 3.0.43-beta
-- Updated The Aether from 1.5.5 to 1.5.7
 - Updated The Bumblezone from 7.8.1 to 7.8.8
 - Updated Titanium from 4.0.34 to 4.0.36
 - Updated Touhou Little Maid from 1.2.0 to 1.2.1
 - Updated TxniLib from 1.0.21 to 1.0.23
 - Updated Valhelsia Core from 1.1.4 to 1.1.5
-- Updated What Are They Up To from 1.1.4 to 1.2.3
-- Updated Xaero's Minimap from 25.1.0 to 15.2.0
+- Updated Xaero's Minimap from 25.1.0 to 25.2.0
 - Updated Xnet from 7.0.3 to 7.0.4
 - Updated Yet Another Config Lib from 3.6.3 to 3.6.6
 - Updated YUNG's Better End Island from 3.1.1 to 3.1.2

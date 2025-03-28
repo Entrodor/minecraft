@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     crop("forbidden_arcanus:yellow_orchid", "floabg:farmland_grass", 1200, 1, "forbidden_arcanus:yellow_orchid")
     crop("forbidden_arcanus:fungyss", "floabg:farmland_f_fungal", 1200, 1, "forbidden_arcanus:fungyss")
-    crop("forbidden_arcanus:golden_orchid_seeds", "floabg:farmland_f_magic", 1200, 1, "forbidden_arcanus:deorum_nugget", 0.1, 1, "forbidden_arcanus:deorum_ingot")
+    //crop("forbidden_arcanus:golden_orchid_seeds", "floabg:farmland_f_magic", 1200, 1, "forbidden_arcanus:deorum_nugget", 0.1, 1, "forbidden_arcanus:deorum_ingot")
 
     tree("forbidden_arcanus:growing_edelwood", 1, "forbidden_arcanus:edelwood_stick", "floabg:farmland_grass", 1200, 1.0, 2, "forbidden_arcanus:edelwood_log", 0.1, 1, "forbidden_arcanus:carved_edelwood_log", 0.2, 1, "forbidden_arcanus:growing_edelwood")
     tree("forbidden_arcanus:aurum_sapling", 2, "forbidden_arcanus:aurum_leaves", "floabg:farmland_grass", 1200, 1.0, 2, "forbidden_arcanus:aurum_log", 0.2, 1, "forbidden_arcanus:aurum_sapling", 0.05, 1, "minecraft:golden_apple", 0.01, 1, "minecraft:enchanted_golden_apple")
