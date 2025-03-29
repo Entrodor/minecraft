@@ -244,8 +244,9 @@ ServerEvents.tags('block', event => {
     event.add('entangled:invalid_targets',
         ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
     )
-//Diagnol Fences/Walls/Panes blacklist
-    // diagonalwindows:non_diagonal_windows
-    // diagonalfences:non_diagonal_fences
-    // diagonalwalls:non_diagonal_walls
+// diagonalwindows:non_diagonal_windows
+    event.add("diagonalwindows:non_diagonal_windows", "mekanism_turrets:electric_fence")
+// diagonalwindows:non_diagonal_panes
+// diagonalfences:non_diagonal_fences
+// diagonalwalls:non_diagonal_walls
 })
