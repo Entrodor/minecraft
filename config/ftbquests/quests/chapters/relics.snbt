@@ -3,6 +3,46 @@
 	default_quest_shape: ""
 	filename: "relics"
 	group: "1A26E5C97F305F62"
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						dissection: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								distance: {
+									initialValue: 21.43706d
+								}
+								time: {
+									initialValue: 9.27478d
+								}
+							}
+						}
+					}
+				}
+				leveling: {
+					experience: 0
+					level: 0
+					luck: 0
+					points: 0
+				}
+			}
+		}
+		id: "relics:space_dissector"
+	}
 	id: "3C700D5CA6A6EAA2"
 	order_index: 1
 	quest_links: [ ]

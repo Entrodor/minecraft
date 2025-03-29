@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture"
 	group: "3A55D13B47F16C8F"
+	icon: {
+		id: "mysticalagriculture:insanium_seeds"
+	}
 	id: "57F97674BAD5BA91"
 	order_index: 0
 	quest_links: [ ]

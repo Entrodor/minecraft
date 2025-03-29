@@ -12,7 +12,7 @@
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
-	baseVolume = 1.0
+	baseVolume = 0.75
 	#Play sounds for when any player is using a Jetpack, Scuba Mask, Flamethrower, or Gravitational Modulating Unit. This also affects playing the Radiation clicking sound.
 	enablePlayer = true
 	#Play sounds for active machines.
@@ -168,9 +168,9 @@
 	#The last position the Side Config window was in when it was closed, and whether it was pinned.
 	[window.side_config]
 		#The x component of this window's last position.
-		x = 2147483647
+		x = 10
 		#The y component of this window's last position.
-		y = 2147483647
+		y = 15
 		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
 		pinned = false
 
@@ -186,8 +186,14 @@
 	#The last position the Upgrade window was in when it was closed, and whether it was pinned.
 	[window.upgrade]
 		#The x component of this window's last position.
-		x = 2147483647
+<<<<<<< HEAD
+		x = -12
 		#The y component of this window's last position.
-		y = 2147483647
+		y = -90
+=======
+		x = -1
+		#The y component of this window's last position.
+		y = -16
+>>>>>>> bafb7ca137ceb1c9d039db20413c207b52c0d22e
 		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
 		pinned = false

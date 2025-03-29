@@ -7,6 +7,128 @@
 		id: "minecraft:spawner"
 	}
 	id: "6C3E3F0C93D0CA45"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:item/diamond_sword"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/gunpowder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/rotten_flesh"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "xycraft_core:textures/gui/redstone.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/sugar"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/glowstone_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/string"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/spider_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "rftoolspower:block/endergenic/floatingpearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/slime_ball"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/magma_cream"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/shulker_shell"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -7.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -18,13 +140,19 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "52BC34712E72AB18"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: {
+					id: "mob_grinding_utils:null_sword"
+				}
+				id: "1C937596FD509C87"
+				type: "dimension"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["0D77B23A5EE0C106"]
 			id: "0785ED84E5AA811E"
 			rewards: [
 				{
@@ -43,16 +171,18 @@
 				}
 			]
 			tasks: [{
-				entity: "minecraft:zombie"
+				entity: "minecraft:creeper"
 				id: "38F985F887A90785"
 				type: "kill"
-				value: 100L
+				value: 5L
 			}]
 			x: 0.0d
 			y: -1.5d
 		}
 		{
+			dependencies: ["0785ED84E5AA811E"]
 			id: "4D45A8F46C54D75F"
+			progression_mode: "linear"
 			rewards: [
 				{
 					count: 10
@@ -70,7 +200,7 @@
 				}
 			]
 			tasks: [{
-				entity: "grimoireofgaia:creep"
+				entity: "minecraft:creeper"
 				id: "42D09ADAB03AE213"
 				type: "kill"
 				value: 25L
@@ -79,13 +209,16 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4D45A8F46C54D75F"]
 			id: "021CE0A0C181C604"
+			progression_mode: "linear"
 			rewards: [
 				{
+					count: 25
 					id: "0076FAC81596365B"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "minecraft:gunpowder"
 					}
 					type: "item"
 				}
@@ -96,7 +229,7 @@
 				}
 			]
 			tasks: [{
-				entity: "grimoireofgaia:creep"
+				entity: "minecraft:creeper"
 				id: "6787F86113FE8773"
 				type: "kill"
 				value: 50L
@@ -105,15 +238,2806 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["021CE0A0C181C604"]
 			id: "4B3F6EE03DA33AE6"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "4AF2091324CE98DF"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "562919BEB2E7D910"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
-				entity: "grimoireofgaia:creep"
+				entity: "minecraft:creeper"
 				id: "59A8A6F470A184AA"
 				type: "kill"
 				value: 100L
 			}]
 			x: 0.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["4B3F6EE03DA33AE6"]
+			id: "6EC57872D3A9F310"
+			optional: true
+			rewards: [
+				{
+					id: "0715FD38E69E554B"
+					item: {
+						count: 1
+						id: "minecraft:creeper_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "7CA7D955837BB3BA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "6E8D7F054DFA708F"
+				item: { count: 1, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "07D8DECAAA0EF635"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "1CCE88CDC17259FF"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "58F54CA79887A843"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "6C4DAC92AF80C249"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "07EFE565D9C6EEE1"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "5604BC251A165B49"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "42E958B820A1C062"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					id: "46064D5A5EC9E1CC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3F20739A7DC40E8C"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "1E74C743C26F20AB"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "593B620B7880E7D9"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "71D258ABC5C3DEF8"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "3CC4914716A856EC"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "0D58757FB5373354"
+			rewards: [{
+				id: "7CB36B2B0388EE9E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				id: "7400226F63ED7E43"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "0DC7F3DC1A1CCD08"
+			rewards: [{
+				id: "17A2170719FB7556"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "68DF1E7D1A1BEFB0"
+				type: "kill"
+				value: 2L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "6DA10C236212DBD8"
+			rewards: [
+				{
+					id: "33F14F852D5D76B0"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "7C82A7103E046BD6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "7A5ADE7464C19BB0"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Silverhand's Revenge\""
+						}
+						count: 1
+						id: "medieval_craft_weapons:katana"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "10A95F0302DDD696"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "1C0CA3AD1044329C"
+			rewards: [
+				{
+					id: "4064B9B053D0B12C"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "1E2B468DF396E960"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "67F6FFD2873FC04D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "338934375AFFE665"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "6DC364D0587C956E"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "050B35A39E3D302B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "25BBD6F5979E1A47"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "1A15A4AD32FFF424"
+					item: {
+						count: 1
+						id: "bhc:wither_bone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2FEECA65104001A4"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "7567E5368D367D40"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "2BA608FD38670E6A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "34516859E6C10664"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "46EC497C355FFF7F"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "67FA87EB83F7EF20"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "775E7721A78F193B"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "36709BA367FD0F90"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "2D0800736458715A"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "5C4E4F3EAA5A59A4"
+			rewards: [
+				{
+					count: 3
+					id: "4BE171CB9CD7316C"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6C4BE854CE2CB8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:evoker"
+					id: "7C4D24113936C7F7"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "minecraft:vex"
+					id: "0A7FA3E96B88832D"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "0E2B167B609C3754"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "5978BFAEE931A410"
+				type: "kill"
+				value: 5L
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "05515843E0E2A06A"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "32B9F23E48CD36FE"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "5ED7A29CD68127EB"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "0F51F9237AD17D52"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "605854D0F091D731"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "269907C0D38CE096"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "1DE323F2FDA40A2A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "07E7EF4D001B105E"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "24EDD2E815437F8B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "48758B280216A29D"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "276CC14B84F23A70"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "4F3202080B1A3B37"
+				type: "kill"
+				value: 5L
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "2B4E276A4BBF6B5F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "5FCE7CE20B1DCF5B"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "45615C51BCC9C92F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "3EB30C690D1A755A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "5E5B007E31F4F1E0"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "3DE2079367A70BA7"
+				type: "kill"
+				value: 5L
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "69594B2E620EECC6"
+			rewards: [
+				{
+					count: 8
+					id: "4DAA2499790F8E98"
+					item: {
+						count: 1
+						id: "minecraft:sponge"
+					}
+					type: "item"
+				}
+				{
+					id: "2CCAAEFDCC6CF2DB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "760F8ABD67B330E8"
+				type: "kill"
+				value: 3L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "42DC58D0BE2C4AED"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "507A973F30335B64"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "23B8762E55E37900"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "097B7CEB0E642DD3"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "00A3CB58A0F16F25"
+			tasks: [{
+				entity: "minecraft:breeze"
+				id: "525A77FC7EDABA33"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D77B23A5EE0C106"]
+			id: "310952D3326EFF1E"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 5
+					id: "5486557598F8A85B"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "345014FF6F62CD07"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "43231ED99412CBB5"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:slowness"
+							}
+						}
+						count: 1
+						id: "minecraft:tipped_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "301979A6605AB8C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "58214CD9F18ADD24"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "76A5553B889E645A"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "3372C526383DF8E7"
+				type: "kill"
+				value: 5L
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "47EFCA05A977892F"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "1409DBFCD552BB65"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "1362BB61A7807260"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "3AA62F8F94FB2EAD"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5604BC251A165B49"]
+			id: "47125F51006E4D11"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "1C74BD49C7422A61"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "03A052753B99A1A7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "525E41BA88BDA06B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "486F5DD06B1C7B54"
+				type: "kill"
+				value: 25L
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47125F51006E4D11"]
+			id: "65FF1A3C6087442C"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "5073CFC349D6564E"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					id: "1AC5392656E752E0"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7E1F783709DC44C0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7CD8545C2EC0DBB6"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65FF1A3C6087442C"]
+			id: "2254792ACDD84F93"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "3B00CEF467FC8587"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "697145564DFB86FA"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "12C1A4BCB8DC37E2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "56CB3E9A6CE06FA1"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2254792ACDD84F93"]
+			id: "4673E09419CF2A71"
+			optional: true
+			rewards: [
+				{
+					id: "45DDA1BC821BB3B8"
+					item: {
+						count: 1
+						id: "minecraft:zombie_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "56AA0D6AD67B19B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "24ABFA019F3670D1"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "5C3819FD04272F65"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "61A6B30B80ECE881"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "7BC2A7E51BFAD3EE"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "08BACC3D1550B2C5"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "0CB7A4E271D61766"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "4BE787C963F731C3"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "439885BD61346B7D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BE787C963F731C3"]
+			id: "6D903660203F7B5C"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "5B4DBA174B1892C9"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "5962E71BB031B048"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "67A3C886D2F6FE1C"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "5939C7B6109F9B8A"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "472A37807CDEC396"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "4AD170A46ABBFF02"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "2D46476C2A405865"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "0AA00BF2463E39E5"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D46476C2A405865"]
+			id: "0C2936DDA14616D7"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "4D5FE09091904B3E"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "3A917CB2B96D4674"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "1F3DD3C0D73DFF75"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "22AD09A6815B36B1"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "32DAB415E847903A"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "3F5F03F054AD92CE"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "26CFFAA1E653C58F"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "6BC032DC94A6F9B2"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26CFFAA1E653C58F"]
+			id: "79ED8A855544A42A"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "3F0FF4C58BA4660E"
+					item: { count: 1, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "1E66D06D48000874"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["33E71DF28F3EA31E"]
+			id: "44E3A1C8FA69EF7C"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "7497BDAE4D485262"
+					item: { count: 1, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "323B34A77E0194E6"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "33E71DF28F3EA31E"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "6E82AAB5FEA04F2F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "26D83E42B0471CC3"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "1F77112E26B91ED3"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "7190E7A8F8169193"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "76210DAEFF5A81E5"
+				type: "kill"
+				value: 25L
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42DC58D0BE2C4AED"]
+			id: "748130657A74B4DE"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "403EBB30651C4FEA"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "76DF25AC2E8F75DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "3036308ABA39EF93"
+				type: "kill"
+				value: 25L
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["748130657A74B4DE"]
+			id: "3C5CDA1C242CAB6E"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "675D03ABB1839D49"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "224B1B4BC254CBC7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5076EF5625640FCC"
+				type: "kill"
+				value: 50L
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C5CDA1C242CAB6E"]
+			id: "5539BF931E4FDFFB"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "5AC7E550EABBED3C"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "545A457E945F0666"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5C4C6E222CC8FB6C"
+				type: "kill"
+				value: 100L
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5539BF931E4FDFFB"]
+			id: "1400DABAA26D2AE4"
+			optional: true
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "42790D56A56909C3"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24EDD2E815437F8B"]
+			id: "4CDB26ED08E6411C"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "6D4BC38E87151C76"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "58E492C875E898CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "1883AC2C45623F58"
+				type: "kill"
+				value: 25L
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CDB26ED08E6411C"]
+			id: "5813E374EEB89E62"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "3575BC24D37AB0DF"
+					item: {
+						count: 1
+						id: "minecraft:magma_cube_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "7793158F1D326CA8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "5DB52881A9CCA13A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5813E374EEB89E62"]
+			id: "267DFA53B3AE5EB4"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "5CA744571489C8A3"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "23F0577B26343805"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "06D1F923102AAC0D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["267DFA53B3AE5EB4"]
+			id: "03028F41483EBB05"
+			optional: true
+			rewards: [
+				{
+					id: "5825DC7355A8143A"
+					item: {
+						count: 1
+						id: "minecraft:magma_cube_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "6BEEF92BE9657F6A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "3A0390E9289B6B0B"
+				item: { count: 1, id: "minecraft:magma_cream" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "3B25050EBD52E2D3"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "6C31623C013A0790"
+				type: "kill"
+				value: 25L
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "7558B697A870FF20"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "715FBE87529938B5"
+				type: "kill"
+				value: 50L
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "5941FBAE62E00962"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "34346FFB484BBEEC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5941FBAE62E00962"]
+			id: "7F0DE409B848DB46"
+			optional: true
+			rewards: [
+				{
+					id: "30FAA5F2B1AF7744"
+					item: {
+						count: 1
+						id: "minecraft:pillager_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "0B1335786E259F61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "2578F7169107A943"
+				item: { components: { "minecraft:banner_patterns": [ { color: "cyan", pattern: "minecraft:rhombus" }, { color: "light_gray", pattern: "minecraft:stripe_bottom" }, { color: "gray", pattern: "minecraft:stripe_center" }, { color: "light_gray", pattern: "minecraft:border" }, { color: "black", pattern: "minecraft:stripe_middle" }, { color: "light_gray", pattern: "minecraft:half_horizontal" }, { color: "light_gray", pattern: "minecraft:circle" }, { color: "black", pattern: "minecraft:border" } ], "minecraft:hide_additional_tooltip": { }, "minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}" }, count: 16, id: "minecraft:white_banner" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			id: "57D8D5BB3EB67325"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "03651BAC248C5CD9"
+				type: "kill"
+				value: 25L
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "7C1BD7A427B09BF3"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "0D478CC655EC1F6F"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			id: "1BEB92F5725CA846"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "634863478C4670BD"
+				type: "kill"
+				value: 100L
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "34CD482F7CFB79F8"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "1CC544892F89B117"
+				type: "kill"
+				value: 25L
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			id: "1C9DC4D39B121C5A"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "787CBFAC6636B510"
+				type: "kill"
+				value: 50L
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "5A5E0A24435C3932"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "1275CB7AB099E99F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A5E0A24435C3932"]
+			id: "5DEADBED5FB7E74E"
+			optional: true
+			rewards: [
+				{
+					id: "720BD38D8D90AF76"
+					item: {
+						count: 1
+						id: "minecraft:guardian_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "0B19F89FDBFE7488"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "67CEE2E8D989221E"
+					item: { count: 1, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "78C8B5F3C1A377CB"
+					item: { count: 1, id: "minecraft:prismarine_crystals" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BEB92F5725CA846"]
+			id: "76A7B8F55D9472DA"
+			optional: true
+			rewards: [
+				{
+					id: "78026F5E563D75BA"
+					item: {
+						count: 1
+						id: "minecraft:ravager_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "32B33D1E16CA821D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 256L
+					id: "0F9AB5FA0C030E9F"
+					item: { count: 1, id: "croptopia:raw_ravager_meat" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "24AD9C51C87C48AE"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1191AE0410D9CACF"]
+			id: "5E3B546FC673D448"
+			optional: true
+			rewards: [
+				{
+					id: "55BDA21AC116AE1B"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "7083C5D543A83959"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "4D3929D72F688CCC"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "59674D4F9E4C3D83"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4AB15F1AC5EDDD7F"]
+			id: "664E7006C6876BE8"
+			optional: true
+			rewards: [
+				{
+					id: "20E495426A1C8E7A"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "48F220B746F354FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "3D3105E1360A503A"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "37AFEC0353BC4F1D"
+					item: { count: 1, id: "iceandfire:witherbone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "5A9D14A78DE0E5F1"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "025BA49D7525F404"
+					item: { count: 1, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A70048B7415D646"]
+			id: "059A7E4E14B1C360"
+			optional: true
+			rewards: [
+				{
+					id: "4C358D3450D1D2F0"
+					item: {
+						count: 1
+						id: "minecraft:stray_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "2FA95F20C7949FC5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "2658EA8F122C6D59"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "00CFF7098D19C292"
+					item: { components: { "minecraft:potion_contents": { potion: "minecraft:slowness" } }, count: 1, id: "minecraft:tipped_arrow" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "511D8B432075F5A4"
+					item: { count: 16, id: "minecraft:bone" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56E8204623AF9BFB"]
+			id: "1F4A403B230B5381"
+			optional: true
+			rewards: [
+				{
+					id: "10CBAFF4F490259A"
+					item: {
+						count: 1
+						id: "minecraft:enderman_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "5C3DEC42774A310F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "0986D67E52485280"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5019C1C73765E7FB"]
+			id: "1DCBC313A4FE5D78"
+			optional: true
+			rewards: [
+				{
+					id: "7C1078745ECABC00"
+					item: {
+						count: 1
+						id: "minecraft:shulker_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "140E0032B61F4EEA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "165EB7451C40D356"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B77365AF81CF245"]
+			id: "580BAC85AD6DFCC5"
+			optional: true
+			rewards: [
+				{
+					id: "453C5893A064257D"
+					item: {
+						count: 1
+						id: "minecraft:slime_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "324938DFEDAA532B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "44C938AF9B532E7D"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0678F09C1AB8B50C"]
+			id: "078C54757598325B"
+			optional: true
+			rewards: [
+				{
+					id: "78663541DDBF2569"
+					item: {
+						count: 1
+						id: "minecraft:witch_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "41FFDADA4EA119F8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "35305A750A1970EC"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0A68F2F4C64DA965"
+					item: { count: 1, id: "minecraft:sugar" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "51C3BF6D02C59AF0"
+					item: { count: 1, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "7C640FC41EA471F2"
+					item: { count: 1, id: "minecraft:stick" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "53982BE7AD2E343B"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B5B3EAE0CA0DDE5"]
+			id: "084F381EDCD63142"
+			optional: true
+			rewards: [
+				{
+					id: "6118AE8C369B21ED"
+					item: {
+						count: 1
+						id: "minecraft:piglin_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "2090CA2724A943B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "27D4F2CB0EAC824C"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["527541E86A04CEDF"]
+			id: "0C73F6DB5A662FAB"
+			optional: true
+			rewards: [
+				{
+					id: "7985643DEE486B4F"
+					item: {
+						count: 1
+						id: "minecraft:piglin_brute_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "754E9AFA45DA8AAF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "0E02498D61DA7EBC"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60C84319B5DF980E"]
+			id: "003FDBE8D8999CBE"
+			optional: true
+			rewards: [
+				{
+					id: "097E991D985842EB"
+					item: {
+						count: 1
+						id: "minecraft:hoglin_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "318A27AFD4C35E6B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "2B07F567057FD5E7"
+					item: { count: 5, id: "minecraft:porkchop" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "2C6F3BD17A86B2EE"
+					item: { count: 10, id: "irons_spellbooks:hogskin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "17CC735A1342AECA"
+					item: { count: 3, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			id: "3E0C6ABF8944C6F2"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "07A1A29DDCF8864D"
+				type: "kill"
+				value: 25L
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "3CABFBE30B8C1BDA"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "50E8F446AA724E22"
+				type: "kill"
+				value: 50L
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "60C84319B5DF980E"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "3E087B3276FE5E29"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07D8DECAAA0EF635"]
+			id: "0412E8A0EEAE8C54"
+			rewards: [
+				{
+					count: 10
+					id: "01B80B973E64FC25"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "287DDE1E11607523"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "73CAFBC86CD22E08"
+					item: {
+						count: 1
+						id: "minecraft:bow"
+					}
+					type: "item"
+				}
+				{
+					id: "25F2F34EC5098C9D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "156E0BC3DD3769B5"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0412E8A0EEAE8C54"]
+			id: "138DCDE753D77338"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "75CB3066911A6B5F"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "5779B2E4D23780B2"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2EC845ED2E35BD69"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "56982733C53FACD6"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["138DCDE753D77338"]
+			id: "1191AE0410D9CACF"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "3D00085E760D3233"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "62B8EABF6B85DB74"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "218012E48296AA0F"
+					item: {
+						count: 1
+						id: "minecraft:spectral_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "7A507988A7132E88"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Legolas' Bow\""
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:power": 3
+									"minecraft:punch": 2
+								}
+							}
+							"minecraft:repair_cost": 3
+						}
+						count: 1
+						id: "minecraft:bow"
+					}
+					type: "item"
+				}
+				{
+					id: "0E39F07FA66E9B7B"
+					item: {
+						components: {
+							"supplementaries:quiver_content": {
+								items: [
+									{
+										count: 8
+										id: "minecraft:spectral_arrow"
+									}
+									{
+										count: 16
+										id: "minecraft:arrow"
+									}
+									{
+										count: 1
+										id: "supplementaries:rope_arrow"
+									}
+									{
+										count: 3
+										id: "forbidden_arcanus:boom_arrow"
+									}
+									{
+										count: 8
+										id: "forbidden_arcanus:draco_arcanus_arrow"
+									}
+									{ }
+								]
+								selected_slot: 4
+							}
+						}
+						count: 1
+						id: "supplementaries:quiver"
+					}
+					type: "item"
+				}
+				{
+					id: "2ECFFCBDD48DB31A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "0EF6BF07E261BFD6"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["050B35A39E3D302B"]
+			id: "2A10D0A0B07AE40D"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "13215573CE5E601C"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "413527682D3586DF"
+					item: {
+						count: 1
+						id: "bhc:wither_bone"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2FAE1CCD58E5E2C6"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "1F31A0368A46DB58"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "1BCC0A20E4FF03DC"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A10D0A0B07AE40D"]
+			id: "4746CB3A1622C539"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "7AA86E2EE237A3B1"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F8411BEE1D35702"
+					item: {
+						count: 1
+						id: "bhc:wither_bone"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "0919D90EABF6C74F"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "289A4DF49E62098A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "4DF8CED4B809797A"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4746CB3A1622C539"]
+			id: "4AB15F1AC5EDDD7F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "1C56FDDA201B70EA"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00352FA5501E6EB4"
+					item: {
+						count: 1
+						id: "bhc:wither_bone"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2A34429C693557AF"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "1EABBB296EEED6D0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "4F6A8A5031D811AC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["310952D3326EFF1E"]
+			id: "040FAA48F78A8F05"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "0C039C45E6E83F5A"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "405F6CF69B7F8CAA"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38FC9108D3FB33A3"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:slowness"
+							}
+						}
+						count: 1
+						id: "minecraft:tipped_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2924470FDB243DE8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "72FB23FFE4CAC08F"
+				type: "kill"
+				value: 25L
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["040FAA48F78A8F05"]
+			id: "27B8090B645B4CD9"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "2B422439C4A539D1"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "49FE7B4C568352E8"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0BD6BF03C9BE9155"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:slowness"
+							}
+						}
+						count: 1
+						id: "minecraft:tipped_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "063F17A1958D855D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "4F2BC332E0CC8E9C"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27B8090B645B4CD9"]
+			id: "5A70048B7415D646"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "3ED89F953955265B"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2AFE1F4D75849DB0"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08C8C36E0535A24E"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:slowness"
+							}
+						}
+						count: 1
+						id: "minecraft:tipped_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "7B7DD049CC911754"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "7C0192FD7EDA53EB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34516859E6C10664"]
+			id: "586F534FBF554E6A"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "613B4BE53BA0216A"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "28887CBBAB15DAD8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "6235C05EE99DCA58"
+				type: "kill"
+				value: 25L
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["586F534FBF554E6A"]
+			id: "0B5F8A77EEB9A942"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "234DE0EA32EDED8D"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "315589617A48A6C8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "196FEEA46C3F31AF"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B5F8A77EEB9A942"]
+			id: "56E8204623AF9BFB"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "3611C1F87752176E"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "0AD7013C83AF0C65"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "4034DE0E68E0C260"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["136F9E6DB5A62956"]
+			id: "5019C1C73765E7FB"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "4A735621C5FD260B"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "491EA9F732D93300"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "3326DF4E2755756A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A4422226EAB1E0B"]
+			id: "136F9E6DB5A62956"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "6C40C45AEC27E6EB"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "7B1C767ADB504501"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "11EFB9A07F0E8887"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["605854D0F091D731"]
+			id: "1A4422226EAB1E0B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "01F9177A1C2E0740"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "51A7D159900111C9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "2CE10A462983960D"
+				type: "kill"
+				value: 25L
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46955C4896B9FA12"]
+			id: "5B77365AF81CF245"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "28CC5FAB09213A2E"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "7091CCD79F005A77"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "56C74DEB6E35068B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70EAFC1BDA945E5D"]
+			id: "46955C4896B9FA12"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "17A6811A18B125F5"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "14E572FE70CEEFBF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "1500BB9C5A425069"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B4E276A4BBF6B5F"]
+			id: "70EAFC1BDA945E5D"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 10
+					id: "02FBFF3355BDF165"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "3A5F4B91A0BEAE13"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "37A1076B7E243CDA"
+				type: "kill"
+				value: 25L
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "34BFEC6B3BF2D019"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "22DF478AAB56BAB7"
+				type: "kill"
+				value: 25L
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "690ADD4443D99181"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "738130E87D89BB6A"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			id: "0678F09C1AB8B50C"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "23B3C8C57384164D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			id: "3293A03EDF13E5A7"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "7063A1FD94668663"
+				type: "kill"
+				value: 25L
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "282D8E71EDBAD2A4"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "071EF6FC439D3EA1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "6B5B3EAE0CA0DDE5"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "4BABF66916B08D09"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			id: "527541E86A04CEDF"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "340D793A4DB25CAD"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "57319B7CC5E58919"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "74A48CDE17CF43A9"
+				type: "kill"
+				value: 50L
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "6550150BC6C10277"
+			progression_mode: "linear"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "15D45DFCF854FA73"
+				type: "kill"
+				value: 25L
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C0CA3AD1044329C"]
+			id: "6EC2BA0B7C167DC3"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7AA9C3867016F000"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+				{
+					id: "73648EF4E9091D63"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					type: "item"
+				}
+				{
+					id: "1AA288175BB6A5DC"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "53ECE50B74723DBC"
+					item: { count: 4, id: "minecraft:end_crystal" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					id: "3716E428D65BFDD5"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 }

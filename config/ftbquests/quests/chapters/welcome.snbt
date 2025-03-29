@@ -4,6 +4,32 @@
 	filename: "welcome"
 	group: "74FDE0A48BB346DA"
 	id: "22D3727CEB9F417A"
+	images: [
+		{
+			height: 5.0d
+			image: "floabg:textures/questpics/floabmp/corstagaming.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "floabg:textures/questpics/floabmp/corsta1994.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "floabg:textures/questpics/floabmp/entrodor_wolfry.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 2.5d
+			y: -4.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
