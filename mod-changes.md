@@ -1,5 +1,6 @@
-28/03
-# Updated
+# 28/03
+
+## Updated
 
 - 3d-Skin-Layers [1.7.5]
 - Actually Additions [1.3.17]
@@ -102,18 +103,16 @@
 - XNet [1.21-7.0.4]
 - Xaero's Minimap [25.2.0]
 - YUNG's Better End Island [1.21.1-NeoForge-3.1.2]
-- YetAnotherConfigLib [3.6.6+1.21.1-neoforge]
-- oωo [0.12.15.1-beta.2+1.21]
+- YetAnotherConfigLib [3.6.6+1.21.1-neoforge]- oωo [0.12.15.1-beta.2+1.21# ]
 
-# Added
+## Added
 
 - Can't Sleep Clowns Will Eat Me [2.0.0.0]
 - Steve's Realistic Sleep [1.11.2+mc1.21-1.21.1]
 - Mekanism Turrets [2.1.3]
-- Mods Optimizer [2.1.0]
+- Mods Optimizer [2.1.0]- Added ScalableLu# x
 
-# Removed
+## Removed
 
 - Does it Tick
 - What Are They Up To
-

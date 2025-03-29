@@ -116,3 +116,5 @@ kubejs/startup_scripts/jsconfig.json
 !/config/memorysweep.json5
 !config/better_beacons.json5
 !/config/cant_sleep_clowns_will_eat_me-common.toml
+!config/mekanism_turrets-common.toml
+!config/mekanism_weaponry-common.toml
