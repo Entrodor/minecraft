@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kills"
+	group: "448D0BD75563037B"
+	icon: {
+		id: "minecraft:spawner"
+	}
+	id: "6C3E3F0C93D0CA45"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D77B23A5EE0C106"
+			rewards: [{
+				id: "11BA2EBE6B439302"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52BC34712E72AB18"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0785ED84E5AA811E"
+			rewards: [
+				{
+					count: 5
+					id: "3F680D857DF491BD"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "41A693673D9F5557"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "38F985F887A90785"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "4D45A8F46C54D75F"
+			rewards: [
+				{
+					count: 10
+					id: "56DBB621ECBF8C2C"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "4B4B2A41FDCD8FA2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "grimoireofgaia:creep"
+				id: "42D09ADAB03AE213"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "021CE0A0C181C604"
+			rewards: [
+				{
+					id: "0076FAC81596365B"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "345082CCF28FA504"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "grimoireofgaia:creep"
+				id: "6787F86113FE8773"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "4B3F6EE03DA33AE6"
+			tasks: [{
+				entity: "grimoireofgaia:creep"
+				id: "59A8A6F470A184AA"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+}

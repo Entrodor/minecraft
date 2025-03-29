@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "60727D1667A82BB8"
+	icon: {
+		id: "mekanism:configurator"
+	}
 	id: "1045B116AB0950B3"
 	order_index: 0
 	quest_links: [ ]

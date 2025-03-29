@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "macabre"
 	group: "70DEA18A0327F7F7"
+	icon: {
+		id: "macabre:crystalized_blood"
+	}
 	id: "04607E84EA1DF8CE"
-	order_index: 7
+	order_index: 5
 	quest_links: [ ]
 	quests: [ ]
 }

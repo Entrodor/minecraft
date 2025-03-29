@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "other_curios"
 	group: "1A26E5C97F305F62"
+	icon: {
+		id: "modular_angelring:angel_ring"
+	}
 	id: "488B06FEE1A4A84C"
 	order_index: 2
 	quest_links: [ ]

@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "dimensional_dungeons"
 	group: "70DEA18A0327F7F7"
+	icon: {
+		id: "dimdungeons:block_portal_keyhole"
+	}
 	id: "2C632871D74DF825"
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
 }

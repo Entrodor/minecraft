@@ -3,8 +3,109 @@
 	default_quest_shape: ""
 	filename: "starting_out"
 	group: "57971926FD205C72"
+	icon: {
+		id: "minecraft:oak_log"
+	}
 	id: "73BB868C4E262B76"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5F2D62738487ECAE"
+			rewards: [
+				{
+					icon: {
+						id: "grimoireofgaia:bag_record"
+					}
+					id: "62C5A9BBBB71214E"
+					table_id: 6431866596187233996L
+					type: "random"
+				}
+				{
+					id: "4E7590D5F280775C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "402A4A5918316AD8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F2D62738487ECAE"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "5BD7CFADD0E1829C"
+			rewards: [
+				{
+					icon: {
+						id: "grimoireofgaia:bag_record"
+					}
+					id: "144A36E7106D0E6B"
+					table_id: 6219175422669918922L
+					type: "random"
+				}
+				{
+					id: "401BB3AA7258F1C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "62886DFAAF607457"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5CB46D2452BDE728"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/furnaces)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "3FD5EED9E6F2A600"
+			rewards: [
+				{
+					count: 16
+					id: "4DBB43C62C4D022E"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "12D1E61BFAFEAEBB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3CA406247E87CB3A"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0743E00E586A9FC4"
+					item: { count: 1, id: "minecraft:stone_shovel" }
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
 }

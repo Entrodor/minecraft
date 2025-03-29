@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "sophisticated_storage"
 	group: "246FA60C46CF4A12"
+	icon: {
+		components: {
+			"sophisticatedstorage:wood_type": "oak"
+		}
+		id: "sophisticatedstorage:chest"
+	}
 	id: "40E3C2CE1149E56E"
 	order_index: 1
 	quest_links: [ ]

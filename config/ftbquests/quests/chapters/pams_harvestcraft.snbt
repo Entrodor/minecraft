@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "pams_harvestcraft"
 	group: "375753674AC829E2"
+	icon: {
+		id: "pamhc2foodcore:friesitem"
+	}
 	id: "620C9889E1088F0F"
 	order_index: 1
 	quest_links: [ ]

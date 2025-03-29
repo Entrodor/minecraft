@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "6264A4D8EC47F71F"
+	icon: {
+		id: "ars_nouveau:starbuncle_shards"
+	}
 	id: "233E6B6FAC5B10D7"
 	order_index: 2
 	quest_links: [ ]

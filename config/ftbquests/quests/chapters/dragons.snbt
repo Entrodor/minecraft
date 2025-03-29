@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "dragons"
 	group: "7D1F8A710A58AAA9"
+	icon: {
+		id: "iceandfire:dragon_skull_lightning"
+	}
 	id: "6DFD8907DE91836E"
 	order_index: 0
 	quest_links: [ ]

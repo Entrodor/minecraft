@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "the_aether"
 	group: "70DEA18A0327F7F7"
+	icon: {
+		id: "aether:zanite_gemstone"
+	}
 	id: "3188A9B6930B946E"
-	order_index: 8
+	order_index: 6
 	quest_links: [ ]
 	quests: [ ]
 }

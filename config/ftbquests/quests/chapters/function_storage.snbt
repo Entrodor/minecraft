@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "function_storage"
 	group: "246FA60C46CF4A12"
+	icon: {
+		id: "functionalstorage:oak_1"
+	}
 	id: "5906FFBE0A56941A"
 	order_index: 0
 	quest_links: [ ]

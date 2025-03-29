@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_bumblezone"
-	group: "70DEA18A0327F7F7"
+	filename: "the_nether"
+	group: "57971926FD205C72"
 	icon: {
-		id: "the_bumblezone:honey_compass"
+		id: "minecraft:netherrack"
 	}
-	id: "4F466B333D793FBE"
+	id: "6FEEFF5F71395A83"
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]

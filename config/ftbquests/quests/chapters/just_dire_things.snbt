@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "just_dire_things"
 	group: "60727D1667A82BB8"
+	icon: {
+		id: "justdirethings:ferricore_wrench"
+	}
 	id: "12B29F5D587F8F3C"
 	order_index: 5
 	quest_links: [ ]

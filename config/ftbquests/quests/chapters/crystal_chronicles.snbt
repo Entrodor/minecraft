@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "crystal_chronicles"
 	group: "70DEA18A0327F7F7"
+	icon: {
+		id: "crystal_chronicles:eye"
+	}
 	id: "2B05F3CDD2DCCE53"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
 }

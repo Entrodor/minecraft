@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "apotheosis"
 	group: "6264A4D8EC47F71F"
+	icon: {
+		id: "apotheosis:mythic_material"
+	}
 	id: "08E7EC48E4943543"
 	order_index: 1
 	quest_links: [ ]

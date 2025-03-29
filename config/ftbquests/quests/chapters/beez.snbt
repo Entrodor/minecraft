@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "beez"
 	group: "3A55D13B47F16C8F"
+	icon: {
+		id: "productivebees:sturdy_bee_cage"
+	}
 	id: "56DFFA3A90FFFAC1"
 	order_index: 1
 	quest_links: [ ]
