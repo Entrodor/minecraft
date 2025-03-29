@@ -1080,6 +1080,10 @@
     "modId": "mekanism_turrets",
     "version": "2.1.3"
   },
+  "mekanism_weaponry-2.0.1.jar": {
+    "modId": "mekanism_weaponry",
+    "version": "2.0.1"
+  },
   "MekanismAdditions-1.21.1-10.7.13.78.jar": {
     "modId": "mekanismadditions",
     "version": "10.7.13"
