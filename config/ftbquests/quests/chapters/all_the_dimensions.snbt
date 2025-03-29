@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "all_the_dimensions"
 	group: "70DEA18A0327F7F7"
+	icon: {
+		id: "allthemodium:teleport_pad"
+	}
 	id: "56892F45D7D5E815"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 }

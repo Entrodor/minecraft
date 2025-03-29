@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "rf_tools"
 	group: "60727D1667A82BB8"
+	icon: {
+		id: "rftoolsbase:smartwrench_select"
+	}
 	id: "4F36BBF92D1D70D2"
 	order_index: 6
 	quest_links: [ ]

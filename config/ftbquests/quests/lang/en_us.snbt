@@ -1,18 +1,17 @@
 {
+	chapter.028411279A56DB7A.title: "The End"
 	chapter.0343433AA5E46026.title: "For Blockheads"
 	chapter.04607E84EA1DF8CE.title: "Macabre"
 	chapter.04903DB0CD6EF5A5.title: "Hostile Networks"
 	chapter.08E7EC48E4943543.title: "Apotheosis"
-	chapter.0D784EADC12F0346.title: "Nether"
 	chapter.1045B116AB0950B3.title: "Mekanism"
 	chapter.10617C9BDBEB497A.title: "Croptopia"
 	chapter.12B29F5D587F8F3C.title: "Just Dire Things"
 	chapter.15F2BEE1D1977381.title: "Grimore of Gaia"
-	chapter.1EC4A032FAB9B3D6.title: "The End"
 	chapter.20267E7D79F1B2E5.title: "Tips and Tricks"
 	chapter.22D3727CEB9F417A.title: "Welcome"
 	chapter.233E6B6FAC5B10D7.title: "Ars Nouveau"
-	chapter.2AB4447C6E598283.title: "Deeper Darker"
+	chapter.2AB4447C6E598283.title: "Deeper and Darker"
 	chapter.2B05F3CDD2DCCE53.title: "Crystal Chronicles"
 	chapter.2C632871D74DF825.title: "Dimensional Dungeons"
 	chapter.30C629AE30743178.title: "Xycraft"
@@ -34,8 +33,11 @@
 	chapter.5F6A23DBB7E9801D.title: "End Game!"
 	chapter.5FE142F1BF47A07F.title: "Cataclysm"
 	chapter.620C9889E1088F0F.title: "Pam's HarvestCraft"
+	chapter.66919B8E3760CDC9.title: "Touhou Little Maid"
+	chapter.6C3E3F0C93D0CA45.title: "Kills"
 	chapter.6D0AFF6F36F1301D.title: "Doggy Talents"
 	chapter.6DFD8907DE91836E.title: "Ice and Fire"
+	chapter.6FEEFF5F71395A83.title: "The Nether"
 	chapter.73BB868C4E262B76.title: "Starting out"
 	chapter.74436712402AF9E2.title: "Artifacts"
 	chapter.78C0663E6C47260E.title: "Actually Additions"
@@ -43,6 +45,7 @@
 	chapter_group.246FA60C46CF4A12.title: "Storage"
 	chapter_group.375753674AC829E2.title: "Foodz"
 	chapter_group.3A55D13B47F16C8F.title: "Resources"
+	chapter_group.448D0BD75563037B.title: "Mobs"
 	chapter_group.473734473FE7CAD5.title: "Creative"
 	chapter_group.57971926FD205C72.title: "The Beginning"
 	chapter_group.60727D1667A82BB8.title: "Technology"
@@ -63,6 +66,11 @@
 	]
 	quest.044069E44FBEDB45.quest_subtitle: "My Enderchest is Your Enderchest"
 	quest.044069E44FBEDB45.title: "Global Storage"
+	quest.0785ED84E5AA811E.quest_desc: ["They have destroyed our builds far to much, it is time to pay with their life!"]
+	quest.0785ED84E5AA811E.quest_subtitle: "Pocket Explosion?"
+	quest.0785ED84E5AA811E.title: "Creepers x5"
+	quest.0D77B23A5EE0C106.quest_desc: ["All those pesky mobs just waiting to die. Lets help them with their wish!"]
+	quest.0D77B23A5EE0C106.quest_subtitle: "It's Johnny!"
 	quest.1117A6A3F27D1462.quest_desc: [
 		"Simple Magnets is a useful mod, allow players to attract items and experience from a distance away. The &7Basic Magnet&r can be toggled on and off be &bRight Clicking&r whilst holding the magnet."
 		""
@@ -83,6 +91,7 @@
 	]
 	quest.134C5E17C94F5349.quest_subtitle: "As bright as the Sun!"
 	quest.134C5E17C94F5349.title: "Useful Torches"
+	quest.2BE6234F2E0BA8C8.quest_subtitle: "Eevee is best! Don't tell me otherwise."
 	quest.31FC038EAFE19742.quest_desc: [
 		"Welcome to &cFor Lack Of A Better Game's&r modpack."
 		""
@@ -110,6 +119,8 @@
 	]
 	quest.395333E99CB1CECE.quest_subtitle: "What happened to Stuart Little?"
 	quest.395333E99CB1CECE.title: "Shinktastic"
+	quest.3FD5EED9E6F2A600.quest_subtitle: "Diggy Diggy Hole! - Some Dwarf"
+	quest.3FD5EED9E6F2A600.title: "Time to MINEcraft!"
 	quest.4323C192241B7DBA.quest_desc: [
 		"In this modpack you will be able to set up a &dhome&r by using /&dhome&r or /&dhome&r &cname&r."
 		""
@@ -125,6 +136,19 @@
 	quest.4C8F34B35B933702.quest_desc: ["Oh no! You have perished, but don't worry. You can combine your key with an &2Ender Pearl&r to teleport to your grave."]
 	quest.4C8F34B35B933702.quest_subtitle: "A coin for the ferryman!"
 	quest.4C8F34B35B933702.title: "&4You DIED!&r"
+	quest.55BBC5B6E94F886E.quest_subtitle: "Modpacks are hard!"
+	quest.5F2D62738487ECAE.quest_desc: ["You got to start somewhere so why not start with getting some wooden logs?"]
+	quest.5F2D62738487ECAE.quest_subtitle: "Why doesn't it fall down?"
+	quest.5F2D62738487ECAE.title: "Punchin' Wood!"
+	quest.62BD531AAE825758.quest_desc: [
+		"The &5KubeJS&r, &2Mystical Customization&r and &bFTB Quest&r files were made by both &0Entrodor_Wolfry&r and &6CorstaGaming&r."
+		""
+		"As such do not feel like they should be locked behind a license. Which means that you can freely use them in other modpacks but do wish to be credited if using the files."
+		""
+		"The custom textures/items from &5KubeJS&r were made in a couple minutes and are more of a temporary solution and will be made into a mod at some point with better textures."
+	]
+	quest.62BD531AAE825758.quest_subtitle: "There's more?"
+	quest.69C6BF51E06E2227.quest_desc: ["&0Entrodor_Wolfry&r is the Owner of &4For Lack Of A Better Game&r or &4FLoaBG&r for short. Which is a gaming community that is still trying to grow."]
 	quest.6D2150F7EB73A8D8.quest_desc: [
 		"The &eExplorer's Compass&r allows you to find a specific structure in the world to a max range of &b10,000 blocks&r. So if no structure is found; it just means that it is either in a different dimension or is not within the &b10,000&r block range."
 		""
@@ -137,11 +161,24 @@
 	quest.74CBBDB32DED6205.quest_subtitle: "Sharp like an arrow?"
 	quest.7F1A11703ECB2756.quest_desc: ["Here are some tricks that may come in handy."]
 	quest.7F1A11703ECB2756.quest_subtitle: "Is it Halloween?"
+	reward_table.564EF318A81492CA.title: "vanillafoods"
+	reward_table.594294977C70DECC.title: "vanillasaplings"
 	task.0024E4ED7F1FADA9.title: "Commands"
 	task.2142409CB902670B.title: "Joined the World!"
 	task.28C75CC51B59A8E1.title: "Magnets"
+	task.292B0F0353EDDE2C.title: "Other Info"
 	task.2CD647FC0FF73EA5.title: "Demagnetization Coils"
 	task.30F8E1E3529F585D.title: "Tricks"
 	task.3EE8486000AD6B37.title: "Tips"
+	task.402A4A5918316AD8.title: "Any #minecraft:logs"
+	task.42D09ADAB03AE213.title: "Creepers x25"
+	task.441DB95E0A13CE43.title: "About CorstaGaming"
+	task.470EB12F0227C182.title: "About Entrodor_Wolfry"
+	task.52BC34712E72AB18.title: "Kill'n Mobs"
+	task.59A8A6F470A184AA.title: "Creepers x100"
+	task.5CB46D2452BDE728.title: "Furnace"
+	task.62886DFAAF607457.title: "Crafting Table"
+	task.6787F86113FE8773.title: "Creepers x50"
+	task.7987C9596E1F347F.title: "Pack Info"
 	task.7AF29117A4B33D4E.title: "Homes"
 }

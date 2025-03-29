@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "cataclysm"
 	group: "7D1F8A710A58AAA9"
+	icon: {
+		id: "cataclysm:altar_of_fire"
+	}
 	id: "5FE142F1BF47A07F"
 	order_index: 1
 	quest_links: [ ]

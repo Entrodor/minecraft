@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "oritech"
-	group: "60727D1667A82BB8"
+	filename: "the_end_028411279A56DB7A"
+	group: "57971926FD205C72"
 	icon: {
-		id: "oritech:wrench"
+		id: "minecraft:end_stone"
 	}
-	id: "490E8E34FEDFFBAC"
+	id: "028411279A56DB7A"
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]

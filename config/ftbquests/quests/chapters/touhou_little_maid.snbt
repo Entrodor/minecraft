@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "the_bumblezone"
-	group: "70DEA18A0327F7F7"
+	filename: "touhou_little_maid"
+	group: "7F9438889CB40B51"
 	icon: {
-		id: "the_bumblezone:honey_compass"
+		id: "touhou_little_maid:maid_spawn_egg"
 	}
-	id: "4F466B333D793FBE"
+	id: "66919B8E3760CDC9"
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]

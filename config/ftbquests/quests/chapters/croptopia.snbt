@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "croptopia"
 	group: "375753674AC829E2"
+	icon: {
+		id: "croptopia:frying_pan"
+	}
 	id: "10617C9BDBEB497A"
 	order_index: 0
 	quest_links: [ ]

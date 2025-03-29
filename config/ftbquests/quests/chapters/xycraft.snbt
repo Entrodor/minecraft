@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "xycraft"
 	group: "60727D1667A82BB8"
+	icon: {
+		id: "xycraft_core:errored"
+	}
 	id: "30C629AE30743178"
 	order_index: 3
 	quest_links: [ ]

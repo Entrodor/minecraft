@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "immersive_engineering"
 	group: "60727D1667A82BB8"
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
 	id: "36F2317966F1460F"
 	order_index: 1
 	quest_links: [ ]

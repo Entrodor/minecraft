@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "tips_and_tricks"
 	group: "74FDE0A48BB346DA"
+	icon: {
+		id: "minecraft:recovery_compass"
+	}
 	id: "20267E7D79F1B2E5"
 	order_index: 1
 	quest_links: [ ]
@@ -249,7 +252,7 @@
 					id: "282E8FE8116A3E13"
 					item: {
 						count: 1
-						id: "minecraft:soul_lantern"
+						id: "minecraft:apple"
 					}
 					type: "item"
 				}
@@ -307,6 +310,26 @@
 			]
 			x: 3.5d
 			y: 0.0d
+		}
+		{
+			id: "074242BE8F3BF4A5"
+			tasks: [{
+				id: "4827D30B067D70D5"
+				item: { count: 1, id: "rainshield:rain_shield" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "338191BB5770E808"
+			tasks: [{
+				id: "08BB0C80EF28D090"
+				item: { count: 1, id: "supplementaries:crank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 }
