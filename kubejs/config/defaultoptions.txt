@@ -1,1 +1,1 @@
-resourcePacks:["vanilla","fabric","mod_resources","add_xycraft_overrides_stone","add_xycraft_overrides_metal","add_xycraft_overrides_glass","moonlight:mods_dynamic_assets","file/Icon Xaero\u0027s 1.2 HF.zip","file/forbidden_golden_orchid_fix_resourcepack.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","add_xycraft_overrides_stone","add_xycraft_overrides_metal","add_xycraft_overrides_glass","moonlight:mods_dynamic_assets","file/Icon Xaero\u0027s 1.2 HF.zip"]

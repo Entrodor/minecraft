@@ -118,3 +118,4 @@ kubejs/startup_scripts/jsconfig.json
 !/config/cant_sleep_clowns_will_eat_me-common.toml
 !config/mekanism_turrets-common.toml
 !config/mekanism_weaponry-common.toml
+!/config/curvy_pipes.yaml
