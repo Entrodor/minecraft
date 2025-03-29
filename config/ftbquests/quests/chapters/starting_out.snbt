@@ -73,6 +73,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"5BD7CFADD0E1829C"
+				"7555327666DBD4C0"
+			]
 			id: "3FD5EED9E6F2A600"
 			rewards: [
 				{
@@ -104,8 +108,19 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "7555327666DBD4C0"
+			tasks: [{
+				count: 8L
+				id: "74689AF2D4E3D204"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 }

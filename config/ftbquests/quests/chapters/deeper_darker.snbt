@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "deeper_darker"
 	group: "70DEA18A0327F7F7"
+	icon: {
+		id: "deeperdarker:heart_of_the_deep"
+	}
 	id: "2AB4447C6E598283"
 	order_index: 3
 	quest_links: [ ]

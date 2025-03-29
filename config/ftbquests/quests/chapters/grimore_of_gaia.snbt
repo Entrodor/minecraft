@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "grimore_of_gaia"
 	group: "7D1F8A710A58AAA9"
+	icon: {
+		id: "grimoireofgaia:book_of_memory"
+	}
 	id: "15F2BEE1D1977381"
 	order_index: 2
 	quest_links: [ ]
