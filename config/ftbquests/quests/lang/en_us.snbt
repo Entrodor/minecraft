@@ -57,6 +57,7 @@
 	quest.003FDBE8D8999CBE.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.003FDBE8D8999CBE.title: "Hoglin Spawn Egg"
 	quest.00A3CB58A0F16F25.quest_subtitle: "Where did that \"breeze\" come from?"
+	quest.00A3CB58A0F16F25.title: "Breeze"
 	quest.02B6A03F72D17608.quest_desc: ["You can make the &3Ender Chest&r and &6Ender Tank&r private by &o&eright clicking&r a diamond on the &3lock&r of the &3Ender Chest&r and on the &6knob&r on the &6Ender Tank&r."]
 	quest.02B6A03F72D17608.quest_subtitle: "My Precious!"
 	quest.02B6A03F72D17608.title: "Private Storage"
@@ -76,6 +77,7 @@
 	quest.050B35A39E3D302B.quest_desc: ["I would recommend not being hit by one of these guys."]
 	quest.050B35A39E3D302B.quest_subtitle: "Spooky Scarier Skeleton!"
 	quest.050B35A39E3D302B.title: "Wither Skeleton x5"
+	quest.05515843E0E2A06A.quest_subtitle: "You came to the wrong neighbourhood!"
 	quest.05515843E0E2A06A.title: "Piglin Brute x5"
 	quest.059A7E4E14B1C360.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.059A7E4E14B1C360.title: "Stray Spawn Egg"
@@ -105,6 +107,7 @@
 	quest.0DC7F3DC1A1CCD08.quest_desc: ["Pets that follow the wandering trader, just as or even more annoying than the wandering trader themselves. Kill the twins for this bounty to be satisfied."]
 	quest.0DC7F3DC1A1CCD08.quest_subtitle: "Wandering Traders favourite pets!"
 	quest.0DC7F3DC1A1CCD08.title: "Trader Llama"
+	quest.0E2B167B609C3754.quest_subtitle: "Golden Traders"
 	quest.0E2B167B609C3754.title: "Piglin x5"
 	quest.1117A6A3F27D1462.quest_desc: [
 		"Simple Magnets is a useful mod, allow players to attract items and experience from a distance away. The &7Basic Magnet&r can be toggled on and off be &bRight Clicking&r whilst holding the magnet."
@@ -136,6 +139,7 @@
 	quest.1A4422226EAB1E0B.title: "Shulker x25"
 	quest.1BEB92F5725CA846.title: "Ravager x100"
 	quest.1C0CA3AD1044329C.quest_subtitle: "It just wanted to be left in peace!"
+	quest.1C0CA3AD1044329C.title: "Ender Dragon"
 	quest.1C9DC4D39B121C5A.title: "Guardian x50"
 	quest.1DCBC313A4FE5D78.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1DCBC313A4FE5D78.title: "Shulker Spawn Egg"
@@ -256,6 +260,7 @@
 	quest.5B77365AF81CF245.title: "Slime x100"
 	quest.5BD7CFADD0E1829C.title: "Time to mineCRAFT!"
 	quest.5C4E4F3EAA5A59A4.quest_subtitle: "Totems of Undying are not enough to save them!"
+	quest.5C4E4F3EAA5A59A4.title: "Evoker and Vex"
 	quest.5DEADBED5FB7E74E.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.5DEADBED5FB7E74E.title: "Guardian Spawn Egg"
 	quest.5E3B546FC673D448.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -287,6 +292,7 @@
 	quest.67A3C886D2F6FE1C.title: "Drowned x25"
 	quest.690ADD4443D99181.title: "Witch x50"
 	quest.69594B2E620EECC6.quest_subtitle: "Is it from the Prison of Elders?"
+	quest.69594B2E620EECC6.title: "Guardian"
 	quest.69C6BF51E06E2227.quest_desc: ["&0Entrodor_Wolfry&r is the Owner of &4For Lack Of A Better Game&r or &4FLoaBG&r for short. Which is a gaming community that is still trying to grow."]
 	quest.6B5B3EAE0CA0DDE5.title: "Piglin x100"
 	quest.6D2150F7EB73A8D8.quest_desc: [
@@ -300,7 +306,9 @@
 	quest.6D903660203F7B5C.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.6D903660203F7B5C.title: "Husk Spawn Egg"
 	quest.6DA10C236212DBD8.quest_subtitle: "Fade Away - SAMURAI"
+	quest.6DA10C236212DBD8.title: "Wither"
 	quest.6EC2BA0B7C167DC3.quest_subtitle: "They are now on the Endangered species list!"
+	quest.6EC2BA0B7C167DC3.title: "Ender Dragon Again?"
 	quest.6EC57872D3A9F310.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.6EC57872D3A9F310.title: "Creeper Spawn Egg"
 	quest.70EAFC1BDA945E5D.title: "Slime x25"
@@ -310,6 +318,8 @@
 	quest.748130657A74B4DE.title: "Blaze x25"
 	quest.74CBBDB32DED6205.quest_desc: ["Here are some useful tips, items or blocks that may make your life easier in this Modpack."]
 	quest.74CBBDB32DED6205.quest_subtitle: "Sharp like an arrow?"
+	quest.7555327666DBD4C0.quest_subtitle: "Breaking the World!"
+	quest.7555327666DBD4C0.title: "Cobbled Together"
 	quest.7558B697A870FF20.title: "Pillager x50"
 	quest.76A5553B889E645A.quest_subtitle: "I am HUNGRY!"
 	quest.76A5553B889E645A.title: "Ravager x5"

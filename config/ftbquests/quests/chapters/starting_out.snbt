@@ -113,6 +113,22 @@
 		}
 		{
 			id: "7555327666DBD4C0"
+			rewards: [
+				{
+					count: 8
+					id: "2169FC9C1EBCA814"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					id: "36BCC8E6EE223B23"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "74689AF2D4E3D204"
