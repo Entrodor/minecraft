@@ -1,0 +1,20 @@
+{
+  "name": "Mithril",
+  "glint": "true",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "irons_spellbooks:mithril_ingot"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": false
+  },
+  "color": "00FFD1",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

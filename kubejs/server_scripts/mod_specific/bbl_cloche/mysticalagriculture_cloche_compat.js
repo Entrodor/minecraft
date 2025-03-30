@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:fluix_essence", "mysticalagriculture:fluix_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:energized_steel_essence", "mysticalagriculture:energized_steel_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:blazing_crystal_essence", "mysticalagriculture:blazing_crystal_seeds","floabg:farmland_4")
-    
+    crop(1200, 1.0, 1, "mysticalagriculture:arcane_essence_essence", "mysticalagriculture:arcane_essence_seeds","floabg:farmland_4")    
     //Tier 5
     crop(1200, 1.0, 12, "mysticalagriculture:inferium_essence", "mysticalagriculture:supremium_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:prosperity_shard_essence", "mysticalagriculture:prosperity_shard_seeds","floabg:farmland_5")
@@ -102,11 +102,13 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:niotic_crystal_essence", "mysticalagriculture:niotic_crystal_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:spirited_crystal_essence", "mysticalagriculture:spirited_crystal_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:uraninite_essence", "mysticalagriculture:uraninite_seeds","floabg:farmland_5")
+    crop(1200, 1.0, 1, "mysticalagriculture:cinder_essence_essence", "mysticalagriculture:cinder_essence_seeds","floabg:farmland_5")
     //Tier 6
     crop(1200, 1.0, 16, "mysticalagriculture:inferium_essence", "mysticalagriculture:insanium_seeds","floabg:farmland_6")
     crop(1200, 1.0, 1, "mysticalagriculture:nether_star_essence", "mysticalagriculture:nether_star_seeds", "mysticalagradditions:nether_star_crux")
     crop(1200, 1.0, 1, "mysticalagriculture:dragon_egg_essence", "mysticalagriculture:dragon_egg_seeds", "mysticalagradditions:dragon_egg_crux")
     crop(1200, 1.0, 1, "mysticalagriculture:nitro_crystal_essence", "mysticalagriculture:nitro_crystal_seeds", "mysticalagradditions:nitro_crystal_crux")
+    crop(1200, 1.0, 1, "mysticalagriculture:mithril_essence", "mysticalagriculture:mithril_seeds","floabg:farmland_6")
     //Tier Mythic
     crop(1200, 1.0, 1, "mysticalagriculture:cognizant_dust_essence", "mysticalagriculture:cognizant_dust_seeds","floabg:farmland_6")
     crop(1200, 1.0, 1, "mysticalagriculture:allthemodium_essence", "mysticalagriculture:allthemodium_seeds","floabg:farmland_6")

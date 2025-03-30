@@ -1,0 +1,20 @@
+{
+  "name": "Arcane Essence",
+  "glint": "false",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "irons_spellbooks:arcane_essence"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": false
+  },
+  "color": "00AABE",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

@@ -125,4 +125,25 @@ ServerEvents.recipes(event => {
             }
           ]
       })
+
+      rune("irons_spellbooks:shriving_stone","mysticalagriculture:arcane_essence_essence", "mysticalagriculture:mithril_essence", "irons_spellbooks:blank_rune")
+      function rune (catalyst, input1, input2, output){
+      event.custom({
+        "type": "mysticalagriculture:infusion",
+        "input": { "item": catalyst },
+        "ingredients": [
+            {"item": input1},
+            {"item": input2},
+            {"item": input1},
+            {"item": input2},
+            {"item": input1},
+            {"item": input2},
+            {"item": input1},
+            {"item": input2}
+        ],
+        "result": 
+        { "id": output, 
+            "count": 1 
+        }
+    })}
 })
