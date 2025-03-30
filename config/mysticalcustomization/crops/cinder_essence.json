@@ -1,0 +1,20 @@
+{
+  "name": "Cinder Essence",
+  "glint": "false",
+  "enabled": "true",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "irons_spellbooks:cinder_essence"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": false
+  },
+  "color": "904600",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

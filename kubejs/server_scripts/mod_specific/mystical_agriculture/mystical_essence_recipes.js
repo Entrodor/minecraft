@@ -34,8 +34,27 @@ ServerEvents.recipes(event => {
     [
       'mysticalagriculture:arcane_crystal_essence',
     ]
-  )
+  )  
+  
+  event.shaped('16x forbidden_arcanus:aurum_log', ['AAA', 'ABA', 'AAA'], {
+    A: 'mysticalagriculture:wood_essence',
+    B: 'mysticalagriculture:gold_essence'
+  }).id('kubejs:forbidden_arcanus/aurum_log')
 
+  //Irons Spellbooks
+  event.shaped('irons_spellbooks:cinder_essence', ['AAA', 'AAA', 'AAA'], {
+    A: 'mysticalagriculture:cinder_essence_essence'
+  })
+
+  event.shaped('irons_spellbooks:arcane_essence', ['AAA', 'AAA', 'AAA'], {
+    A: 'mysticalagriculture:arcane_essence_essence'
+  })
+
+  event.shaped('irons_spellbooks:raw_mithril', ['AAA', 'AAA', 'AAA'], {
+    A: 'mysticalagriculture:mithril_essence'
+  })
+
+  //Xycraft
   event.shaped('8x xycraft_world:xychorium_gem_red', ['AAA', 'A A', 'AAA'], {
     A: 'mysticalagriculture:red_xychorium_gem_essence'
   })
@@ -55,12 +74,7 @@ ServerEvents.recipes(event => {
   event.shaped('8x xycraft_world:xychorium_gem_dark', ['AAA', 'A A', 'AAA'], {
     A: 'mysticalagriculture:dark_xychorium_gem_essence'
   })
-
-  event.shaped('16x forbidden_arcanus:aurum_log', ['AAA', 'ABA', 'AAA'], {
-    A: 'mysticalagriculture:wood_essence',
-    B: 'mysticalagriculture:gold_essence'
-  }).id('kubejs:forbidden_arcanus/aurum_log')
-
+  //Remove Recipes
   event.remove({"output": "mysticalagriculture:air_agglomeratio"})
   event.remove({"output": "mysticalagriculture:fire_agglomeratio"})
   event.remove({"output": "mysticalagriculture:water_agglomeratio"})
@@ -72,6 +86,7 @@ ServerEvents.recipes(event => {
   event.remove({"output": "mysticalagriculture:honey_agglomeratio"})
   event.remove({"output": "mysticalagriculture:prismarine_agglomeratio"})
   event.remove({"output": "mysticalagriculture:end_agglomeratio"})
+  //Mystical Agriculture
   event.shaped("mysticalagriculture:air_agglomeratio", ['ABB', 'BBC', 'CCD'], {
     A: 'minecraft:glass_bottle',
     B: 'minecraft:gravel',
