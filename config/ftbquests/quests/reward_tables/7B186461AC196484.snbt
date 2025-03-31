@@ -1,0 +1,14 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "7B186461AC196484"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "0000000000000000", item: { count: 8, id: "minecraft:cod" } }
+		{ id: "0000000000000000", item: { count: 8, id: "minecraft:salmon" } }
+		{ id: "0000000000000000", item: { count: 8, id: "minecraft:tropical_fish" } }
+		{ id: "0000000000000000", item: { count: 8, id: "minecraft:pufferfish" } }
+	]
+}

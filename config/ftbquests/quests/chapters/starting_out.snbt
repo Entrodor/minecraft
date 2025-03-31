@@ -138,5 +138,47 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["3FD5EED9E6F2A600"]
+			id: "0408AFF8D664E7BF"
+			rewards: [
+				{
+					id: "713E66F3CBF173C8"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "71D1FE53C242B95A"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7289EAB654CB07AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "14F062A284B1BDC5"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					id: "767C0A38D1AB5853"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:coal)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
 	]
 }

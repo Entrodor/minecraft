@@ -7,10 +7,71 @@
 		id: "minecraft:recovery_compass"
 	}
 	id: "20267E7D79F1B2E5"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/knowledge_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/writable_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/globe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/key"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/familiar_bookwyrm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "aether:block/dungeon/exclamation"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "grimoireofgaia:quill"
+			}
 			id: "74CBBDB32DED6205"
 			rewards: [{
 				id: "4CE6CF4DFD3E8701"
@@ -25,6 +86,9 @@
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "chipped:overjoyed_carved_pumpkin"
+			}
 			id: "7F1A11703ECB2756"
 			rewards: [{
 				id: "547A4B9CB25267E3"
@@ -314,6 +378,11 @@
 		{
 			dependencies: ["7F1A11703ECB2756"]
 			id: "074242BE8F3BF4A5"
+			rewards: [{
+				id: "4E87679EB278540B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4827D30B067D70D5"
 				item: { count: 1, id: "rainshield:rain_shield" }
@@ -325,6 +394,11 @@
 		{
 			dependencies: ["7F1A11703ECB2756"]
 			id: "338191BB5770E808"
+			rewards: [{
+				id: "605A512840582234"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "08BB0C80EF28D090"
 				item: { count: 1, id: "supplementaries:crank" }

@@ -56,6 +56,7 @@
 	chapter_group.7F9438889CB40B51.title: "Pets"
 	quest.003FDBE8D8999CBE.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.003FDBE8D8999CBE.title: "Hoglin Spawn Egg"
+	quest.00A3CB58A0F16F25.quest_desc: ["The Breeze, a new addition found in the Trial Chambers, eliminate them before they blow you into the next century."]
 	quest.00A3CB58A0F16F25.quest_subtitle: "Where did that \"breeze\" come from?"
 	quest.00A3CB58A0F16F25.title: "Breeze"
 	quest.02B6A03F72D17608.quest_desc: ["You can make the &3Ender Chest&r and &6Ender Tank&r private by &o&eright clicking&r a diamond on the &3lock&r of the &3Ender Chest&r and on the &6knob&r on the &6Ender Tank&r."]
@@ -63,6 +64,9 @@
 	quest.02B6A03F72D17608.title: "Private Storage"
 	quest.03028F41483EBB05.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.03028F41483EBB05.title: "Magma Cube Spawn Egg"
+	quest.0408AFF8D664E7BF.quest_desc: ["Iron is a basic resource in Minecraft and you will need a lot of it for the different mods in the pack."]
+	quest.0408AFF8D664E7BF.quest_subtitle: "Heavy Metal~"
+	quest.0408AFF8D664E7BF.title: "Minin' For Ores"
 	quest.040FAA48F78A8F05.title: "Stray x25"
 	quest.0412E8A0EEAE8C54.title: "Skeleton x25"
 	quest.044069E44FBEDB45.quest_desc: [
@@ -77,11 +81,13 @@
 	quest.050B35A39E3D302B.quest_desc: ["I would recommend not being hit by one of these guys."]
 	quest.050B35A39E3D302B.quest_subtitle: "Spooky Scarier Skeleton!"
 	quest.050B35A39E3D302B.title: "Wither Skeleton x5"
+	quest.05515843E0E2A06A.quest_desc: ["These brutes don't care if you are wearing gold, so take them out before they take you out."]
 	quest.05515843E0E2A06A.quest_subtitle: "You came to the wrong neighbourhood!"
 	quest.05515843E0E2A06A.title: "Piglin Brute x5"
 	quest.059A7E4E14B1C360.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.059A7E4E14B1C360.title: "Stray Spawn Egg"
 	quest.0678F09C1AB8B50C.title: "Witch x100"
+	quest.074242BE8F3BF4A5.quest_desc: ["This block will not stop it from raining but will prevent the raindrops from appearing."]
 	quest.0785ED84E5AA811E.quest_desc: ["They have destroyed our builds far to much, it is time to pay with their life!"]
 	quest.0785ED84E5AA811E.quest_subtitle: "Pocket Explosion?"
 	quest.0785ED84E5AA811E.title: "Creepers x5"
@@ -102,11 +108,12 @@
 	quest.0D58757FB5373354.quest_subtitle: "The Trader that wanders."
 	quest.0D58757FB5373354.title: "Wandering Trader"
 	quest.0D77B23A5EE0C106.quest_desc: ["All those pesky mobs just waiting to die. Lets help them with their wish!"]
-	quest.0D77B23A5EE0C106.quest_subtitle: "It's Johnny!"
+	quest.0D77B23A5EE0C106.quest_subtitle: "It's Justice I swear!"
 	quest.0D77B23A5EE0C106.title: "Kill'n Time!"
 	quest.0DC7F3DC1A1CCD08.quest_desc: ["Pets that follow the wandering trader, just as or even more annoying than the wandering trader themselves. Kill the twins for this bounty to be satisfied."]
 	quest.0DC7F3DC1A1CCD08.quest_subtitle: "Wandering Traders favourite pets!"
 	quest.0DC7F3DC1A1CCD08.title: "Trader Llama"
+	quest.0E2B167B609C3754.quest_desc: ["These guys love gold to much and is ruining the economy. Remove them so we may recover."]
 	quest.0E2B167B609C3754.quest_subtitle: "Golden Traders"
 	quest.0E2B167B609C3754.title: "Piglin x5"
 	quest.1117A6A3F27D1462.quest_desc: [
@@ -137,12 +144,14 @@
 	quest.1400DABAA26D2AE4.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1400DABAA26D2AE4.title: "Blaze Spawn Egg"
 	quest.1A4422226EAB1E0B.title: "Shulker x25"
-	quest.1BEB92F5725CA846.title: "Ravager x100"
+	quest.1BEB92F5725CA846.title: "Vindicator x100"
+	quest.1C0CA3AD1044329C.quest_desc: ["Free The End from this Mighty Beast, so it may be safer to explore."]
 	quest.1C0CA3AD1044329C.quest_subtitle: "It just wanted to be left in peace!"
 	quest.1C0CA3AD1044329C.title: "Ender Dragon"
 	quest.1C9DC4D39B121C5A.title: "Guardian x50"
 	quest.1DCBC313A4FE5D78.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1DCBC313A4FE5D78.title: "Shulker Spawn Egg"
+	quest.1E74C743C26F20AB.quest_desc: ["These creepy crawlys have caused much pain to many out there. Rid of them when you see them."]
 	quest.1E74C743C26F20AB.quest_subtitle: "Kill it with FIRE!"
 	quest.1E74C743C26F20AB.title: "Spider x5"
 	quest.1F3DD3C0D73DFF75.title: "Spider x25"
@@ -161,6 +170,7 @@
 	quest.2B4E276A4BBF6B5F.quest_desc: ["Slimes may seem harmless, well at least the tiny ones are. Time to cut their numbers down a bit."]
 	quest.2B4E276A4BBF6B5F.quest_subtitle: "Is this Nickelodeon?"
 	quest.2B4E276A4BBF6B5F.title: "Slime x5"
+	quest.2BE6234F2E0BA8C8.quest_desc: ["&6CorstaGaming&r/&cCorsta1994&r is an Admin of &4For Lack of a Better Game&r. And is the one behind the quests and some custom recipes in this Modpack. You are welcome for the custom seeds from Mystical Agriculture."]
 	quest.2BE6234F2E0BA8C8.quest_subtitle: "Eevee is best! Don't tell me otherwise."
 	quest.2D46476C2A405865.title: "Drowned x100"
 	quest.310952D3326EFF1E.quest_subtitle: "Ice Cold!"
@@ -175,6 +185,9 @@
 	quest.31FC038EAFE19742.quest_subtitle: "It's dangerous to go alone!"
 	quest.3293A03EDF13E5A7.title: "Piglin x25"
 	quest.32DAB415E847903A.title: "Spider x50"
+	quest.338191BB5770E808.quest_desc: ["Ever wanted to have an exact redstone signal for any reason, instead of trying to guess how many items you need in a chest and using a comparator. Why not give the crank ago, you are able to cycle up the redstone output by &oRight Clicking&r the crank or cycle down the redstone output by holding &oShift&r and then &oRight Click&r."]
+	quest.338191BB5770E808.quest_subtitle: "Controlling Redstone!"
+	quest.338934375AFFE665.quest_desc: ["Cave Spiders are the bane of Miners all over the Minecraft world. Squash them beneath your boots."]
 	quest.338934375AFFE665.quest_subtitle: "You wandered into the wrong cave!"
 	quest.338934375AFFE665.title: "Cave Spider x5"
 	quest.33E71DF28F3EA31E.title: "Cave Spider x100"
@@ -183,6 +196,7 @@
 	quest.34516859E6C10664.title: "Enderman x5"
 	quest.34BFEC6B3BF2D019.title: "Witch x25"
 	quest.34CD482F7CFB79F8.title: "Guardian x25"
+	quest.36709BA367FD0F90.quest_desc: ["Pillagers have pillaged and pouched enough, lets help those Allays by removing as many Pillagers as you can."]
 	quest.36709BA367FD0F90.quest_subtitle: "I'm pillagin' this village!"
 	quest.36709BA367FD0F90.title: "Pillager x5"
 	quest.38B90AAF99A49B5E.quest_desc: [
@@ -206,6 +220,9 @@
 	quest.395333E99CB1CECE.title: "Shinktastic"
 	quest.3B25050EBD52E2D3.title: "Pillager x25"
 	quest.3C5CDA1C242CAB6E.title: "Blaze x50"
+	quest.3C736E0567A02B8B.quest_desc: ["You have saved the lives of so many beings by removing these pesky mobs. You have been granted a gift from the Gods, but may need to give up some experience to be able to recieve your prize."]
+	quest.3C736E0567A02B8B.quest_subtitle: "You Killed Them All!"
+	quest.3C736E0567A02B8B.title: "Vanquisher"
 	quest.3CABFBE30B8C1BDA.title: "Hoglin x50"
 	quest.3E0C6ABF8944C6F2.title: "Hoglin x25"
 	quest.3FD5EED9E6F2A600.quest_subtitle: "Diggy Diggy Hole! - Some Dwarf"
@@ -244,12 +261,13 @@
 	quest.5019C1C73765E7FB.title: "Shulker x100"
 	quest.527541E86A04CEDF.title: "Piglin Brute x100"
 	quest.5539BF931E4FDFFB.title: "Blaze x100"
+	quest.55BBC5B6E94F886E.quest_desc: ["Our modpack is a project that we have been wanting to do for a while and is a learning experience for us. We eventually want the modpack to focus around &bJust Dire Things&r as well as different areas, to make players experience the different mods to progress."]
 	quest.55BBC5B6E94F886E.quest_subtitle: "Modpacks are hard!"
 	quest.5604BC251A165B49.quest_subtitle: "Brrraaaaiiinnnnsss!"
 	quest.5604BC251A165B49.title: "Zombies x5"
 	quest.56E8204623AF9BFB.title: "Enderman x100"
 	quest.57319B7CC5E58919.title: "Piglin Brute x50"
-	quest.57D8D5BB3EB67325.title: "Ravager x25"
+	quest.57D8D5BB3EB67325.title: "Vindicator x25"
 	quest.580BAC85AD6DFCC5.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.580BAC85AD6DFCC5.title: "Slime Spawn Egg"
 	quest.5813E374EEB89E62.title: "Magma Cube x50"
@@ -259,6 +277,7 @@
 	quest.5A70048B7415D646.title: "Stray x100"
 	quest.5B77365AF81CF245.title: "Slime x100"
 	quest.5BD7CFADD0E1829C.title: "Time to mineCRAFT!"
+	quest.5C4E4F3EAA5A59A4.quest_desc: ["Evokers the \"owners\" of the Woodland Mansion. They wouldn't be so bad if they didn't spawn those annoying Vexs."]
 	quest.5C4E4F3EAA5A59A4.quest_subtitle: "Totems of Undying are not enough to save them!"
 	quest.5C4E4F3EAA5A59A4.title: "Evoker and Vex"
 	quest.5DEADBED5FB7E74E.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -267,6 +286,7 @@
 	quest.5E3B546FC673D448.title: "Skeleton Spawn Egg"
 	quest.5E5B007E31F4F1E0.quest_subtitle: "Guardians of the something!"
 	quest.5E5B007E31F4F1E0.title: "Guardian x5"
+	quest.5ED7A29CD68127EB.quest_desc: ["The most annoying Nether mob, always seem to be able to hit you further than you can hit it. Kill all that you come across."]
 	quest.5ED7A29CD68127EB.quest_subtitle: "Oink Oink"
 	quest.5ED7A29CD68127EB.title: "Hoglin x5"
 	quest.5F2D62738487ECAE.quest_desc: ["You got to start somewhere so why not start with getting some wooden logs?"]
@@ -291,8 +311,9 @@
 	quest.664E7006C6876BE8.title: "Wither Skeleton Spawn Egg"
 	quest.67A3C886D2F6FE1C.title: "Drowned x25"
 	quest.690ADD4443D99181.title: "Witch x50"
+	quest.69594B2E620EECC6.quest_desc: ["The Elder Guardians, the protectors of the underwater Monument. Preventing those that wish to explore from breaking thier way in, remove them so that you may collect the treasures found within."]
 	quest.69594B2E620EECC6.quest_subtitle: "Is it from the Prison of Elders?"
-	quest.69594B2E620EECC6.title: "Guardian"
+	quest.69594B2E620EECC6.title: "Elder Guardian"
 	quest.69C6BF51E06E2227.quest_desc: ["&0Entrodor_Wolfry&r is the Owner of &4For Lack Of A Better Game&r or &4FLoaBG&r for short. Which is a gaming community that is still trying to grow."]
 	quest.6B5B3EAE0CA0DDE5.title: "Piglin x100"
 	quest.6D2150F7EB73A8D8.quest_desc: [
@@ -302,17 +323,26 @@
 	]
 	quest.6D2150F7EB73A8D8.quest_subtitle: "Are we there yet?"
 	quest.6D2150F7EB73A8D8.title: "The Compasses"
+	quest.6D6781DB8A38BACE.quest_desc: [
+		"Better beacons allow you to have better control over your beacons, by effecting the amplifier of the effects as well as the range from the beacon. "
+		""
+		"&4Note: Further information will be added at a later date.&r"
+	]
 	quest.6D6781DB8A38BACE.quest_subtitle: "I thought that said bacon! I am sad now!"
+	quest.6D6781DB8A38BACE.title: "Better Beacons"
 	quest.6D903660203F7B5C.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.6D903660203F7B5C.title: "Husk Spawn Egg"
+	quest.6DA10C236212DBD8.quest_desc: ["These firce monsters are not recommened to face when unprepared. Gear up and slay them before they can cause any more damage."]
 	quest.6DA10C236212DBD8.quest_subtitle: "Fade Away - SAMURAI"
 	quest.6DA10C236212DBD8.title: "Wither"
+	quest.6EC2BA0B7C167DC3.quest_desc: ["Summon the Mighty Beasts children so that you may eliminate them."]
 	quest.6EC2BA0B7C167DC3.quest_subtitle: "They are now on the Endangered species list!"
-	quest.6EC2BA0B7C167DC3.title: "Ender Dragon Again?"
+	quest.6EC2BA0B7C167DC3.title: "Ender Dragon Rises Again?"
 	quest.6EC57872D3A9F310.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.6EC57872D3A9F310.title: "Creeper Spawn Egg"
 	quest.70EAFC1BDA945E5D.title: "Slime x25"
 	quest.7190E7A8F8169193.title: "Cave Spider x25"
+	quest.71D258ABC5C3DEF8.quest_desc: ["Witches, one of the most annoying mob, constantly poisioning people. Thin them out by eliminating them."]
 	quest.71D258ABC5C3DEF8.quest_subtitle: "Where are the red slippers?"
 	quest.71D258ABC5C3DEF8.title: "Witch x5"
 	quest.748130657A74B4DE.title: "Blaze x25"
@@ -321,19 +351,20 @@
 	quest.7555327666DBD4C0.quest_subtitle: "Breaking the World!"
 	quest.7555327666DBD4C0.title: "Cobbled Together"
 	quest.7558B697A870FF20.title: "Pillager x50"
-	quest.76A5553B889E645A.quest_subtitle: "I am HUNGRY!"
-	quest.76A5553B889E645A.title: "Ravager x5"
+	quest.76A5553B889E645A.quest_subtitle: "Here Comes Johnny!"
+	quest.76A5553B889E645A.title: "Vindicator x5"
 	quest.76A7B8F55D9472DA.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
-	quest.76A7B8F55D9472DA.title: "Ravager Spawn Egg"
+	quest.76A7B8F55D9472DA.title: "Vindicator Spawn Egg"
 	quest.79ED8A855544A42A.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.79ED8A855544A42A.title: "Spider Spawn Egg"
-	quest.7C1BD7A427B09BF3.title: "Ravager x50"
+	quest.7C1BD7A427B09BF3.title: "Vindicator x50"
 	quest.7F0DE409B848DB46.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.7F0DE409B848DB46.title: "Pillager Spawn Egg"
 	quest.7F1A11703ECB2756.quest_desc: ["Here are some tricks that may come in handy."]
 	quest.7F1A11703ECB2756.quest_subtitle: "Is it Halloween?"
 	reward_table.564EF318A81492CA.title: "vanillafoods"
 	reward_table.594294977C70DECC.title: "vanillasaplings"
+	reward_table.7B186461AC196484.title: "vanillafish"
 	task.0024E4ED7F1FADA9.title: "Commands"
 	task.1C937596FD509C87.title: "Kill Them All!"
 	task.2142409CB902670B.title: "Joined the World!"
@@ -350,6 +381,7 @@
 	task.5CB46D2452BDE728.title: "Furnace"
 	task.62886DFAAF607457.title: "Crafting Table"
 	task.6787F86113FE8773.title: "Creepers x50"
+	task.767C0A38D1AB5853.title: "Any Type of Coal"
 	task.7987C9596E1F347F.title: "Pack Info"
 	task.7AF29117A4B33D4E.title: "Homes"
 }
