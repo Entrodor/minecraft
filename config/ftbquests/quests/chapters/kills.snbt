@@ -4381,7 +4381,7 @@
 									translate: "affix.apotheosis:melee/attribute/violent"
 								}
 								{
-									: ""
+									translate: "apotheosis:melee/mob_effect/bloodletting"
 								}
 								{
 									translate: "affix.apotheosis:melee/attribute/glacial.suffix"
