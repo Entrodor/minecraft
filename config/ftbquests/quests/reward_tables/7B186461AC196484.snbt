@@ -6,9 +6,37 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ id: "0000000000000000", item: { count: 8, id: "minecraft:cod" } }
-		{ id: "0000000000000000", item: { count: 8, id: "minecraft:salmon" } }
-		{ id: "0000000000000000", item: { count: 8, id: "minecraft:tropical_fish" } }
-		{ id: "0000000000000000", item: { count: 8, id: "minecraft:pufferfish" } }
+		{
+			count: 8
+			id: "7EE26FACF0DB23E0"
+			item: {
+				count: 1
+				id: "minecraft:cod"
+			}
+		}
+		{
+			count: 8
+			id: "5F6BE7E41BB2055C"
+			item: {
+				count: 1
+				id: "minecraft:salmon"
+			}
+		}
+		{
+			count: 8
+			id: "308EC8649A93BC7D"
+			item: {
+				count: 1
+				id: "minecraft:tropical_fish"
+			}
+		}
+		{
+			count: 8
+			id: "5DCF7B74412EF6DC"
+			item: {
+				count: 1
+				id: "minecraft:pufferfish"
+			}
+		}
 	]
 }
