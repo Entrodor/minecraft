@@ -1,0 +1,45 @@
+{
+  "essences": {
+    "aureal": 500,
+    "blood": 9000,
+    "souls": 25
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "silentgear:tyrian_steel_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "tag": "iceandfire:dragon_steels"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:lightning_bottle"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:starbuncle_shards"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "forbidden_arcanus:edelwood_stick"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "mahoutsukai:dagger"
+    }
+  }
+}

@@ -11,6 +11,7 @@
 	chapter.20267E7D79F1B2E5.title: "Tips and Tricks"
 	chapter.22D3727CEB9F417A.title: "Welcome"
 	chapter.233E6B6FAC5B10D7.title: "Ars Nouveau"
+	chapter.2847D21669D4B3FB.title: "Mahou Tsukai"
 	chapter.2AB4447C6E598283.title: "Deeper and Darker"
 	chapter.2B05F3CDD2DCCE53.title: "Crystal Chronicles"
 	chapter.2C632871D74DF825.title: "Dimensional Dungeons"
@@ -166,6 +167,8 @@
 	quest.26D83E42B0471CC3.title: "Cave Spider x50"
 	quest.27B8090B645B4CD9.title: "Stray x50"
 	quest.282D8E71EDBAD2A4.title: "Piglin x50"
+	quest.289A39192951B671.quest_subtitle: "A girls best friend!"
+	quest.289A39192951B671.title: "DIAMONDS"
 	quest.2A10D0A0B07AE40D.title: "Wither Skeleton x25"
 	quest.2B4E276A4BBF6B5F.quest_desc: ["Slimes may seem harmless, well at least the tiny ones are. Time to cut their numbers down a bit."]
 	quest.2B4E276A4BBF6B5F.quest_subtitle: "Is this Nickelodeon?"

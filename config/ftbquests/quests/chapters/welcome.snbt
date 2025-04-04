@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: "74FDE0A48BB346DA"
+	icon: {
+		id: "kubejs:completed_black_hole"
+	}
 	id: "22D3727CEB9F417A"
 	images: [
 		{
@@ -40,7 +43,7 @@
 			id: "31FC038EAFE19742"
 			rewards: [
 				{
-					id: "75837B8F489E134D"
+					id: "00167973F839DE82"
 					item: {
 						components: {
 							"eccentrictome:mod_list": {
@@ -84,13 +87,19 @@
 									count: 1
 									id: "patchouli:guide_book"
 								}]
-								iceandfire: [{
-									components: {
-										"patchouli:book": "iceandfire:iceandfire"
+								iceandfire: [
+									{
+										components: {
+											"patchouli:book": "iceandfire:iceandfire"
+										}
+										count: 1
+										id: "patchouli:guide_book"
 									}
-									count: 1
-									id: "patchouli:guide_book"
-								}]
+									{
+										count: 1
+										id: "iceandfire:bestiary"
+									}
+								]
 								immersiveengineering: [{
 									count: 1
 									id: "immersiveengineering:manual"
@@ -153,7 +162,7 @@
 					type: "item"
 				}
 				{
-					id: "249E97B3908DCF45"
+					id: "3D653112A759A8EF"
 					type: "xp_levels"
 					xp_levels: 5
 				}
