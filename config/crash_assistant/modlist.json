@@ -287,6 +287,10 @@
     "modId": "chipped",
     "version": "4.0.2"
   },
+  "chisels-and-bits-neoforge-21.1.25.jar": {
+    "modId": "chiselsandbits",
+    "version": "21.1.25"
+  },
   "chunkactivitytracker-neoforge-1.0.1-1.21.1.jar": {
     "modId": "chunkactivitytracker",
     "version": "1.0.1"
@@ -955,10 +959,6 @@
   "little_foxes-1.0.2-neoforge-1.21.1.jar": {
     "modId": "little_foxes",
     "version": "1.0.0"
-  },
-  "LittleTiles_BETA_v1.6.0-pre157_mc1.21.1.jar": {
-    "modId": "littletiles",
-    "version": "1.6.0-pre157"
   },
   "livingthings-neoforge-1.21.1-2.2.0.jar": {
     "modId": "livingthings",
