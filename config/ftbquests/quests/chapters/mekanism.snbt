@@ -9,5 +9,281 @@
 	id: "1045B116AB0950B3"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4C74785E585C25F3"
+			tasks: [{
+				id: "0C495FBE15B0CEE2"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "67FBE7B8CEFC7B76"
+			tasks: [{
+				id: "5280E9B5C6092A2E"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "741D2BB442831453"
+			rewards: [{
+				id: "585654078D5E78A3"
+				item: {
+					count: 1
+					id: "mekanism:enriched_carbon"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6DB09C366E64E7B6"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "727ED37C9F3CE2E4"
+					item: { count: 8, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "647680C99BEA584F"
+			tasks: [{
+				id: "3462669CF5E48E64"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "166A4BFB7274ACCE"
+			tasks: [{
+				id: "599A23CC8F23A954"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "4BF223A83F08F086"
+			tasks: [{
+				id: "4B1D81B0E2A71AE4"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "4186EDE09E873DD2"
+			tasks: [{
+				id: "47006E1F5611BFA6"
+				item: { count: 1, id: "mekanism:enriched_carbon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "0E7A5FCA1F5C5682"
+			tasks: [{
+				id: "76E6614077A94911"
+				item: { count: 1, id: "mekanism:enriched_redstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "5B15F049FDF67382"
+			tasks: [{
+				id: "527BCAC292CAA92E"
+				item: { count: 1, id: "mekanism:enriched_diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "574DF9F03BC78AEC"
+			tasks: [{
+				id: "71746D3BFB8F80A0"
+				item: { count: 1, id: "mekanism:enriched_refined_obsidian" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "75335A7BA63DC7E2"
+			tasks: [{
+				id: "119A59F7B4553DF1"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "268A725DB91AF7F9"
+			tasks: [{
+				id: "02E54E90859A20F7"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "2E5ACFF340E1C3CF"
+			tasks: [{
+				id: "646B2FAB9D8076FE"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4212D15A48E05FA4"
+			tasks: [{
+				id: "15E32153540379CA"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "0A9926155BABFEE1"
+			tasks: [{
+				id: "56ACEB47FCB6031B"
+				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "6623B687721E72E6"
+			tasks: [{
+				id: "0734C3CF913208C2"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "2AEFCFB1624B5E18"
+			tasks: [{
+				id: "619B30A2A1CB1C26"
+				item: { count: 1, id: "mekanism:advanced_tier_installer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "147C3915408E8597"
+			tasks: [{
+				id: "7DF7980AA5F53CA0"
+				item: { count: 1, id: "mekanism:elite_tier_installer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			id: "6F10DA841B698A32"
+			tasks: [{
+				id: "7DDAE1F181698B49"
+				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "62D988E2C6952FD4"
+			tasks: [{
+				id: "4DAC8709C6C317AA"
+				item: { count: 1, id: "mekanism:upgrade_speed" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "305A5B30F49B283D"
+			tasks: [{
+				id: "748637705B4E3871"
+				item: { count: 1, id: "mekanism:upgrade_energy" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "279A343780CAAB0C"
+			tasks: [{
+				id: "2D38530D6DD5C17D"
+				item: { count: 1, id: "mekanism:upgrade_muffling" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "1282D61DAEF54B85"
+			tasks: [{
+				id: "5B4D13F5B2A67CE8"
+				item: { count: 1, id: "mekanism:upgrade_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			id: "24081F5EF8316EC4"
+			tasks: [{
+				id: "20BAA5CF717E44BE"
+				item: { count: 1, id: "mekanism:upgrade_chemical" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "02C5B27A0CCB97FA"
+			tasks: [{
+				id: "617D12253042A4E8"
+				item: { count: 1, id: "mekanism:configurator" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "62257E89288FBBA1"
+			tasks: [{
+				id: "25843CBA209AD951"
+				item: { count: 1, id: "mekanism:bio_fuel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
 }

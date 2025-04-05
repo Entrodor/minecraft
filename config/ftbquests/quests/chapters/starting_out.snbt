@@ -94,20 +94,12 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "3CA406247E87CB3A"
-					item: { count: 1, id: "minecraft:stone_pickaxe" }
-					only_from_crafting: true
-					type: "item"
-				}
-				{
-					id: "0743E00E586A9FC4"
-					item: { count: 1, id: "minecraft:stone_shovel" }
-					only_from_crafting: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3CA406247E87CB3A"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				only_from_crafting: true
+				type: "item"
+			}]
 			x: 1.5d
 			y: -1.5d
 		}
@@ -186,29 +178,58 @@
 		{
 			dependencies: ["0408AFF8D664E7BF"]
 			id: "7B5701CCA208796F"
-			tasks: [
-				{
-					id: "22F9BC7EBFABA5F1"
-					item: { count: 1, id: "minecraft:iron_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "4A2AE25448FB90CF"
-					item: { count: 1, id: "minecraft:iron_shovel" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22F9BC7EBFABA5F1"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			id: "289A39192951B671"
+			rewards: [{
+				id: "1B706B52EB50089F"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1652CA3AE5953E0A"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "139BCBFAA571D1E2"
+			tasks: [{
+				id: "7B688C3CE041934C"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "79D4A0283E448CE5"
+			rewards: [{
+				id: "28EB2EFE8289F51E"
+				item: {
+					count: 1
+					id: "minecraft:ancient_debris"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1718E35B120DC4AD"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 6.5d
 			y: -2.5d
 		}
 	]
