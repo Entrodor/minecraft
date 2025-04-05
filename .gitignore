@@ -29,6 +29,7 @@
 /config/fabric/
 config/*
 /debug
+/chiselsandbits
 
 #blacklisted files
 command_history.txt
