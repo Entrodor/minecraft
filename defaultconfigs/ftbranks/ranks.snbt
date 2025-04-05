@@ -3,6 +3,8 @@
 		name: "Member"
 		power: 1
 		condition: "always_active"
+		xaero.pac_max_claims: 49
+		xaero.pac_max_forceloads: 2
 	}
 	memberone: {
 		name: "Member +"
@@ -12,7 +14,9 @@
 			time: 1
 			time_unit: "days"
 		}
+		ftbranks.name_format: "Member+ {name}"
 		ftbessentials.home.max: 2
+		xaero.pac_max_forceloads: 3
 	}
 	membertwo: {
 		name: "Member ++"
@@ -22,7 +26,9 @@
 			time: 1
 			time_unit: "weeks"
 		}
+		ftbranks.name_format: "Member++ {name}"
 		ftbessentials.home.max: 3
+		xaero.pac_max_forceloads: 4
 	}
 	vip: {
 		name: "VIP"
@@ -34,5 +40,6 @@
 		power: 1000
 		condition: "op"
 		ftbranks.name_format: "&6Admin&r &b{name}&r"
+		xaero.pac_max_claims: 49
 	}
 }
