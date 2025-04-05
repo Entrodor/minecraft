@@ -287,6 +287,10 @@
     "modId": "chipped",
     "version": "4.0.2"
   },
+  "chisels-and-bits-neoforge-21.1.25.jar": {
+    "modId": "chiselsandbits",
+    "version": "21.1.25"
+  },
   "chunkactivitytracker-neoforge-1.0.1-1.21.1.jar": {
     "modId": "chunkactivitytracker",
     "version": "1.0.1"
@@ -956,10 +960,6 @@
     "modId": "little_foxes",
     "version": "1.0.0"
   },
-  "LittleTiles_BETA_v1.6.0-pre157_mc1.21.1.jar": {
-    "modId": "littletiles",
-    "version": "1.6.0-pre157"
-  },
   "livingthings-neoforge-1.21.1-2.2.0.jar": {
     "modId": "livingthings",
     "version": "1.21.1-2.2.0"
@@ -1255,10 +1255,6 @@
   "Not Enough Recipe Book-NEOFORGE-0.4.1.jar": {
     "modId": "nerb",
     "version": "0.4.1"
-  },
-  "not_enough_glyphs-1.21.1-4.0.6.jar": {
-    "modId": "not_enough_glyphs",
-    "version": "4.0.6"
   },
   "notenoughanimations-neoforge-1.9.3-mc1.21.jar": {
     "modId": "notenoughanimations",
