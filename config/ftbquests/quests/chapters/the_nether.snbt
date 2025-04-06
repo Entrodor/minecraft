@@ -9,5 +9,14 @@
 	id: "6FEEFF5F71395A83"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "1030936A2A3F895E"
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			id: "39137F9755F836AD"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

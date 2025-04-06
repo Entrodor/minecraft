@@ -9,5 +9,14 @@
 	id: "028411279A56DB7A"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "361340A36383A5D6"
+		tasks: [{
+			dimension: "minecraft:the_end"
+			id: "52CDD05C3D4E844F"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }
