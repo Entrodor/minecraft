@@ -327,6 +327,10 @@
     "modId": "clumps",
     "version": "19.0.0.1"
   },
+  "cobweb-neoforge-1.21-1.3.3.jar": {
+    "modId": "cobweb",
+    "version": "1.3.3"
+  },
   "CodeChickenLib-1.21.1-4.6.0.521.jar": {
     "modId": "codechickenlib",
     "version": "4.6.0.521"
@@ -786,6 +790,10 @@
     "modId": "handcrafted",
     "version": "4.0.3"
   },
+  "harvest-with-ease-neoforge-1.21-9.4.0.jar": {
+    "modId": "harvest_with_ease",
+    "version": "9.4.0"
+  },
   "Highlighter-1.21-neoforge-1.1.11.jar": {
     "modId": "highlighter",
     "version": "1.1.11"
@@ -1188,6 +1196,10 @@
     "modId": "morefunctionalstorage",
     "version": "1.2.1"
   },
+  "morejs-neoforge-1.21-0.13.1.jar": {
+    "modId": "morejs",
+    "version": "1.21-0.13.1"
+  },
   "moreoverlays-1.23.2-mc1.21-neoforge.jar": {
     "modId": "moreoverlays",
     "version": "1.23.2-neoforge"
@@ -1451,10 +1463,6 @@
   "rhino-2101.2.7-build.74.jar": {
     "modId": "rhino",
     "version": "2101.2.7-build.74"
-  },
-  "rightclickharvest-neoforge-4.5.3+1.21.1.jar": {
-    "modId": "rightclickharvest",
-    "version": "4.5.3+1.21.1"
   },
   "ScalableLux-0.1.0+beta.2+neoforge.1a07a27-all.jar": {
     "modId": "scalablelux",
