@@ -39,6 +39,7 @@
 	chapter.6D0AFF6F36F1301D.title: "Doggy Talents"
 	chapter.6DFD8907DE91836E.title: "Ice and Fire"
 	chapter.6FEEFF5F71395A83.title: "The Nether"
+	chapter.713090E2204B46ED.title: "Advanced Mekanism"
 	chapter.73BB868C4E262B76.title: "Starting Out"
 	chapter.74436712402AF9E2.title: "Artifacts"
 	chapter.78C0663E6C47260E.title: "Actually Additions"
@@ -97,6 +98,7 @@
 	quest.07D8DECAAA0EF635.quest_desc: ["These boney things need to die! Again? On the plus side, plants love the bone meal."]
 	quest.07D8DECAAA0EF635.quest_subtitle: "Spooky Scary Skeleton!"
 	quest.07D8DECAAA0EF635.title: "Skeleton x5"
+	quest.080BAE3733E269B9.title: "The Big Sniff"
 	quest.084F381EDCD63142.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.084F381EDCD63142.title: "Piglin Spawn Egg"
 	quest.08BACC3D1550B2C5.title: "Husk x50"
@@ -117,6 +119,8 @@
 	quest.0E2B167B609C3754.quest_desc: ["These guys love gold to much and is ruining the economy. Remove them so we may recover."]
 	quest.0E2B167B609C3754.quest_subtitle: "Golden Traders"
 	quest.0E2B167B609C3754.title: "Piglin x5"
+	quest.1030936A2A3F895E.quest_subtitle: "Boy it's hot in here!"
+	quest.1030936A2A3F895E.title: "Better in the Nether"
 	quest.1117A6A3F27D1462.quest_desc: [
 		"Simple Magnets is a useful mod, allow players to attract items and experience from a distance away. The &7Basic Magnet&r can be toggled on and off be &bRight Clicking&r whilst holding the magnet."
 		""
@@ -142,8 +146,13 @@
 	quest.1362BB61A7807260.title: "Husk x5"
 	quest.136F9E6DB5A62956.title: "Shulker x50"
 	quest.138DCDE753D77338.title: "Skeleton x50"
+	quest.139BCBFAA571D1E2.quest_subtitle: "Most Expencive Pickaxe!"
+	quest.13A6DE7F9C44349F.title: "Flower of the Torch"
 	quest.1400DABAA26D2AE4.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1400DABAA26D2AE4.title: "Blaze Spawn Egg"
+	quest.141C8CB4BE29C5B9.title: "Archaeology"
+	quest.158311E8E3BE0691.quest_subtitle: "Bling Bling!"
+	quest.158311E8E3BE0691.title: "Diamond Gear"
 	quest.1A4422226EAB1E0B.title: "Shulker x25"
 	quest.1BEB92F5725CA846.title: "Vindicator x100"
 	quest.1C0CA3AD1044329C.quest_desc: ["Free The End from this Mighty Beast, so it may be safer to explore."]
@@ -199,6 +208,8 @@
 	quest.34516859E6C10664.title: "Enderman x5"
 	quest.34BFEC6B3BF2D019.title: "Witch x25"
 	quest.34CD482F7CFB79F8.title: "Guardian x25"
+	quest.361340A36383A5D6.quest_subtitle: "Where did that Dragon come from?"
+	quest.361340A36383A5D6.title: "This can't be the End"
 	quest.36709BA367FD0F90.quest_desc: ["Pillagers have pillaged and pouched enough, lets help those Allays by removing as many Pillagers as you can."]
 	quest.36709BA367FD0F90.quest_subtitle: "I'm pillagin' this village!"
 	quest.36709BA367FD0F90.title: "Pillager x5"
@@ -245,8 +256,11 @@
 		"&4Note: You may need to relog onto the server or reload your save to have the effect of new ranks.&r"
 	]
 	quest.4323C192241B7DBA.quest_subtitle: "Homes you say?"
+	quest.43DC34DFD0F63B6E.quest_subtitle: "I'm Iron Man!"
+	quest.43DC34DFD0F63B6E.title: "Iron Gear"
 	quest.44E3A1C8FA69EF7C.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.44E3A1C8FA69EF7C.title: "Cave Spider Spawn Egg"
+	quest.4536F85800E08F3D.title: "Sherds Away"
 	quest.4673E09419CF2A71.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.4673E09419CF2A71.title: "Zombie Spawn Egg"
 	quest.46955C4896B9FA12.title: "Slime x50"
@@ -263,6 +277,7 @@
 	quest.4CDB26ED08E6411C.title: "Magma Cube x25"
 	quest.5019C1C73765E7FB.title: "Shulker x100"
 	quest.527541E86A04CEDF.title: "Piglin Brute x100"
+	quest.54E4661775F350A7.title: "Build a Nether Portal"
 	quest.5539BF931E4FDFFB.title: "Blaze x100"
 	quest.55BBC5B6E94F886E.quest_desc: ["Our modpack is a project that we have been wanting to do for a while and is a learning experience for us. We eventually want the modpack to focus around &bJust Dire Things&r as well as different areas, to make players experience the different mods to progress."]
 	quest.55BBC5B6E94F886E.quest_subtitle: "Modpacks are hard!"
@@ -313,6 +328,10 @@
 	quest.664E7006C6876BE8.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.664E7006C6876BE8.title: "Wither Skeleton Spawn Egg"
 	quest.67A3C886D2F6FE1C.title: "Drowned x25"
+	quest.68755E13CFD91963.quest_subtitle: "Whose's Cutting Onions?"
+	quest.68755E13CFD91963.title: "Crying Purple Tears"
+	quest.68FDCC96DFB232A2.quest_subtitle: "Volcanic Glass."
+	quest.68FDCC96DFB232A2.title: "Ice Bucket Challenge"
 	quest.690ADD4443D99181.title: "Witch x50"
 	quest.69594B2E620EECC6.quest_desc: ["The Elder Guardians, the protectors of the underwater Monument. Preventing those that wish to explore from breaking thier way in, remove them so that you may collect the treasures found within."]
 	quest.69594B2E620EECC6.quest_subtitle: "Is it from the Prison of Elders?"
@@ -351,6 +370,8 @@
 	quest.748130657A74B4DE.title: "Blaze x25"
 	quest.74CBBDB32DED6205.quest_desc: ["Here are some useful tips, items or blocks that may make your life easier in this Modpack."]
 	quest.74CBBDB32DED6205.quest_subtitle: "Sharp like an arrow?"
+	quest.752C219678F54760.quest_subtitle: "How does this work?"
+	quest.752C219678F54760.title: "Magic Gear!"
 	quest.7555327666DBD4C0.quest_subtitle: "Breaking the World!"
 	quest.7555327666DBD4C0.title: "Cobbled Together"
 	quest.7558B697A870FF20.title: "Pillager x50"
@@ -360,6 +381,8 @@
 	quest.76A7B8F55D9472DA.title: "Vindicator Spawn Egg"
 	quest.79ED8A855544A42A.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.79ED8A855544A42A.title: "Spider Spawn Egg"
+	quest.7B5701CCA208796F.quest_subtitle: "It's Just Science!"
+	quest.7B5701CCA208796F.title: "26^th Atomic Pickaxe"
 	quest.7C1BD7A427B09BF3.title: "Vindicator x50"
 	quest.7F0DE409B848DB46.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.7F0DE409B848DB46.title: "Pillager Spawn Egg"
@@ -382,6 +405,8 @@
 	task.441DB95E0A13CE43.title: "About CorstaGaming"
 	task.45986AB9A73712ED.title: "Tools"
 	task.470EB12F0227C182.title: "About Entrodor_Wolfry"
+	task.47E95A59D1BB29BC.title: "Any #minecraft:decorated_pot_sherds"
+	task.598A51A1A4B867FD.title: "Any #c:brushes"
 	task.59A8A6F470A184AA.title: "Creepers x100"
 	task.5CB46D2452BDE728.title: "Furnace"
 	task.62886DFAAF607457.title: "Crafting Table"

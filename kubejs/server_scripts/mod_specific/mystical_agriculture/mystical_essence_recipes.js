@@ -75,17 +75,10 @@ ServerEvents.recipes(event => {
     A: 'mysticalagriculture:dark_xychorium_gem_essence'
   })
   //Remove Recipes
-  event.remove({"output": "mysticalagriculture:air_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:fire_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:water_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:earth_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:nature_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:dye_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:nether_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:coral_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:honey_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:prismarine_agglomeratio"})
-  event.remove({"output": "mysticalagriculture:end_agglomeratio"})
+  const aggs = ["air", "fire", "water", "earth", "nature", "nature", "dye", "nether", "coral", "honey", "prismarine", "end"]
+  aggs.forEach(agg => {
+  event.remove({"output": `mysticalagriculture:${agg}_agglomeratio`})
+  })
   //Mystical Agriculture
   event.shaped("mysticalagriculture:air_agglomeratio", ['ABB', 'BBC', 'CCD'], {
     A: 'minecraft:glass_bottle',

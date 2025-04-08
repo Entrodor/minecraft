@@ -1,27 +1,10 @@
 ServerEvents.recipes(event => { 
-    event.remove({id: 'mininggadgets:upgrade_silk'})
-    event.remove({id: 'mininggadgets:upgrade_void_junk'})
-    event.remove({id: 'mininggadgets:upgrade_magnet'})
-    event.remove({id: 'mininggadgets:upgrade_size_1'})
-    event.remove({id: 'mininggadgets:upgrade_size_2'})
-    event.remove({id: 'mininggadgets:upgrade_size_3'})
-    event.remove({id: 'mininggadgets:upgrade_light_placer'})
-    event.remove({id: 'mininggadgets:upgrade_freezing'})
-    event.remove({id: 'mininggadgets:upgrade_fortune_1'})
-    event.remove({id: 'mininggadgets:upgrade_fortune_2'})
-    event.remove({id: 'mininggadgets:upgrade_fortune_3'})
-    event.remove({id: 'mininggadgets:upgrade_range_1'})
-    event.remove({id: 'mininggadgets:upgrade_range_2'})
-    event.remove({id: 'mininggadgets:upgrade_range_3'})
-    event.remove({id: 'mininggadgets:upgrade_battery_1'})
-    event.remove({id: 'mininggadgets:upgrade_battery_2'})
-    event.remove({id: 'mininggadgets:upgrade_battery_3'})
-    event.remove({id: 'mininggadgets:upgrade_efficiency_1'})
-    event.remove({id: 'mininggadgets:upgrade_efficiency_2'})
-    event.remove({id: 'mininggadgets:upgrade_efficiency_3'})
-    event.remove({id: 'mininggadgets:upgrade_efficiency_4'})
-    event.remove({id: 'mininggadgets:upgrade_efficiency_5'})
-    event.remove({id: 'mininggadgets:upgrade_empty'})
+
+    const gadget = ["silk", "void_junk", "magnet", "size_1", "size_2", "size_3", "light_placer", "freezing", "fortune_1", "fortune_2", "fortune_3", "range_1", "range_2", "range_3",
+                    "battery_1", "battery_2", "battery_3", "efficiency_1", "efficiency_2", "efficiency_3", "efficiency_4", "efficiency_5", "empty"]
+    gadget.forEach(mining => {
+      event.remove({"output": `mininggadgets:upgrade_${mining}`})
+    })
     event.remove({id: 'mininggadgets:modificationtable'})
     event.remove({id: 'mininggadgets:mininggadget_simple'})
     event.remove({id: 'mininggadgets:mininggadget_fancy'})

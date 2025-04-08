@@ -1188,6 +1188,10 @@
     "modId": "morefunctionalstorage",
     "version": "1.2.1"
   },
+  "morejs-neoforge-1.21-0.13.1.jar": {
+    "modId": "morejs",
+    "version": "1.21-0.13.1"
+  },
   "moreoverlays-1.23.2-mc1.21-neoforge.jar": {
     "modId": "moreoverlays",
     "version": "1.23.2-neoforge"

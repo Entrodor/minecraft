@@ -9,14 +9,31 @@
 	id: "6FEEFF5F71395A83"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "1030936A2A3F895E"
-		tasks: [{
-			dimension: "minecraft:the_nether"
-			id: "39137F9755F836AD"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "1030936A2A3F895E"
+			rewards: [{
+				id: "54AAA93FA260B997"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "39137F9755F836AD"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78A5D9394283B604"
+			tasks: [{
+				id: "5B4BEC0282525396"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:netherite_sword)item(minecraft:netherite_helmet)item(minecraft:netherite_chestplate)item(minecraft:netherite_leggings)item(minecraft:netherite_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
 }

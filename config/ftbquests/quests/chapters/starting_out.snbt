@@ -187,6 +187,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["7B5701CCA208796F"]
 			id: "289A39192951B671"
 			rewards: [{
 				id: "1B706B52EB50089F"
@@ -205,6 +206,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["289A39192951B671"]
 			id: "139BCBFAA571D1E2"
 			tasks: [{
 				id: "7B688C3CE041934C"
@@ -215,22 +217,147 @@
 			y: -1.5d
 		}
 		{
-			id: "79D4A0283E448CE5"
-			rewards: [{
-				id: "28EB2EFE8289F51E"
-				item: {
-					count: 1
-					id: "minecraft:ancient_debris"
-				}
-				type: "item"
-			}]
+			id: "68FDCC96DFB232A2"
 			tasks: [{
-				id: "1718E35B120DC4AD"
-				item: { count: 1, id: "minecraft:ancient_debris" }
+				id: "55720F75B74DFB2B"
+				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
 			x: 6.5d
 			y: -2.5d
+		}
+		{
+			id: "54E4661775F350A7"
+			tasks: [
+				{
+					id: "5BED30C5A4FDD003"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "3EAEBF7F761C2177"
+					type: "advancement"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "752C219678F54760"
+			rewards: [
+				{
+					count: 12
+					id: "053D4145177DC01B"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "0D609E84280C4F49"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "682FE81BA6A8F993"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "708515D5F255FD0C"
+					item: { count: 12, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0408AFF8D664E7BF"]
+			id: "43DC34DFD0F63B6E"
+			tasks: [{
+				id: "128040FF4F696F7B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_sword)item(minecraft:iron_helmet)item(minecraft:iron_chestplate)item(minecraft:iron_leggings)item(minecraft:iron_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["289A39192951B671"]
+			id: "158311E8E3BE0691"
+			tasks: [{
+				id: "18184095A386C8B8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:diamond_sword)item(minecraft:diamond_helmet)item(minecraft:diamond_chestplate)item(minecraft:diamond_leggings)item(minecraft:diamond_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "141C8CB4BE29C5B9"
+			tasks: [{
+				id: "598A51A1A4B867FD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:brushes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "4536F85800E08F3D"
+			tasks: [{
+				id: "47E95A59D1BB29BC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:decorated_pot_sherds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "080BAE3733E269B9"
+			tasks: [{
+				id: "135897FF4A41AD99"
+				item: { count: 1, id: "minecraft:sniffer_egg" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "13A6DE7F9C44349F"
+			tasks: [{
+				id: "62CA229231710A57"
+				item: { count: 1, id: "minecraft:torchflower_seeds" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "68755E13CFD91963"
+			rewards: [{
+				count: 3
+				id: "50098C92DB2828EA"
+				item: {
+					count: 1
+					id: "minecraft:crying_obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FC923AC26B777E4"
+				item: { count: 1, id: "minecraft:crying_obsidian" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
 		}
 	]
 }

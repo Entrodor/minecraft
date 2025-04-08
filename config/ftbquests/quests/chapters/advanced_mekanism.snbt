@@ -1,13 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "xycraft"
+	filename: "advanced_mekanism"
 	group: "60727D1667A82BB8"
 	icon: {
-		id: "xycraft_core:errored"
+		id: "mekanism:pellet_antimatter"
 	}
-	id: "30C629AE30743178"
-	order_index: 4
+	id: "713090E2204B46ED"
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 }

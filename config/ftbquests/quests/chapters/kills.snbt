@@ -443,17 +443,17 @@
 			id: "0D58757FB5373354"
 			rewards: [
 				{
-					id: "7CB36B2B0388EE9E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "51455E6D355DD54C"
 					item: {
 						count: 1
 						id: "tombstone:decorative_grave_cross"
 					}
 					type: "item"
+				}
+				{
+					id: "4326D9D6F8400912"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -470,11 +470,6 @@
 			id: "0DC7F3DC1A1CCD08"
 			rewards: [
 				{
-					id: "17A2170719FB7556"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
 					count: 2
 					id: "15B96DF5F55024FD"
 					item: {
@@ -482,6 +477,11 @@
 						id: "minecraft:lead"
 					}
 					type: "item"
+				}
+				{
+					id: "329AFAC5F7396545"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			tasks: [{
@@ -1049,6 +1049,21 @@
 		{
 			dependencies: ["0D77B23A5EE0C106"]
 			id: "00A3CB58A0F16F25"
+			rewards: [
+				{
+					id: "2C2A0733B4994260"
+					item: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
+					type: "item"
+				}
+				{
+					id: "5D5095AE77A93E62"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				entity: "minecraft:breeze"
 				id: "525A77FC7EDABA33"
