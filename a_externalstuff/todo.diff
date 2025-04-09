@@ -3,9 +3,9 @@
 
 To Do List
 + AstroBar shows your own HP bar (in first person using First Person Mod)
-- Configuration Changes
-- Progression
-- Try and find/Fix crashes
+- Configuration Changes (always in progress)
+- Progression (always in progress)
+- Try and find/Fix crashes (always in progress)
 + Fix Ore Generation to use ATO Ores/Raw Materials
 + Dynamic FPS settings
 + Setup Simple SRC
@@ -13,19 +13,19 @@ To Do List
 + Wormhole recipe and configuration rebalanced
 + Test Open Claims/Parties with tombstone mod
 + Explorers/Nature compass threading settings (not available anymore, rip - Entrodor_Wolfry 2025)
-- Create quests for different mods
+- Create quests for different mods (always in progress)
 - Configure Ore generator (mekanism lasers) and Mining Laser (industrial foregoing) outputs (mining laser may not need changing)
 - Fix any other OreGen/Ore Output/Resource Output etc
-- double check any recipe that needs to be changed or removed
-- setup permissions and ranks
+- double check any recipe that needs to be changed or removed (always in progress)
++ setup permissions and ranks (basics done, up to end users to change further)
 + ADD FUCKING INDUSTRIAL FOREGOING SOULS ADDON > added in V1.1.0
 + add Entity Texture Features and Entity Model Features > added in V1.1.0 
 + Ender Dragon frozen in The End. possibly due to "Does It Tick". To be tested. Does it tick was the issue (status: removed)
 + lightining strike entities are frozen until player approaches. May be caused by "Does It Tick" Does it tick was the issue (status: removed)
-- Change angel ring recipes
-- Change Apothosis spawner upgrade items to be more inline with atm or better balanced
++ Change angel ring recipes
++ Change Apothosis spawner upgrade items to be more inline with atm or better balanced
 - disable mob spawn eggs from working in spawners list: (Ender dragon, Wither, Fire Dragon, Ice Dragon, Lightning Dragon, Dead King, The Harbinger, Maledictus, Acient Remnant, Ignis, The Leviathan, Ender Guardian, Netherite Monstrosity)
-- add quests to explain open parties and claims
++ add quests to explain open parties and claims (should be good enough for now)
 - add simple weather as an optional mod 
 + add rechiseled and rechiseled chipped
 + check out not enough glyphs (kinda broken, wont use)
@@ -34,6 +34,6 @@ To Do List
 + add luminax
 + replace glassential with crystalix
 + Change Apothosis spawner upgrade items to be more inline with atm or better balanced
-- Change what can drop as affixed items
-- change what mobs can spawn as apothic bosses
++ Change what can drop as affixed items (apothic_compats, changed stuff via KJS data)
++ change what mobs can spawn as apothic bosses (apothic_compats, changed stuff via KJS data)
 - add quests which reward bonus claim chunks
