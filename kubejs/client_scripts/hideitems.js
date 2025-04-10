@@ -1,5 +1,6 @@
 RecipeViewerEvents.removeEntries('item', event => {
-
+//Hide Chisels and Bits bits from EMI
+    event.remove("chiselsandbits:block_bit")
 // Hide Huge Curvy Pipes, cos they're unused by us.
     event.remove("curvy_pipes:huge_fluid_pipe")
     event.remove("curvy_pipes:huge_energy_pipe")
@@ -7,7 +8,6 @@ RecipeViewerEvents.removeEntries('item', event => {
 })
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
-
 // Remove unused All The Compressed blocks
     for(let i=1; i < 10; i++){
         event.remove(`allthecompressed:atm_star_block_${i}x`)
@@ -30,8 +30,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
 // Remove unused Mystical Seeds and Essence    
     const seeds = [
         "rubber", "saltpeter", "apatite", "graphite", "grains_of_infinity", "mystical_flower", "marble", "basalt", "menril", "blizz", "blitz", "basalz", "amethyst_bronze", "slimesteel", "pig_iron",
-        "copper_alloy", "redstone_alloy", "conductive_alloy", "manasteel", "steeleaf", "ironwood", "aquamarine", "quartz_enriched_iron", "signalum", "lumium", "flux_infused_ingot", "cobalt", "rose_gold",
-        "soularium", "dark_steel", "pulsating_alloy", "energetic_alloy", "elementium", "knightmetal", "fiery_ingot", "starmetal", "compressed_iron", "enderium", "flux_infused_gem", "manyullyn", "queens_slime",
+        "copper_alloy", "redstone_alloy", "conductive_alloy", "manasteel", "steeleaf", "ironwood", "aquamarine", "quartz_enriched_iron", "flux_infused_ingot", "cobalt", "rose_gold",
+        "soularium", "dark_steel", "pulsating_alloy", "energetic_alloy", "elementium", "knightmetal", "fiery_ingot", "starmetal", "compressed_iron", "flux_infused_gem", "manyullyn", "queens_slime",
         "hepatizon", "vibrant_alloy", "end_steel", "terrasteel", "rock_crystal", "draconium", "yellorium", "cyanite", "gaia_spirit", "awakened_draconium", "neutronium"
     ]
     seeds.forEach(seed => {

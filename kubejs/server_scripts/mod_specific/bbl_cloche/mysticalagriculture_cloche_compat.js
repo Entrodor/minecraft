@@ -87,6 +87,8 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:refined_glowstone_essence", "mysticalagriculture:refined_glowstone_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:refined_obsidian_essence", "mysticalagriculture:refined_obsidian_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:fluix_essence", "mysticalagriculture:fluix_seeds","floabg:farmland_4")
+    crop(1200, 1.0, 1, "mysticalagriculture:signalum_essence", "mysticalagriculture:signalum_seeds","floabg:farmland_4")
+    crop(1200, 1.0, 1, "mysticalagriculture:lumium_essence", "mysticalagriculture:lumium_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:energized_steel_essence", "mysticalagriculture:energized_steel_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:blazing_crystal_essence", "mysticalagriculture:blazing_crystal_seeds","floabg:farmland_4")
     crop(1200, 1.0, 1, "mysticalagriculture:arcane_essence_essence", "mysticalagriculture:arcane_essence_seeds","floabg:farmland_4")    
@@ -102,6 +104,7 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:niotic_crystal_essence", "mysticalagriculture:niotic_crystal_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:spirited_crystal_essence", "mysticalagriculture:spirited_crystal_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:uraninite_essence", "mysticalagriculture:uraninite_seeds","floabg:farmland_5")
+    crop(1200, 1.0, 1, "mysticalagriculture:enderium_essence", "mysticalagriculture:enderium_seeds","floabg:farmland_5")
     crop(1200, 1.0, 1, "mysticalagriculture:cinder_essence_essence", "mysticalagriculture:cinder_essence_seeds","floabg:farmland_5")
     //Tier 6
     crop(1200, 1.0, 16, "mysticalagriculture:inferium_essence", "mysticalagriculture:insanium_seeds","floabg:farmland_6")

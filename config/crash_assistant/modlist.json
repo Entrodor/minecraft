@@ -1460,6 +1460,10 @@
     "modId": "rftoolspower",
     "version": "1.21-7.0.3"
   },
+  "rftoolsutility-1.21-7.0.2.jar": {
+    "modId": "rftoolsutility",
+    "version": "1.21-7.0.2"
+  },
   "rhino-2101.2.7-build.74.jar": {
     "modId": "rhino",
     "version": "2101.2.7-build.74"

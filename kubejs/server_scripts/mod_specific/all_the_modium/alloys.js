@@ -1,91 +1,23 @@
 ServerEvents.recipes(event => {
-      event.custom({
-        "type": "iceandfire:dragonforge",
-        "dragonType": "ice",
-        "cookTime": 1000,
-        "input": {
-          "item": "allthemodium:vibranium_block"
-        },
-        "blood": {
-          "item": "allthemodium:unobtainium_block"
-        },
-        "result": {
-          "id": "allthemodium:unobtainium_vibranium_alloy_ingot"
-        }
-      })
-
-      event.custom({
-        "type": "iceandfire:dragonforge",
-        "dragonType": "ice",
-        "cookTime": 1000,
-        "input": {
-          "item": "allthemodium:unobtainium_block"
-        },
-        "blood": {
-          "item": "allthemodium:vibranium_block"
-        },
-        "result": {
-          "id": "allthemodium:unobtainium_vibranium_alloy_ingot"
-        }
-      })
-
-      event.custom({
-        "type": "iceandfire:dragonforge",
-        "dragonType": "fire",
-        "cookTime": 1000,
-        "input": {
-          "item": "allthemodium:vibranium_block"
-        },
-        "blood": {
-          "item": "allthemodium:allthemodium_block"
-        },
-        "result": {
-          "id": "allthemodium:vibranium_allthemodium_alloy_ingot"
-        }
-      })
-
-      event.custom({
-        "type": "iceandfire:dragonforge",
-        "dragonType": "fire",
-        "cookTime": 1000,
-        "input": {
-          "item": "allthemodium:allthemodium_block"
-        },
-        "blood": {
-          "item": "allthemodium:vibranium_block"
-        },
-        "result": {
-          "id": "allthemodium:vibranium_allthemodium_alloy_ingot"
-        }
-      })
-
-      event.custom({
-        "type": "iceandfire:dragonforge",
-        "dragonType": "lightning",
-        "cookTime": 1000,
-        "input": {
-          "item": "allthemodium:unobtainium_block"
-        },
-        "blood": {
-          "item": "allthemodium:allthemodium_block"
-        },
-        "result": {
-          "id": "allthemodium:unobtainium_allthemodium_alloy_ingot"
-        }
-      })
-
-      event.custom({
-        "type": "iceandfire:dragonforge",
-        "dragonType": "lightning",
-        "cookTime": 1000,
-        "input": {
-          "item": "allthemodium:allthemodium_block"
-        },
-        "blood": {
-          "item": "allthemodium:unobtainium_block"
-        },
-        "result": {
-          "id": "allthemodium:unobtainium_allthemodium_alloy_ingot"
-        }
-      })
+  alloy("ice", 1000, "allthemodium:vibranium_block", "allthemodium:unobtainium_block", "allthemodium:unobtainium_vibranium_alloy_ingot")
+  alloy("ice", 1000, "allthemodium:unobtainium_block", "allthemodium:vibranium_block", "allthemodium:unobtainium_vibranium_alloy_ingot")
+  alloy("fire", 1000, "allthemodium:allthemodium_block", "allthemodium:vibranium_block", "allthemodium:vibranium_allthemodium_alloy_ingot")
+  alloy("fire", 1000, "allthemodium:vibranium_block", "allthemodium:allthemodium_block", "allthemodium:vibranium_allthemodium_alloy_ingot")
+  alloy("lightning", 1000, "allthemodium:allthemodium_block", "allthemodium:unobtainium_block", "allthemodium:unobtainium_allthemodium_alloy_ingot")
+  alloy("lightning", 1000, "allthemodium:unobtainium_block", "allthemodium:allthemodium_block", "allthemodium:unobtainium_allthemodium_alloy_ingot")
+  function alloy (dragontype, time, input, blood, output) {
+    event.custom({
+      "type": "iceandfire:dragonforge",
+      "dragonType": dragontype,
+      "cookTime": time,
+      "input": {
+        "item": input
+      },
+      "blood": {
+        "item": blood
+      },
+      "result": {
+        "id": output
+      }
+  })}
 })

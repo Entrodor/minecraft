@@ -2,7 +2,7 @@
     "mix_type": "potion",
     "from": "apothic_attributes:flying",
     "ingredient": {
-      "item": "minecraft:air"
+      "item": "minecraft:barrier"
     },
     "to": "apothic_attributes:long_flying"
   }

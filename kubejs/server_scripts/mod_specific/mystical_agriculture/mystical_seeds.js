@@ -96,6 +96,8 @@ ServerEvents.recipes(event => {
     seed("immersiveengineering:dust_hop_graphite", "mysticalagriculture:imperium_essence", "mysticalagriculture:hop_graphite_seeds")
     seed("alltheores:osmium_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:osmium_seeds")
     seed("alltheores:fluorite_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:fluorite_seeds")
+    seed("alltheores:signalum_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:signalum_seeds")
+    seed("alltheores:lumium_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:lumium_seeds")
     seed("mekanism:block_refined_glowstone", "mysticalagriculture:imperium_essence", "mysticalagriculture:refined_glowstone_seeds")
     seed("mekanism:block_refined_obsidian", "mysticalagriculture:imperium_essence", "mysticalagriculture:refined_obsidian_seeds")
     seed("ae2:fluix_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:fluix_seeds")
@@ -112,6 +114,7 @@ ServerEvents.recipes(event => {
     seed("powah:niotic_crystal_block", "mysticalagriculture:supremium_essence", "mysticalagriculture:niotic_crystal_seeds")
     seed("powah:spirited_crystal_block", "mysticalagriculture:supremium_essence", "mysticalagriculture:spirited_crystal_seeds")
     seed("powah:uraninite_block", "mysticalagriculture:supremium_essence", "mysticalagriculture:uraninite_seeds")
+    seed("alltheores:enderium_block", "mysticalagriculture:supremium_essence", "mysticalagriculture:enderium_seeds")
 //Seed Tier 6
     seed("mysticalagradditions:nether_star_crux", "mysticalagradditions:insanium_essence", "mysticalagriculture:nether_star_seeds")
     seed("mysticalagradditions:dragon_egg_crux", "mysticalagradditions:insanium_essence", "mysticalagriculture:dragon_egg_seeds")
