@@ -122,3 +122,4 @@ kubejs/startup_scripts/jsconfig.json
 !config/mekanism_weaponry-common.toml
 !/config/curvy_pipes.yaml
 !/config/mahoutsukai-server.toml
+!/config/apothic_spawners.cfg

@@ -185,6 +185,13 @@
 	quest.2BE6234F2E0BA8C8.quest_desc: ["&6CorstaGaming&r/&cCorsta1994&r is an Admin of &4For Lack of a Better Game&r. And is the one behind the quests and some custom recipes in this Modpack. You are welcome for the custom seeds from Mystical Agriculture."]
 	quest.2BE6234F2E0BA8C8.quest_subtitle: "Eevee is best! Don't tell me otherwise."
 	quest.2D46476C2A405865.title: "Drowned x100"
+	quest.2E7AFBF5F24EBAC2.quest_desc: [
+		"Players in the same team benefit from shared quest progress, as well as being able to see eachother from anywhere in the same dimension. And by default claims will be accessible with anyone in your team."
+		""
+		"To add friends to your Team, open your Inventory and click the \"My Team\" button in the top left (the 3 person icon), then click \"Create a party\", enter whatever details you want to add and confirm it, then reopen the same screen and in the top right you can click the green plus icon to add your friends."
+		""
+		"You can also create a party with /ftbteams party create <party_name> and then invite friends with /ftbteams party invite <player>"
+	]
 	quest.310952D3326EFF1E.quest_subtitle: "Ice Cold!"
 	quest.310952D3326EFF1E.title: "Stray x5"
 	quest.31FC038EAFE19742.quest_desc: [
@@ -233,6 +240,15 @@
 	quest.395333E99CB1CECE.quest_subtitle: "What happened to Stuart Little?"
 	quest.395333E99CB1CECE.title: "Shinktastic"
 	quest.3B25050EBD52E2D3.title: "Pillager x25"
+	quest.3C0457BAD5779C0D.quest_desc: [
+		"Players can claim a certain number of chunks and other players cannot grief this area, unless in the same team as the land claim owner."
+		""
+		"To claim some land, open your World Map and using your right mouse button, click and drag an area of chunks within the blue square then let go of right mouse button, then click \"Claim Selected\"."
+		""
+		"You can open the \"Open Parties and Claims menu\" with the apostrophe key by default, and this allows you to change your claim's settings among other things."
+		""
+		"You can also \"forceload\" a certain number of chunks by repeating the same steps as claiming chunks, but click \"forceload chunks\" instead. You can only forceload chunks which you have claimed."
+	]
 	quest.3C5CDA1C242CAB6E.title: "Blaze x50"
 	quest.3C736E0567A02B8B.quest_desc: ["You have saved the lives of so many beings by removing these pesky mobs. You have been granted a gift from the Gods, but may need to give up some experience to be able to recieve your prize."]
 	quest.3C736E0567A02B8B.quest_subtitle: "You Killed Them All!"
@@ -276,6 +292,8 @@
 	quest.4C8F34B35B933702.title: "&4You DIED!&r"
 	quest.4CDB26ED08E6411C.title: "Magma Cube x25"
 	quest.5019C1C73765E7FB.title: "Shulker x100"
+	quest.519472C8CD07B9D6.quest_desc: ["This pack uses FTB Teams for \"team related features\" eg Quests and Claim permissions. And uses Open Parties and Claims for chunk claiming features."]
+	quest.519472C8CD07B9D6.title: "Teams And Claims"
 	quest.527541E86A04CEDF.title: "Piglin Brute x100"
 	quest.54E4661775F350A7.title: "Build a Nether Portal"
 	quest.5539BF931E4FDFFB.title: "Blaze x100"
@@ -406,11 +424,14 @@
 	task.45986AB9A73712ED.title: "Tools"
 	task.470EB12F0227C182.title: "About Entrodor_Wolfry"
 	task.47E95A59D1BB29BC.title: "Any #minecraft:decorated_pot_sherds"
+	task.4DF6FD3A6330AF32.title: "Parties and Claims"
 	task.598A51A1A4B867FD.title: "Any #c:brushes"
 	task.59A8A6F470A184AA.title: "Creepers x100"
 	task.5CB46D2452BDE728.title: "Furnace"
+	task.5EA5DCEF0DC0EFBE.title: "Land Claiming and you."
 	task.62886DFAAF607457.title: "Crafting Table"
 	task.6787F86113FE8773.title: "Creepers x50"
+	task.68B6AA0C74CF9E13.title: "FTB Teams"
 	task.767C0A38D1AB5853.title: "Any Type of Coal"
 	task.7987C9596E1F347F.title: "Pack Info"
 	task.7AF29117A4B33D4E.title: "Homes"
