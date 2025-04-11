@@ -9,14 +9,46 @@
 	id: "028411279A56DB7A"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "361340A36383A5D6"
-		tasks: [{
-			dimension: "minecraft:the_end"
-			id: "52CDD05C3D4E844F"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "361340A36383A5D6"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "52CDD05C3D4E844F"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "248594F3EB5713FA"
+			tasks: [{
+				count: 8L
+				id: "3E3E6FB4813554A0"
+				item: { count: 8, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "5E9BF150C9597DCA"
+			rewards: [{
+				id: "4ECBC1525D680268"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "452F433F545921E9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
 }

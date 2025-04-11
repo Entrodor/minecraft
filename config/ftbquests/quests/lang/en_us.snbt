@@ -98,6 +98,7 @@
 	quest.07D8DECAAA0EF635.quest_desc: ["These boney things need to die! Again? On the plus side, plants love the bone meal."]
 	quest.07D8DECAAA0EF635.quest_subtitle: "Spooky Scary Skeleton!"
 	quest.07D8DECAAA0EF635.title: "Skeleton x5"
+	quest.080BAE3733E269B9.quest_subtitle: "A Nose to that is to big!"
 	quest.080BAE3733E269B9.title: "The Big Sniff"
 	quest.084F381EDCD63142.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.084F381EDCD63142.title: "Piglin Spawn Egg"
@@ -150,6 +151,7 @@
 	quest.13A6DE7F9C44349F.title: "Flower of the Torch"
 	quest.1400DABAA26D2AE4.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1400DABAA26D2AE4.title: "Blaze Spawn Egg"
+	quest.141C8CB4BE29C5B9.quest_subtitle: "Happy Little Accident~"
 	quest.141C8CB4BE29C5B9.title: "Archaeology"
 	quest.158311E8E3BE0691.quest_subtitle: "Bling Bling!"
 	quest.158311E8E3BE0691.title: "Diamond Gear"
@@ -168,12 +170,25 @@
 	quest.1F4A403B230B5381.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1F4A403B230B5381.title: "Enderman Spawn Egg"
 	quest.2254792ACDD84F93.title: "Zombies x100"
+	quest.22E0AD6A44FBE8EF.quest_subtitle: "Watch out for Link!"
+	quest.22E0AD6A44FBE8EF.title: "Pottery Pot"
 	quest.24EDD2E815437F8B.quest_desc: ["Beware they hit harder than slimes, to many hunters have become consummed by the Magma Cubes. Thin them out!"]
 	quest.24EDD2E815437F8B.quest_subtitle: "Slimes darker cousin."
 	quest.24EDD2E815437F8B.title: "Magma Cube x5"
 	quest.267DFA53B3AE5EB4.title: "Magma Cube x100"
 	quest.26CFFAA1E653C58F.title: "Spider x100"
 	quest.26D83E42B0471CC3.title: "Cave Spider x50"
+	quest.2741751E71B33171.quest_desc: [
+		"The &5Entangled Block&r and &5Entangled Binder&r are very useful items. The &5Entangled Block&r can be placed into the world and bound to another block; such as a machine. "
+		""
+		"By &oShift-Right Clicking&r any block or tile entity with the &5Entangled Binder&r will save the location of the block on the &5Entangled Binder&r, then &oRight Clicking&r the &5Entangled Binder&r on a &5Entangled Block&r will bind the saved block/tile entity to the &5Entangled Block&r. Allowing you to have access to more sides of the block or interact with it from a distance away."
+		""
+		"&4Note: A tile entity is a block such as a chest or pretty much anything that opens an inventory screen or stores data; such as a storage draw.&r"
+		""
+		"&4Warning: Some blocks may not work or like being bound in this way and may cause issues. But in most cases you just will not be able to bind the block.&r"
+	]
+	quest.2741751E71B33171.quest_subtitle: "Infinite Sides!"
+	quest.2741751E71B33171.title: "Entangled Reality"
 	quest.27B8090B645B4CD9.title: "Stray x50"
 	quest.282D8E71EDBAD2A4.title: "Piglin x50"
 	quest.289A39192951B671.quest_subtitle: "A girls best friend!"
@@ -231,7 +246,8 @@
 		""
 		"/&9back&r will teleport the player back to the last known location from the last teleport or death."
 	]
-	quest.38B90AAF99A49B5E.quest_subtitle: "Sir Yes Sir!"
+	quest.38B90AAF99A49B5E.quest_subtitle: "Where ya be?"
+	quest.38B90AAF99A49B5E.title: "Teleporting Around"
 	quest.395333E99CB1CECE.quest_desc: [
 		"The Shrink Device can allow you to shrink or expand. Shrinking may help with getting into hard to reach places or just to hide from your friends."
 		""
@@ -257,6 +273,12 @@
 	quest.3E0C6ABF8944C6F2.title: "Hoglin x25"
 	quest.3FD5EED9E6F2A600.quest_subtitle: "Diggy Diggy Hole! - Some Dwarf"
 	quest.3FD5EED9E6F2A600.title: "Time to MINEcraft!"
+	quest.4067955D6C95A9BE.quest_desc: [
+		"The following commands are some that may be useful or of interest to the player. (The list of commands may be added to further thru development of the ModPack)."
+		""
+		"/&7wits&r willl allow you find out what the structure is that is nearby."
+	]
+	quest.4067955D6C95A9BE.quest_subtitle: "Commands Everywhere!"
 	quest.42DC58D0BE2C4AED.quest_desc: ["Blaze shoot fireballs so be warned, they also arn't afraid to melee you if you get to close. Farm them for a bit would you?"]
 	quest.42DC58D0BE2C4AED.quest_subtitle: "You use my rods for WHAT!"
 	quest.42DC58D0BE2C4AED.title: "Blaze x5"
@@ -312,10 +334,13 @@
 	quest.5A5E0A24435C3932.title: "Guardian x100"
 	quest.5A70048B7415D646.title: "Stray x100"
 	quest.5B77365AF81CF245.title: "Slime x100"
+	quest.5BD7CFADD0E1829C.quest_subtitle: "Work Work Work Work!"
 	quest.5BD7CFADD0E1829C.title: "Time to mineCRAFT!"
 	quest.5C4E4F3EAA5A59A4.quest_desc: ["Evokers the \"owners\" of the Woodland Mansion. They wouldn't be so bad if they didn't spawn those annoying Vexs."]
 	quest.5C4E4F3EAA5A59A4.quest_subtitle: "Totems of Undying are not enough to save them!"
 	quest.5C4E4F3EAA5A59A4.title: "Evoker and Vex"
+	quest.5DB95E66BEB04994.quest_desc: ["The following quests are to give you an idea of some commands that you may be able to use."]
+	quest.5DB95E66BEB04994.quest_subtitle: "Sir Yes Sir!"
 	quest.5DEADBED5FB7E74E.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.5DEADBED5FB7E74E.title: "Guardian Spawn Egg"
 	quest.5E3B546FC673D448.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -346,6 +371,7 @@
 	quest.664E7006C6876BE8.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.664E7006C6876BE8.title: "Wither Skeleton Spawn Egg"
 	quest.67A3C886D2F6FE1C.title: "Drowned x25"
+	quest.67FBE7B8CEFC7B76.title: "Mekanism Steel"
 	quest.68755E13CFD91963.quest_subtitle: "Whose's Cutting Onions?"
 	quest.68755E13CFD91963.title: "Crying Purple Tears"
 	quest.68FDCC96DFB232A2.quest_subtitle: "Volcanic Glass."
@@ -385,6 +411,9 @@
 	quest.71D258ABC5C3DEF8.quest_desc: ["Witches, one of the most annoying mob, constantly poisioning people. Thin them out by eliminating them."]
 	quest.71D258ABC5C3DEF8.quest_subtitle: "Where are the red slippers?"
 	quest.71D258ABC5C3DEF8.title: "Witch x5"
+	quest.7260641952CF7179.quest_subtitle: "To War!"
+	quest.7260641952CF7179.title: "Bastion Remenant"
+	quest.741D2BB442831453.title: "Infuser of Metals"
 	quest.748130657A74B4DE.title: "Blaze x25"
 	quest.74CBBDB32DED6205.quest_desc: ["Here are some useful tips, items or blocks that may make your life easier in this Modpack."]
 	quest.74CBBDB32DED6205.quest_subtitle: "Sharp like an arrow?"
@@ -410,28 +439,38 @@
 	reward_table.594294977C70DECC.title: "vanillasaplings"
 	reward_table.7B186461AC196484.title: "vanillafish"
 	task.0024E4ED7F1FADA9.title: "Commands"
+	task.02FDA41F26B075C0.title: "Any #c:dusts/steel"
 	task.0734C3CF913208C2.title: "Upgrades"
+	task.165AE0EDFB748C04.title: "Misc Commands"
+	task.1A317469A169CA78.title: "Storage With Mekanism"
 	task.1C937596FD509C87.title: "Kill Them All!"
 	task.2142409CB902670B.title: "Joined the World!"
 	task.28C75CC51B59A8E1.title: "Magnets"
 	task.292B0F0353EDDE2C.title: "Other Info"
 	task.2CD647FC0FF73EA5.title: "Demagnetization Coils"
 	task.30F8E1E3529F585D.title: "Tricks"
+	task.39137F9755F836AD.title: "Visit The Nether"
+	task.393186B7EC46243F.title: "Basic Energy Storage"
 	task.3EE8486000AD6B37.title: "Tips"
 	task.402A4A5918316AD8.title: "Any #minecraft:logs"
 	task.42D09ADAB03AE213.title: "Creepers x25"
 	task.441DB95E0A13CE43.title: "About CorstaGaming"
+	task.452F433F545921E9.title: "Free the End!"
 	task.45986AB9A73712ED.title: "Tools"
 	task.470EB12F0227C182.title: "About Entrodor_Wolfry"
 	task.47E95A59D1BB29BC.title: "Any #minecraft:decorated_pot_sherds"
 	task.4DF6FD3A6330AF32.title: "Parties and Claims"
+	task.505028E59E14F214.title: "Visit A Bastion Remnant"
+	task.52CDD05C3D4E844F.title: "Visit The End"
 	task.598A51A1A4B867FD.title: "Any #c:brushes"
 	task.59A8A6F470A184AA.title: "Creepers x100"
 	task.5CB46D2452BDE728.title: "Furnace"
 	task.5EA5DCEF0DC0EFBE.title: "Land Claiming and you."
 	task.62886DFAAF607457.title: "Crafting Table"
 	task.6787F86113FE8773.title: "Creepers x50"
+	task.682639296E2BEDCA.title: "Generators of Mekanism"
 	task.68B6AA0C74CF9E13.title: "FTB Teams"
+	task.6D74D967386C09F6.title: "Commands"
 	task.767C0A38D1AB5853.title: "Any Type of Coal"
 	task.7987C9596E1F347F.title: "Pack Info"
 	task.7AF29117A4B33D4E.title: "Homes"
