@@ -83,7 +83,7 @@ kubejs/startup_scripts/jsconfig.json
 !/config/bhc
 !/config/crash_assistant
 !/config/potionsmaster
-
+!/config/mods_optimizer
 
 !todo.diff
 !config/oritech-config.json5
@@ -123,3 +123,5 @@ kubejs/startup_scripts/jsconfig.json
 !/config/curvy_pipes.yaml
 !/config/mahoutsukai-server.toml
 !/config/apothic_spawners.cfg
+!/config/moreoverlays.toml
+!/config/mods_optimizer/config.toml
