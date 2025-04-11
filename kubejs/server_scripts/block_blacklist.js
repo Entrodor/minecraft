@@ -1,5 +1,5 @@
-BlockEvents.placed('industrialforegoing:infinity_nuke', event => {
-    event.player.tell('Nukes are disabled.')
+
+EntityEvents.spawned("industrialforegoing:infinity_nuke", event => {
     event.cancel()
 })
 
