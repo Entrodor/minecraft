@@ -26,6 +26,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"158311E8E3BE0691"
+				"1691CC6E9D7BE764"
+			]
 			id: "78A5D9394283B604"
 			tasks: [{
 				id: "5B4BEC0282525396"
@@ -33,7 +37,61 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["100103C54E8B4291"]
+			id: "47CB444805AD7DDA"
+			tasks: [{
+				count: 8L
+				id: "340E5EEE7A3B5C40"
+				item: { count: 8, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1030936A2A3F895E"]
+			id: "100103C54E8B4291"
+			tasks: [{
+				count: 8L
+				id: "27DE2BB2C7DC6E63"
+				item: { count: 8, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1030936A2A3F895E"]
+			id: "7260641952CF7179"
+			rewards: [{
+				id: "5CAC7CD5BEF9EE83"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:cracked_polished_blackstone_bricks"
+				}
+				id: "505028E59E14F214"
+				structure: "#minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7260641952CF7179"]
+			id: "1691CC6E9D7BE764"
+			tasks: [{
+				id: "173012B87CE8DDC2"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
 		}
 	]
 }
