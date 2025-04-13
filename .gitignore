@@ -30,6 +30,7 @@
 config/*
 /debug
 /chiselsandbits
+/cache
 
 #blacklisted files
 command_history.txt
@@ -102,7 +103,6 @@ kubejs/startup_scripts/jsconfig.json
 !/config/memorysettings.json
 !/config/monocle.properties
 !/config/productivebees-server.toml
-!/config/rightclickharvest.json5
 !/config/silentgear-common.toml
 !/config/solcarrot-server.toml
 !/config/sophisticatedbackpacks-server.toml

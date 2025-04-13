@@ -1,0 +1,6 @@
+{
+  "type": "iceandfire:ice_dragon_cave",
+  "biomes": ["allthemodium:the_other", "allthemodium:crimson_forest"],
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

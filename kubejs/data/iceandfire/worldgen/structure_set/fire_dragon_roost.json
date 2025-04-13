@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3747893,
+    "separation": 12,
+    "spacing": 24,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  },
+  "structures": [
+    {
+      "structure": "iceandfire:fire_dragon_roost",
+      "weight": 1
+    }
+  ]
+}

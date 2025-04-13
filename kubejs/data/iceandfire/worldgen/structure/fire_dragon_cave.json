@@ -1,0 +1,6 @@
+{
+  "type": "iceandfire:fire_dragon_cave",
+  "biomes": ["allthemodium:desert_hills", "allthemodium:desert"],
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}
