@@ -2,6 +2,7 @@
   "name": "Blue Xycraft Gems",
   "glint": "true",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:3",
   "ingredient": {

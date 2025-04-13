@@ -2,6 +2,7 @@
   "name": "Deorum",
   "glint": "true",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalcustomization:magical",
   "ingredient": {

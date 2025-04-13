@@ -93,5 +93,90 @@
 			x: 3.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["1030936A2A3F895E"]
+			id: "2D794A993E7363D3"
+			tasks: [{
+				icon: {
+					id: "minecraft:nether_bricks"
+				}
+				id: "2477ACD7A6D932B5"
+				structure: "#minecraft:fortress"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D794A993E7363D3"]
+			id: "36D50B9428F70F73"
+			tasks: [{
+				count: 4L
+				id: "2ACA01F134CC1020"
+				item: { count: 4, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36D50B9428F70F73"]
+			id: "2F5AA9986CB4DA44"
+			tasks: [{
+				count: 4L
+				id: "769E43002BEB0AEC"
+				item: { count: 4, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D794A993E7363D3"]
+			id: "525C6608FA13A6AF"
+			rewards: [{
+				id: "66EB9DDF57FE1D3D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 3L
+				id: "2D67DDB5D414B918"
+				item: { count: 3, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["525C6608FA13A6AF"]
+			id: "5E078969C2DB4AAA"
+			tasks: [{
+				id: "3428CF99647D1DFA"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E078969C2DB4AAA"]
+			id: "0E77E13519C1F1C7"
+			tasks: [
+				{
+					id: "0FBC81EFDF7487FC"
+					item: { count: 1, id: "minecraft:beacon" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6E9414A6C8F67088"
+					item: { count: 1, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
 	]
 }

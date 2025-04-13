@@ -1,0 +1,8 @@
+{
+    "name": "§5Awakened",
+    "value": 8,
+    "farmland": "mysticalagradditions:insanium_farmland",
+    "essence": "mysticalagriculture:awakened_supremium_essence",
+    "fertilizable": false,
+    "secondarySeedDrop": false
+}

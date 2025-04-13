@@ -2,8 +2,10 @@
   "name": "Prudentium",
   "glint": "false",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:2",
+  "essence": "mysticalagriculture:inferium_essence",
   "ingredient": {
     "item": "mysticalagriculture:prudentium_essence"
   },
@@ -12,7 +14,11 @@
     "infusion": false,
     "reprocessor": true
   },
-  "color": "008C23",
+  "colors": {
+    "flower": "008C23",
+    "essence": "D4FF00",
+    "seeds": "008C23"
+  },
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
     "essence": "mysticalagriculture:item/essence_gem"

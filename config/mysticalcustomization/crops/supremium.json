@@ -2,8 +2,10 @@
   "name": "Supremium",
   "glint": "true",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:5",
+  "essence": "mysticalagriculture:inferium_essence",
   "ingredient": {
     "item": "mysticalagriculture:supremium_essence"
   },
@@ -12,7 +14,11 @@
     "infusion": false,
     "reprocessor": true
   },
-  "color": "C40000",
+  "colors": {
+    "flower": "C40000",
+    "essence": "D4FF00",
+    "seeds": "C40000"
+  },
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
     "essence": "mysticalagriculture:item/essence_gem"

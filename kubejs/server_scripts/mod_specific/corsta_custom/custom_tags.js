@@ -117,6 +117,9 @@ ServerEvents.tags('item', event => {
     event.add('floabg:farmland_5', 'mysticalagradditions:insanium_farmland')
 //Tier 6
     event.add('floabg:farmland_6', 'mysticalagradditions:insanium_farmland')
+    event.add('floabg:farmland_crux_nether', 'mysticalagradditions:nether_star_crux')
+    event.add('floabg:farmland_crux_dragon', 'mysticalagradditions:dragon_egg_crux')
+    event.add('floabg:farmland_crux_nitro', 'mysticalagradditions:nitro_crystal_crux')
 //Seed Tags
     //Elemental
     event.add('floabg:resource_seed', 'mysticalagriculture:air_seeds')

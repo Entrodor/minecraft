@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     //Black Hole
     event.shaped('kubejs:prepared_incomplete_black_hole_1', ['AAA', 'ABA', 'AAA'], {
         A: 'minecraft:obsidian',
-        B: 'minecraft:nether_star'
+        B: 'allthemodium:unobtainium_block'
     }).id('kubejs/prepared_incomplete_black_hole_1')
 
     event.shaped('kubejs:prepared_incomplete_black_hole_2', ['AAA', 'ABA', 'AAA'], {
@@ -60,139 +60,30 @@ ServerEvents.recipes(event => {
   //        }
   //      ]
   //    })
-    event.custom({
-        "type": "create:pressing",
-        "ingredients": [
-          {
-            "item": "kubejs:prepared_incomplete_black_hole_1"
-          }
-        ],
-        "results": [
-          {
-            "item": {
-              "id": "kubejs:incomplete_black_hole_1"
-          }
-        }
-        ]
-    })
+    pressing("kubejs:prepared_incomplete_black_hole_1", "kubejs:incomplete_black_hole_1")
+    pressing("kubejs:prepared_incomplete_black_hole_2", "kubejs:incomplete_black_hole_2")
+    pressing("kubejs:prepared_incomplete_black_hole_3", "kubejs:incomplete_black_hole_3")
+    pressing("kubejs:prepared_incomplete_black_hole_4", "kubejs:incomplete_black_hole_4")
+    pressing("kubejs:prepared_incomplete_black_hole_5", "kubejs:incomplete_black_hole_5")
+    pressing("kubejs:prepared_incomplete_black_hole_6", "kubejs:incomplete_black_hole_6")
+    pressing("kubejs:prepared_incomplete_black_hole_7", "kubejs:incomplete_black_hole_7")
+    pressing("kubejs:prepared_incomplete_black_hole_8", "kubejs:incomplete_black_hole_8")
+    pressing("kubejs:incomplete_black_hole_8", "kubejs:completed_black_hole")
+
+    function pressing (input, output) {
     event.custom({
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "kubejs:prepared_incomplete_black_hole_2"
+          "item": input
         }
       ],
       "results": [
         {
           "item": {
-            "id": "kubejs:incomplete_black_hole_2"
+            "id": output
         }
       }
       ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:prepared_incomplete_black_hole_3"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:incomplete_black_hole_3"
-        }
-      }
-      ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:prepared_incomplete_black_hole_4"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:incomplete_black_hole_4"
-        }
-      }
-      ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:prepared_incomplete_black_hole_5"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:incomplete_black_hole_5"
-        }
-      }
-      ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:prepared_incomplete_black_hole_6"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:incomplete_black_hole_6"
-        }
-      }
-      ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:prepared_incomplete_black_hole_7"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:incomplete_black_hole_7"
-        }
-      }
-      ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:prepared_incomplete_black_hole_8"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:incomplete_black_hole_8"
-        }
-      }
-      ]
-    })
-    event.custom({
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "kubejs:incomplete_black_hole_8"
-        }
-      ],
-      "results": [
-        {
-          "item": {
-            "id": "kubejs:completed_black_hole"
-        }
-      }
-      ]
-    })
+    })}
   })
