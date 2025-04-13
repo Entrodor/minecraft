@@ -9,5 +9,134 @@
 	id: "713090E2204B46ED"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "3F37FDAF59686560"
+			tasks: [
+				{
+					count: 68L
+					id: "28A789928E47B10E"
+					item: { count: 68, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3BA494BD7CFA25DB"
+					item: { count: 4, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0AAC3C2C38C04AF0"
+					item: { count: 3, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "631952DD3D2EEE30"
+					item: { count: 52, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "70B9426D8A1234B1"
+					item: { count: 13, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					count: 143L
+					id: "6C51DFF4455D4B14"
+					item: { count: 64, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "21CFE2BE6090872E"
+			tasks: [{
+				id: "676A68F16A4CEBAB"
+				item: { count: 2, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "532BBE51D63FFB6F"
+			tasks: [
+				{
+					id: "261C47EB38CDE1F4"
+					item: { count: 3, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+				{
+					id: "779D10B38E985666"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "666A64232FCE1C69"
+			tasks: [
+				{
+					id: "6716E543894BF290"
+					item: { count: 1, id: "mekanism:chemical_infuser" }
+					type: "item"
+				}
+				{
+					id: "2D6613C49487232A"
+					item: { count: 1, id: "mekanism:rotary_condensentrator" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "0A576920DB6A16C8"
+			tasks: [{
+				id: "4F471145FDB734A6"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "6F485643AB0FF0F6"
+			tasks: [{
+				id: "2F0DD8FF45E84C8C"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "2E7C745FF8495FC9"
+			tasks: [{
+				id: "7182ECA863F3C5D6"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "168E06C4AEA55226"
+			tasks: [{
+				count: 5L
+				id: "7BEF6AF261879AA0"
+				item: { count: 5, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
 }

@@ -2,6 +2,7 @@
   "name": "Dark Xycraft Gems",
   "glint": "true",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:3",
   "ingredient": {
@@ -12,7 +13,7 @@
     "infusion": false,
     "reprocessor": true
   },
-  "color": "000000",
+  "color": "343434",
   "textures": {
     "flower": "mysticalagriculture:block/flower_rock",
     "essence": "mysticalagriculture:item/essence_gem"

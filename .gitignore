@@ -84,6 +84,7 @@ kubejs/startup_scripts/jsconfig.json
 !/config/crash_assistant
 !/config/potionsmaster
 !/config/mods_optimizer
+!/config/mysticalagriculture-common.toml
 
 !todo.diff
 !config/oritech-config.json5

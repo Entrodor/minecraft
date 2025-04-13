@@ -2,6 +2,7 @@
   "name": "Prosperity Shard",
   "glint": "false",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:5",
   "ingredient": {

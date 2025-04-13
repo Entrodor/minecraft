@@ -2,8 +2,9 @@
   "name": "Cognizant Dust",
   "glint": "true",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
-  "tier": "mysticalcustomization:mythic",
+  "tier": "mysticalcustomization:awakened",
   "ingredient": {
     "item": "mysticalagriculture:cognizant_dust"
   },

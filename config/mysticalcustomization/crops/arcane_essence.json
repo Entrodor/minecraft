@@ -2,6 +2,7 @@
   "name": "Arcane Essence",
   "glint": "false",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:4",
   "ingredient": {

@@ -2,8 +2,10 @@
   "name": "Imperium",
   "glint": "false",
   "enabled": "true",
+  "baseSecondaryChance": 0.0,
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:4",
+  "essence": "mysticalagriculture:inferium_essence",
   "ingredient": {
     "item": "mysticalagriculture:imperium_essence"
   },
@@ -12,7 +14,11 @@
     "infusion": false,
     "reprocessor": true
   },
-  "color": "007FDB",
+  "colors": {
+    "flower": "007FDB",
+    "essence": "D4FF00",
+    "seeds": "007FDB"
+  },
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
     "essence": "mysticalagriculture:item/essence_gem"

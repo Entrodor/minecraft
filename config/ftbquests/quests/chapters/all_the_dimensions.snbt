@@ -9,5 +9,14 @@
 	id: "56892F45D7D5E815"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "516DEE001609F54B"
+		tasks: [{
+			id: "0FBF7CDC376E15A7"
+			item: { count: 1, id: "allthemodium:teleport_pad" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

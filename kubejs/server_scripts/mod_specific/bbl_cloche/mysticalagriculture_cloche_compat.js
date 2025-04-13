@@ -108,9 +108,9 @@ ServerEvents.recipes(event => {
     crop(1200, 1.0, 1, "mysticalagriculture:cinder_essence_essence", "mysticalagriculture:cinder_essence_seeds","floabg:farmland_5")
     //Tier 6
     crop(1200, 1.0, 16, "mysticalagriculture:inferium_essence", "mysticalagriculture:insanium_seeds","floabg:farmland_6")
-    crop(1200, 1.0, 1, "mysticalagriculture:nether_star_essence", "mysticalagriculture:nether_star_seeds", "mysticalagradditions:nether_star_crux")
-    crop(1200, 1.0, 1, "mysticalagriculture:dragon_egg_essence", "mysticalagriculture:dragon_egg_seeds", "mysticalagradditions:dragon_egg_crux")
-    crop(1200, 1.0, 1, "mysticalagriculture:nitro_crystal_essence", "mysticalagriculture:nitro_crystal_seeds", "mysticalagradditions:nitro_crystal_crux")
+    crop(1200, 1.0, 1, "mysticalagriculture:nether_star_essence", "mysticalagriculture:nether_star_seeds", "floabg:farmland_crux_nether")
+    crop(1200, 1.0, 1, "mysticalagriculture:dragon_egg_essence", "mysticalagriculture:dragon_egg_seeds", "floabg:farmland_crux_dragon")
+    crop(1200, 1.0, 1, "mysticalagriculture:nitro_crystal_essence", "mysticalagriculture:nitro_crystal_seeds", "floabg:farmland_crux_nitro")
     crop(1200, 1.0, 1, "mysticalagriculture:mithril_essence", "mysticalagriculture:mithril_seeds","floabg:farmland_6")
     //Tier Mythic
     crop(1200, 1.0, 1, "mysticalagriculture:cognizant_dust_essence", "mysticalagriculture:cognizant_dust_seeds","floabg:farmland_6")

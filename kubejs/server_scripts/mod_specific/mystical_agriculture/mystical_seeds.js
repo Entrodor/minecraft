@@ -7,7 +7,13 @@ ServerEvents.recipes(event => {
     //event.remove({"output": '#floabg:mob_seed'})
     event.remove({"output": '#floabg:resource_seed'})
     event.remove({"id": /mysticalcustomization:*/})
-    event.remove({"output": /mysticalcustomization:*/}) 
+    event.remove({"output": /mysticalcustomization:*/})
+    const augments = ["flight"]
+    augments.forEach( augment => {
+        event.remove({"output": `mysticalagriculture:${augment}_augment`})
+    })
+//Augments
+    augment('mysticalagriculture:unattuned_augment', 'mysticalagradditions:creative_essence', 'silentgear:starmetal_dust', 'mysticalagradditions:creative_essence', 'silentgear:starmetal_dust', 'mysticalagradditions:creative_essence', 'silentgear:starmetal_dust', 'mysticalagradditions:creative_essence', 'silentgear:starmetal_dust', 'mysticalagriculture:flight_augment')
 
 //Seed Upgrade
     seedupgrade("mysticalagriculture:inferium_seeds", "mysticalagriculture:prudentium_essence", "mysticalagriculture:prudentium_seeds")
@@ -123,9 +129,10 @@ ServerEvents.recipes(event => {
     seed("allthemodium:allthemodium_block", "mysticalagradditions:creative_essence", "mysticalagriculture:allthemodium_seeds")
     seed("allthemodium:vibranium_block", "mysticalagradditions:creative_essence", "mysticalagriculture:vibranium_seeds")
     seed("allthemodium:unobtainium_block", "mysticalagradditions:creative_essence", "mysticalagriculture:unobtainium_seeds")
-    seed("mysticalagriculture:awakened_supremium_block","mysticalagradditions:creative_essence","mysticalagriculture:cognizant_dust_seeds")
 //Seed Tier Magical
     seed("forbidden_arcanus:deorum_block", "mysticalagriculture:imperium_essence", "mysticalagriculture:deorum_seeds")
+//Seed Tier Awakened
+    seed("mysticalagriculture:cognizant_dust","mysticalagradditions:creative_essence","mysticalagriculture:cognizant_dust_seeds")
 function seed (input, essence, output){
     event.custom({
         "type": "mysticalagriculture:infusion",
@@ -165,6 +172,7 @@ function seed (input, essence, output){
 //            "count": 1 
 //        }
 //    })}
+
 function seedupgrade (previous, input, output){
     event.custom({
         "type": "mysticalagriculture:infusion",
@@ -178,6 +186,26 @@ function seedupgrade (previous, input, output){
             {"item": input},
             {"item": input},
             {"item": input}
+        ],
+        "result": 
+        { "id": output, 
+            "count": 1 
+        }
+    })}
+
+function augment (catalyst, input1, input2, input3, input4, input5, input6, input7, input8, output){
+    event.custom({
+        "type": "mysticalagriculture:infusion",
+        "input": { "item": catalyst },
+        "ingredients": [
+            {"item": input1},
+            {"item": input2},
+            {"item": input3},
+            {"item": input4},
+            {"item": input5},
+            {"item": input6},
+            {"item": input7},
+            {"item": input8}
         ],
         "result": 
         { "id": output, 

@@ -5,8 +5,11 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove("curvy_pipes:huge_fluid_pipe")
     event.remove("curvy_pipes:huge_energy_pipe")
     event.remove("curvy_pipes:huge_item_pipe")
+//Angel Ring
+    event.remove('modular_angelring:mining_module')
+    event.remove('modular_angelring:magnet_module')
 })
-
+    
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
 // Remove unused All The Compressed blocks
     for(let i=1; i < 10; i++){
@@ -27,16 +30,24 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         event.remove(`allthecompressed:compressed_iron_block_${i}x`)
         event.remove(`allthecompressed:pulsating_alloy_block_${i}x`)
     }   
-// Remove unused Mystical Seeds and Essence    
+// Remove unused Mystical Seeds, Essences and Cruxs  
     const seeds = [
         "rubber", "saltpeter", "apatite", "graphite", "grains_of_infinity", "mystical_flower", "marble", "basalt", "menril", "blizz", "blitz", "basalz", "amethyst_bronze", "slimesteel", "pig_iron",
         "copper_alloy", "redstone_alloy", "conductive_alloy", "manasteel", "steeleaf", "ironwood", "aquamarine", "quartz_enriched_iron", "flux_infused_ingot", "cobalt", "rose_gold",
         "soularium", "dark_steel", "pulsating_alloy", "energetic_alloy", "elementium", "knightmetal", "fiery_ingot", "starmetal", "compressed_iron", "flux_infused_gem", "manyullyn", "queens_slime",
         "hepatizon", "vibrant_alloy", "end_steel", "terrasteel", "rock_crystal", "draconium", "yellorium", "cyanite", "gaia_spirit", "awakened_draconium", "neutronium"
     ]
+    const cruxs = ["gaia_spirit", "awakened_draconium", "neutronium"]
+    const agglo = ["mystical_flower"]
     seeds.forEach(seed => {
         event.remove(`mysticalagriculture:${seed}_seeds`)
         event.remove(`mysticalagriculture:${seed}_essence`)
+    })
+    cruxs.forEach(crux => {
+        event.remove(`mysticalaggraditions:${crux}_crux`)
+    })
+    agglo.forEach(agglomeratio => {
+        event.remove(`mysticalagriculture:${agglomeratio}_agglomeratio`)
     })
 // Hide flying potions/charms
     event.remove(Item.of(`minecraft:potion[potion_contents={potion:"apothic_attributes:flying"}]`))
