@@ -546,10 +546,6 @@
     "modId": "elytraslot",
     "version": "9.0.2+1.21.1"
   },
-  "embeddium-1.0.15+mc1.21.1.jar": {
-    "modId": "embeddium",
-    "version": "1.0.15+mc1.21.1"
-  },
   "emi-1.1.20+1.21.1+neoforge.jar": {
     "modId": "emi",
     "version": "1.1.20+1.21.1+neoforge"
@@ -838,9 +834,9 @@
     "modId": "invtweaks",
     "version": "1.21.1-1.2.2"
   },
-  "iris-neoforge-1.8.1+mc1.21.1.jar": {
+  "iris-neoforge-1.8.8+mc1.21.1.jar": {
     "modId": "iris",
-    "version": "1.8.1+mc1.21.1"
+    "version": "1.8.8+mc1.21.1"
   },
   "ironfurnaces-neoforge-1.21.1-4.2.6.jar": {
     "modId": "ironfurnaces",
@@ -1176,10 +1172,6 @@
     "modId": "modular_angelring",
     "version": "1.5.2"
   },
-  "monocle-0.1.9.ms.jar": {
-    "modId": "monocle",
-    "version": "0.1.9.ms"
-  },
   "monolib-neoforge-1.21.1-2.0.0.jar": {
     "modId": "monolib",
     "version": "2.0.0"
@@ -1420,6 +1412,10 @@
     "modId": "redstonepen",
     "version": "1.11.42"
   },
+  "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar": {
+    "modId": "reeses_sodium_options",
+    "version": "1.8.3+mc1.21.4"
+  },
   "relics-1.21.1-0.10.7.2.jar": {
     "modId": "relics",
     "version": "0.10.7.2"
@@ -1516,9 +1512,37 @@
     "modId": "smithingtemplateviewer",
     "version": "1.0.0"
   },
+  "smoothboot-1.0.jar": {
+    "modId": "smoothboot",
+    "version": "1.0.0"
+  },
   "smoothchunk-1.21-4.1.jar": {
     "modId": "smoothchunk",
     "version": "4.1"
+  },
+  "sodium-extra-neoforge-0.6.0+mc1.21.1.jar": {
+    "modId": "sodium_extra",
+    "version": "0.6.0+mc1.21.1"
+  },
+  "sodium-neoforge-0.6.13+mc1.21.1.jar": {
+    "modId": "sodium",
+    "version": "0.6.13+mc1.21.1"
+  },
+  "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar": {
+    "modId": "sodiumdynamiclights",
+    "version": "1.0.9"
+  },
+  "sodiumextras-neoforge-1.0.8-1.21.1.jar": {
+    "modId": "sodiumextras",
+    "version": "1.0.7"
+  },
+  "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar": {
+    "modId": "sodiumoptionsapi",
+    "version": "1.0.10"
+  },
+  "sodiumoptionsmodcompat-neoforge-1.0.0-1.21.1.jar": {
+    "modId": "sodiumoptionsmodcompat",
+    "version": "1.0.0"
   },
   "solcarrot-1.21.1-1.16.5.jar": {
     "modId": "solcarrot",
