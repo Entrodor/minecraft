@@ -2,7 +2,7 @@
 	#Entities which will never be targeted by turrets
 	blacklistedEntities = ["minecraft:ender_dragon", "minecraft:iron_golem"]
 	#Cooldown of the Basic Laser Turret
-	# Default: 80
+	# Default: 50
 	# Range: > 0
 	basicLaserTurretCooldown = 80
 	#Damage of the Basic Laser Turret
@@ -18,7 +18,7 @@
 	# Range: 0.0 ~ 1000.0
 	basicLaserTurretRange = 15.0
 	#Cooldown of the Advanced Laser Turret
-	# Default: 65
+	# Default: 40
 	# Range: > 0
 	advancedLaserTurretCooldown = 30
 	#Damage of the Advanced Laser Turret
@@ -34,7 +34,7 @@
 	# Range: 0.0 ~ 1000.0
 	advancedLaserTurretRange = 24.0
 	#Cooldown of the Elite Laser Turret
-	# Default: 50
+	# Default: 30
 	# Range: > 0
 	eliteLaserTurretCooldown = 10
 	#Damage of the Elite Laser Turret

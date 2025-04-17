@@ -44,4 +44,46 @@ ServerEvents.tags('entity_type', event => {
         "cataclysm:wadjet",
         "allthemodium:piglich"
     ])
+    // Apothic Spawners
+    const spawnerbl = [
+        "aether:mimic",
+        "artifacts:mimic",
+        "grimoireofgaia:mimic",
+        "productivebees:ashy_mining_bee",
+        "productivebees:bee_bomb",
+        "productivebees:blue_banded_bee",
+        "productivebees:bumble_bee",
+        "productivebees:chocolate_mining_bee",
+        "productivebees:collector_bee",
+        "productivebees:configurable_bee",
+        "productivebees:creeper_bee",
+        "productivebees:cupid_bee",
+        "productivebees:digger_bee",
+        "productivebees:dye_bee",
+        "productivebees:farmer_bee",
+        "productivebees:green_carpenter_bee",
+        "productivebees:hoarder_bee",
+        "productivebees:leafcutter_bee",
+        "productivebees:lumber_bee",
+        "productivebees:mason_bee",
+        "productivebees:neon_cuckoo_bee",
+        "productivebees:nomad_bee",
+        "productivebees:quarry_bee",
+        "productivebees:rancher_bee",
+        "productivebees:reed_bee",
+        "productivebees:resin_bee",
+        "productivebees:sweat_bee",
+        "productivebees:yellow_black_carpenter_bee",
+        "minecraft:warden",
+        "minecraft:elder_guardian",
+        "minecraft:ender_dragon",
+        "minecraft:wither",
+        "iceandfire:ice_dragon",
+        "iceandfire:fire_dragon",
+        "iceandfire:lightning_dragon"
+    ]
+    event.add("apothic_spawners:blacklisted_from_spawners", "#c:bosses")
+    spawnerbl.forEach(spawnbl => {
+        event.add("apothic_spawners:blacklisted_from_spawners", `${spawnbl}`)
+    })
 })
