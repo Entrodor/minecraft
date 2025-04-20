@@ -83,6 +83,10 @@
     "modId": "almostunified",
     "version": "1.21.1-1.2.3"
   },
+  "alshanex_familiars-1.21.1_v1.1.2_HotFix.jar": {
+    "modId": "alshanex_familiars",
+    "version": "1.21.1_v1.1.2_HotFix"
+  },
   "amendments-1.21-1.2.24-neoforge.jar": {
     "modId": "amendments",
     "version": "1.21-1.2.24"
@@ -1582,6 +1586,10 @@
   "sophisticatedstorage-1.21.1-1.4.21.1123.jar": {
     "modId": "sophisticatedstorage",
     "version": "1.4.21"
+  },
+  "soulplied_energistics-1.0.1.jar": {
+    "modId": "soulplied_energistics",
+    "version": "1.0.1"
   },
   "sound-physics-remastered-neoforge-1.21.1-1.4.12.jar": {
     "modId": "sound_physics_remastered",
