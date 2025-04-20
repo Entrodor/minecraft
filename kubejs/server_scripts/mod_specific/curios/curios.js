@@ -7,6 +7,7 @@ ServerEvents.tags('item', event => {
     event.add('curios:curio', 'justdirethings:pocket_generator')
     event.add('curios:magnet', 'simplemagnets:basicmagnet')
     event.add("curios:magnet", "simplemagnets:advancedmagnet")
+    event.add('curios:necklace', "createaddition:electrum_amulet")
 
 // Remove curios tags from items
     event.remove("curios:charm", "simplemagnets:advancedmagnet")

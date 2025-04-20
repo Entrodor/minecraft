@@ -127,3 +127,4 @@ kubejs/startup_scripts/jsconfig.json
 !/config/apothic_spawners.cfg
 !/config/moreoverlays.toml
 !/config/mods_optimizer/config.toml
+!/config/akashictome-common.toml
