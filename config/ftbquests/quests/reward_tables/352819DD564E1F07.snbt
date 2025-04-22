@@ -1,0 +1,22 @@
+{
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "352819DD564E1F07"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:basic_universal_cable" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:basic_mechanical_pipe" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:basic_thermodynamic_conductor" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:basic_logistical_transporter" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:basic_pressurized_tube" } }
+		{ id: "0000000000000000", item: { count: 4, id: "mekanism:alloy_atomic" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:alloy_reinforced" } }
+		{ id: "0000000000000000", item: { count: 16, id: "mekanism:alloy_infused" } }
+		{ id: "0000000000000000", item: { count: 4, id: "mekanism:ultimate_control_circuit" } }
+		{ id: "0000000000000000", item: { count: 4, id: "mekanism:elite_control_circuit" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:advanced_control_circuit" } }
+		{ id: "0000000000000000", item: { count: 8, id: "mekanism:basic_control_circuit" } }
+	]
+}

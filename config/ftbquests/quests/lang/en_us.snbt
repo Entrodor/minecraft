@@ -449,6 +449,7 @@
 	quest.7F0DE409B848DB46.title: "Pillager Spawn Egg"
 	quest.7F1A11703ECB2756.quest_desc: ["Here are some tricks that may come in handy."]
 	quest.7F1A11703ECB2756.quest_subtitle: "Is it Halloween?"
+	reward_table.352819DD564E1F07.title: "mekanism"
 	reward_table.564EF318A81492CA.title: "vanillafoods"
 	reward_table.594294977C70DECC.title: "vanillasaplings"
 	reward_table.7B186461AC196484.title: "vanillafish"
