@@ -95,9 +95,9 @@
     "modId": "anvianslib",
     "version": "1.1"
   },
-  "Apotheosis-1.21.1-8.3.1.jar": {
+  "Apotheosis-1.21.1-8.3.2.jar": {
     "modId": "apotheosis",
-    "version": "8.3.1"
+    "version": "8.3.2"
   },
   "apothic_compats-0.1.7.jar": {
     "modId": "apothic_compats",
@@ -199,9 +199,9 @@
     "modId": "azurelib",
     "version": "3.0.11"
   },
-  "balm-neoforge-1.21.1-21.0.39.jar": {
+  "balm-neoforge-1.21.1-21.0.40.jar": {
     "modId": "balm",
-    "version": "21.0.39"
+    "version": "21.0.40"
   },
   "bankstorage-1.5.1+1.21.jar": {
     "modId": "bankstorage",
@@ -247,9 +247,9 @@
     "modId": "bibliocraft",
     "version": "1.5.1"
   },
-  "bibliowoods-1.21.1-1.5.0.jar": {
+  "bibliowoods-1.21.1-1.5.1.jar": {
     "modId": "bibliowoods",
-    "version": "1.5.0"
+    "version": "1.5.1"
   },
   "BlockRunner-v21.1.2-1.21.1-NeoForge.jar": {
     "modId": "blockrunner",
@@ -399,9 +399,9 @@
     "modId": "craftingtweaks",
     "version": "21.1.5"
   },
-  "crash_assistant-neoforge-1.21.1-1.7.6.jar": {
+  "crash_assistant-neoforge-1.21.1-1.7.9.jar": {
     "modId": "crash_assistant",
-    "version": "1.7.6"
+    "version": "1.7.9"
   },
   "crashutilities-9.0.4.jar": {
     "modId": "crashutilities",
@@ -427,7 +427,7 @@
     "modId": "create_structures_arise",
     "version": "153.26.25"
   },
-  "createaddition-1.4.0.jar": {
+  "createaddition-1.4.1.jar": {
     "modId": "createaddition"
   },
   "CreativeCore_NEOFORGE_v2.13.2_mc1.21.1.jar": {
@@ -1203,9 +1203,9 @@
     "modId": "monolib",
     "version": "2.0.0"
   },
-  "moonlight-1.21-2.18.8-neoforge.jar": {
+  "moonlight-1.21-2.18.9-neoforge.jar": {
     "modId": "moonlight",
-    "version": "1.21-2.18.8"
+    "version": "1.21-2.18.9"
   },
   "moredragoneggs-5.0.jar": {
     "modId": "moredragoneggs",
@@ -1283,9 +1283,9 @@
     "modId": "nolijium",
     "version": "0.5.6"
   },
-  "Not Enough Recipe Book-NEOFORGE-0.4.1.jar": {
+  "Not Enough Recipe Book-NEOFORGE-0.4.2+1.21.jar": {
     "modId": "nerb",
-    "version": "0.4.1"
+    "version": "0.4.2"
   },
   "notenoughanimations-neoforge-1.9.3-mc1.21.jar": {
     "modId": "notenoughanimations",
@@ -1679,9 +1679,9 @@
     "modId": "torchmaster",
     "version": "21.1.5-beta"
   },
-  "touhoulittlemaid-1.21.1-release-1.2.1.jar": {
+  "touhoulittlemaid-1.21.1-release-1.2.2-hotfix.jar": {
     "modId": "touhou_little_maid",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   "transmog-neoforge-1.6.0+1.21.1.jar": {
     "modId": "transmog",
