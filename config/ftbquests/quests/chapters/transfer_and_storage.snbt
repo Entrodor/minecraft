@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "dimensional_dungeons"
-	group: "70DEA18A0327F7F7"
+	filename: "transfer_and_storage"
+	group: "3F42C61D0539FFA7"
 	icon: {
-		id: "dimdungeons:block_portal_keyhole"
+		id: "oritech:basic_battery"
 	}
-	id: "2C632871D74DF825"
+	id: "09EBEBA774B64571"
 	order_index: 3
 	quest_links: [ ]
 	quests: [ ]

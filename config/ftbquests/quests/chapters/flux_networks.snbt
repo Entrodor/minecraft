@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flux_networks"
-	group: "60727D1667A82BB8"
+	group: "3F42C61D0539FFA7"
 	icon: {
 		id: "fluxnetworks:admin_configurator"
 	}
 	id: "51C50A7CF857BC85"
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

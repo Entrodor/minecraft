@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "crystal_chronicles"
-	group: "70DEA18A0327F7F7"
+	filename: "powah"
+	group: "3F42C61D0539FFA7"
 	icon: {
-		id: "crystal_chronicles:eye"
+		id: "powah:crystal_nitro"
 	}
-	id: "2B05F3CDD2DCCE53"
+	id: "35DC3ACA0B3229EA"
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
