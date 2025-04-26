@@ -128,5 +128,6 @@ kubejs/startup_scripts/jsconfig.json
 !/config/moreoverlays.toml
 !/config/mods_optimizer/config.toml
 !/config/akashictome-common.toml
+!/config/bcc-common.toml
 !/config/itemphysic.json
 !/config/powah.json5

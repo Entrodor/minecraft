@@ -1,6 +1,7 @@
 RecipeViewerEvents.removeEntries('item', event => {
 //Hide Chisels and Bits bits from EMI
-    event.remove("chiselsandbits:block_bit")
+//Currently causes EMI to glitch out when searching certain things, no idea why.
+//    event.remove("chiselsandbits:block_bit")
 // Hide Huge Curvy Pipes, cos they're unused by us.
     event.remove("curvy_pipes:huge_fluid_pipe")
     event.remove("curvy_pipes:huge_energy_pipe")

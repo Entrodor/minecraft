@@ -1,7 +1,7 @@
 {
-  "neoforge-21.1.144 (modloader)": {
+  "neoforge-21.1.160 (modloader)": {
     "modId": "neoforge",
-    "version": "neoforge-21.1.144"
+    "version": "neoforge-21.1.160"
   },
   "actuallyadditions-1.3.18+mc1.21.1.jar": {
     "modId": "actuallyadditions",
@@ -95,9 +95,9 @@
     "modId": "anvianslib",
     "version": "1.1"
   },
-  "Apotheosis-1.21.1-8.3.2.jar": {
+  "Apotheosis-1.21.1-8.3.1.jar": {
     "modId": "apotheosis",
-    "version": "8.3.2"
+    "version": "8.3.1"
   },
   "apothic_compats-0.1.7.jar": {
     "modId": "apothic_compats",
