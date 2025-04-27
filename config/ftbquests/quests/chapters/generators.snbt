@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "deeper_darker"
-	group: "70DEA18A0327F7F7"
+	filename: "generators"
+	group: "3F42C61D0539FFA7"
 	icon: {
-		id: "deeperdarker:heart_of_the_deep"
+		id: "mekanismgenerators:wind_generator"
 	}
-	id: "2AB4447C6E598283"
+	id: "50E619E8D5E5E37C"
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]

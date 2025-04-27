@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "silent_gear"
+	group: "1A26E5C97F305F62"
+	icon: {
+		id: "silentgear:blueprint_book"
+	}
+	id: "6F8999869ED03806"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "silentgear:blueprint_package"
+			}
+			id: "4956658336967F97"
+			tasks: [{
+				id: "7E731CC2D3CBF627"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "silentgear:jeweler_tools"
+			}
+			id: "0699282291DBF958"
+			tasks: [{
+				id: "2A5AACAC22E15CB2"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4956658336967F97"]
+			id: "11C74927AD480637"
+			rewards: [{
+				id: "3D3187E62B941C9C"
+				item: {
+					count: 1
+					id: "silentgear:blueprint_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C2988BD9AC795AB"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(silentgear:blueprints)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66C7534C0CC8DFFB"]
+			id: "23F1CFF1C54A491E"
+			tasks: [{
+				id: "32CE030E210EE842"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(silentgear:starlight_charger_catalysts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0E5C6ABC1F79BAFE"
+				"6A56FABB3B805BF6"
+			]
+			id: "6CE03EEA539EFEC8"
+			tasks: [{
+				id: "6AB0724B6E42CB64"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(silentgear:grader_catalysts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A56FABB3B805BF6"]
+			id: "4EFA569F65ACDDDF"
+			tasks: [{
+				count: 8L
+				id: "7CDF0F5B777B5901"
+				item: { count: 1, id: "silentgear:golden_nether_banana" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4956658336967F97"]
+			id: "40FE133BA5C5A7E6"
+			tasks: [{
+				id: "1A8F6206F417FE75"
+				item: { count: 1, id: "silentgear:netherwood_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40FE133BA5C5A7E6"]
+			id: "6A56FABB3B805BF6"
+			tasks: [{
+				count: 8L
+				id: "4045902887959287"
+				item: { count: 1, id: "silentgear:nether_banana" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4956658336967F97"]
+			id: "119ED8BF290C6F5D"
+			optional: true
+			tasks: [{
+				id: "5A361027E958416B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(silentgear:repair_kits)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4956658336967F97"
+				"0699282291DBF958"
+			]
+			id: "66C7534C0CC8DFFB"
+			rewards: [{
+				id: "5C3284B3C5125C8F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "28FE769F62A4C6D2"
+					item: { count: 1, id: "silentgear:starlight_charger" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "729499AF701E7334"
+					item: { components: { "ftbfiltersystem:filter": "or(item(silentgear:azure_electrum_block)item(silentgear:tyrian_steel_block)item(silentgear:crimson_steel_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4956658336967F97"
+				"0699282291DBF958"
+			]
+			id: "3A2631A79283A979"
+			rewards: [{
+				id: "58712C8521C15660"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "24C2217203EA6B4E"
+				item: { count: 1, id: "silentgear:alloy_forge" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4956658336967F97"
+				"0699282291DBF958"
+			]
+			id: "0E5C6ABC1F79BAFE"
+			rewards: [{
+				id: "6CBA980D79EB182B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1BD68FAACDECB79C"
+				item: { count: 1, id: "silentgear:material_grader" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4956658336967F97"
+				"0699282291DBF958"
+			]
+			id: "6BE03E2930BD3C03"
+			rewards: [{
+				id: "03970E33DB2182E0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "11B0704520D544CD"
+				item: { count: 1, id: "silentgear:refabricator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4956658336967F97"
+				"0699282291DBF958"
+			]
+			id: "2C960692A0AAF199"
+			rewards: [{
+				id: "6197F7A459A07C85"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2444F09E2A69AA40"
+				item: { count: 1, id: "silentgear:recrystallizer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4956658336967F97"]
+			id: "205103B71429E944"
+			tasks: [{
+				id: "52AD98383F075870"
+				item: { count: 1, id: "silentgear:salvager" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0699282291DBF958"]
+			id: "78197E1B68AC3E80"
+			optional: true
+			tasks: [{
+				id: "6B428E6E9494CA70"
+				item: { components: { "minecraft:damage": 0, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ material: "silentgear:dimerald" }] }, count: 1, id: "silentgear:ring_shank" }, part: "silentgear:ring_shank" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:setting" }, part: "silentgear:setting" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "ring:ring_shank{dimerald},setting{diamond},", "silentgear:properties": { "silentgear:armor": 22.0f, "silentgear:armor_durability": 36.0f, "silentgear:armor_toughness": 10.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.1f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.7f, "silentgear:draw_speed": 0.1f, "silentgear:durability": 1776.0f, "silentgear:enchantment_value": 12.000001f, "silentgear:harvest_speed": 9.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_dimerald_tools", level_hint: "3", name: "dimerald" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 10.0f, "silentgear:magic_damage": 3.0f, "silentgear:projectile_accuracy": 1.2f, "silentgear:projectile_speed": 1.0f, "silentgear:ranged_damage": 3.0f, "silentgear:rarity": 80.0f, "silentgear:repair_efficiency": 0.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 1, trait: "silentgear:brittle" }, { conditions: [{ type: "silentgear:or", values: [ { gear_type: "silentgear:armor", type: "silentgear:gear_type" }, { gear_type: "silentgear:curio", type: "silentgear:gear_type" } ] }], level: 1, trait: "silentgear:bastion" } ] } }, count: 1, id: "silentgear:ring" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0699282291DBF958"]
+			id: "01CC18B781C2B06B"
+			optional: true
+			tasks: [{
+				id: "6EFA123253DAC4BD"
+				item: { components: { "minecraft:damage": 0, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ material: "silentgear:dimerald" }] }, count: 1, id: "silentgear:bracelet_band" }, part: "silentgear:bracelet_band" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:setting" }, part: "silentgear:setting" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "bracelet:bracelet_band{dimerald},setting{diamond},", "silentgear:properties": { "silentgear:armor": 22.0f, "silentgear:armor_durability": 36.0f, "silentgear:armor_toughness": 10.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.1f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.7f, "silentgear:draw_speed": 0.1f, "silentgear:durability": 1776.0f, "silentgear:enchantment_value": 12.000001f, "silentgear:harvest_speed": 9.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_dimerald_tools", level_hint: "3", name: "dimerald" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 10.0f, "silentgear:magic_damage": 3.0f, "silentgear:projectile_accuracy": 1.2f, "silentgear:projectile_speed": 1.0f, "silentgear:ranged_damage": 3.0f, "silentgear:rarity": 80.0f, "silentgear:repair_efficiency": 0.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 1, trait: "silentgear:brittle" }, { conditions: [{ type: "silentgear:or", values: [ { gear_type: "silentgear:armor", type: "silentgear:gear_type" }, { gear_type: "silentgear:curio", type: "silentgear:gear_type" } ] }], level: 1, trait: "silentgear:bastion" } ] } }, count: 1, id: "silentgear:bracelet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0699282291DBF958"]
+			id: "0865D9BCE4F1F3A1"
+			optional: true
+			tasks: [{
+				id: "7D8E8D194E0C7D26"
+				item: { components: { "minecraft:damage": 0, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ material: "silentgear:dimerald" }] }, count: 1, id: "silentgear:necklace_chain" }, part: "silentgear:necklace_chain" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:setting" }, part: "silentgear:setting" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "necklace:necklace_chain{dimerald},setting{diamond},", "silentgear:properties": { "silentgear:armor": 22.0f, "silentgear:armor_durability": 36.0f, "silentgear:armor_toughness": 10.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.1f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.7f, "silentgear:draw_speed": 0.1f, "silentgear:durability": 1776.0f, "silentgear:enchantment_value": 12.000001f, "silentgear:harvest_speed": 9.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_dimerald_tools", level_hint: "3", name: "dimerald" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 10.0f, "silentgear:magic_damage": 3.0f, "silentgear:projectile_accuracy": 1.2f, "silentgear:projectile_speed": 1.0f, "silentgear:ranged_damage": 3.0f, "silentgear:rarity": 80.0f, "silentgear:repair_efficiency": 0.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 1, trait: "silentgear:brittle" }, { conditions: [{ type: "silentgear:or", values: [ { gear_type: "silentgear:armor", type: "silentgear:gear_type" }, { gear_type: "silentgear:curio", type: "silentgear:gear_type" } ] }], level: 1, trait: "silentgear:bastion" } ] } }, count: 1, id: "silentgear:necklace" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "4C268DAFA0E960F0"
+			optional: true
+			tasks: [{
+				id: "42EC6DEFD43FB648"
+				item: { components: { "minecraft:dyed_color": { rgb: -13374517, show_in_tooltip: 0b }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [{ item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:helmet_plates" }, part: "silentgear:helmet_plates" }], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "helmet:helmet_plates{diamond},", "silentgear:properties": { "silentgear:armor": 3.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [{ conditions: [ ], level: 4, trait: "silentgear:brittle" }] } }, count: 1, id: "silentgear:helmet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "69747301392C5677"
+			optional: true
+			tasks: [{
+				id: "52178258C80ABE02"
+				item: { components: { "minecraft:dyed_color": { rgb: -13374517, show_in_tooltip: 0b }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [{ item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:chestplate_plates" }, part: "silentgear:chestplate_plates" }], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "chestplate:chestplate_plates{diamond},", "silentgear:properties": { "silentgear:armor": 8.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [{ conditions: [ ], level: 4, trait: "silentgear:brittle" }] } }, count: 1, id: "silentgear:chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "0DF4CBDEFA62DEB6"
+			optional: true
+			tasks: [{
+				id: "74C1B64FC914C608"
+				item: { components: { "minecraft:damage": 0, "minecraft:dyed_color": { rgb: -13374517, show_in_tooltip: 0b }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:elytra_wings" }, part: "silentgear:elytra_wings" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:string" }, material: "silentgear:string" }] }, count: 1, id: "silentgear:binding" }, part: "silentgear:binding" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "elytra:elytra_wings{diamond},binding{string},", "silentgear:properties": { "silentgear:armor": 3.5f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.05f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [ ], level: 1, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:elytra" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "56A0A5DB6D0D6CA0"
+			optional: true
+			tasks: [{
+				id: "541E8AB8B1427289"
+				item: { components: { "minecraft:dyed_color": { rgb: -13374517, show_in_tooltip: 0b }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [{ item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:legging_plates" }, part: "silentgear:legging_plates" }], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "leggings:legging_plates{diamond},", "silentgear:properties": { "silentgear:armor": 6.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [{ conditions: [ ], level: 4, trait: "silentgear:brittle" }] } }, count: 1, id: "silentgear:leggings" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "7612EC24B594B7EF"
+			optional: true
+			tasks: [{
+				id: "48306A75E5EFE52D"
+				item: { components: { "minecraft:dyed_color": { rgb: -13374517, show_in_tooltip: 0b }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [{ item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:boot_plates" }, part: "silentgear:boot_plates" }], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "boots:boot_plates{diamond},", "silentgear:properties": { "silentgear:armor": 3.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [{ conditions: [ ], level: 4, trait: "silentgear:brittle" }] } }, count: 1, id: "silentgear:boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "2F1CF5960AF7B096"
+			optional: true
+			tasks: [{
+				id: "2735CD21B5B940BF"
+				item: { components: { "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:sword_blade" }, part: "silentgear:sword_blade" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "sword:sword_blade{diamond},rod{wood},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 6.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 1.6000001f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:sword" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "3DEA69993FB846B3"
+			optional: true
+			tasks: [{
+				id: "4AF2AD21E214E2B0"
+				item: { components: { "minecraft:tool": { rules: [ { blocks: "#silentgear:incorrect_for_diamond_tools", correct_for_drops: 0b }, { blocks: "#minecraft:mineable/pickaxe", correct_for_drops: 1b, speed: 8.0f } ] }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:pickaxe_head" }, part: "silentgear:pickaxe_head" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "pickaxe:pickaxe_head{diamond},rod{wood},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 4.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 1.2f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [{ gear_type: "silentgear:harvest_tool", type: "silentgear:gear_type" }], level: 1, trait: "silentgear:lustrous" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:pickaxe" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "3EF28722062600F4"
+			optional: true
+			tasks: [{
+				id: "5F68039E45C117E0"
+				item: { components: { "minecraft:tool": { rules: [ { blocks: "#silentgear:incorrect_for_diamond_tools", correct_for_drops: 0b }, { blocks: "#minecraft:mineable/axe", correct_for_drops: 1b, speed: 8.0f } ] }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:axe_head" }, part: "silentgear:axe_head" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "axe:axe_head{diamond},rod{wood},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 8.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 1.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [{ gear_type: "silentgear:harvest_tool", type: "silentgear:gear_type" }], level: 1, trait: "silentgear:lustrous" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:axe" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "486949316AE4B53E"
+			optional: true
+			tasks: [{
+				id: "56668C1A0E683642"
+				item: { components: { "minecraft:tool": { rules: [ { blocks: "#silentgear:incorrect_for_diamond_tools", correct_for_drops: 0b }, { blocks: "#silentgear:mineable/mattock", correct_for_drops: 1b, speed: 6.0f } ] }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:mattock_head" }, part: "silentgear:mattock_head" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "mattock:mattock_head{diamond},rod{wood},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 4.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 1.4f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1951.25f, "silentgear:enchantment_value": 7.5f, "silentgear:harvest_speed": 6.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.25f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [{ gear_type: "silentgear:harvest_tool", type: "silentgear:gear_type" }], level: 1, trait: "silentgear:lustrous" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:mattock" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "3958751C64C46A1C"
+			optional: true
+			tasks: [
+				{
+					id: "0A94A9B1C4CE52D2"
+					item: { components: { "minecraft:tool": { damage_per_block: 2, rules: [ ] }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:bow_limbs" }, part: "silentgear:bow_limbs" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:string" }, material: "silentgear:string" }] }, count: 1, id: "silentgear:cord" }, part: "silentgear:cord" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "bow:bow_limbs{diamond},rod{wood},cord{string},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": 0.78f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 5.5f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 3.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:bow" }
+					type: "item"
+				}
+				{
+					id: "1A80E7E4F7F4B889"
+					item: { components: { "minecraft:damage": 0, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:arrow_heads" }, part: "silentgear:arrow_heads" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "arrow:arrow_heads{diamond},rod{wood},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 0.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.2f, "silentgear:durability": 1561.0f, "silentgear:enchantment_value": 10.0f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 0.0f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:arrow" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "4696DCA5804FE2C5"
+			optional: true
+			tasks: [{
+				id: "2D38D568BEAC6BEA"
+				item: { components: { "minecraft:tool": { damage_per_block: 2, rules: [ ] }, "silentgear:construction": { broken_count: 0, example: 0b, parts: [ { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:fishing_reel_and_hook" }, part: "silentgear:fishing_reel_and_hook" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:oak_planks" }, material: "silentgear:wood" }] }, count: 1, id: "silentgear:rod" }, part: "silentgear:rod" }, { item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:string" }, material: "silentgear:string" }] }, count: 1, id: "silentgear:cord" }, part: "silentgear:cord" } ], repairedCount: 0 }, "silentgear:model_index": 3, "silentgear:model_key": "fishing_rod:fishing_reel_and_hook{diamond},rod{wood},cord{string},", "silentgear:properties": { "silentgear:armor": 20.0f, "silentgear:armor_durability": 33.0f, "silentgear:armor_toughness": 8.0f, "silentgear:attack_damage": 3.0f, "silentgear:attack_reach": 6.0f, "silentgear:attack_speed": 4.0f, "silentgear:block_reach": 0.0f, "silentgear:charging_value": 0.8000001f, "silentgear:draw_speed": -0.22f, "silentgear:durability": 780.5f, "silentgear:enchantment_value": 2.5f, "silentgear:harvest_speed": 8.0f, "silentgear:harvest_tier": { incorrect_blocks_for_tool: "silentgear:incorrect_for_diamond_tools", level_hint: "3", name: "diamond" }, "silentgear:knockback_resistance": 0.0f, "silentgear:magic_armor": 4.0f, "silentgear:magic_damage": 1.0f, "silentgear:projectile_accuracy": 1.1f, "silentgear:projectile_speed": 0.9f, "silentgear:ranged_damage": 2.0f, "silentgear:rarity": 70.0f, "silentgear:repair_efficiency": 1.25f, "silentgear:repair_value": 0.0f, "silentgear:traits": [ { conditions: [ ], level: 2, trait: "silentgear:brittle" }, { conditions: [ ], level: 2, trait: "silentgear:flexible" } ] } }, count: 1, id: "silentgear:fishing_rod" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "62D76E1736F2E63D"
+			optional: true
+			tasks: [{
+				id: "5B2470E07BCF50A7"
+				item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:diamond" }, material: "silentgear:diamond" }] }, count: 1, id: "silentgear:tip" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "7C99F4331EA31446"
+			optional: true
+			tasks: [{
+				id: "48CB015E0F69689B"
+				item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:white_wool" }, material: "silentgear:wool/white" }] }, count: 1, id: "silentgear:grip" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "43860018FC1C9DAD"
+			optional: true
+			tasks: [{
+				id: "362FB1E2C0AA4B65"
+				item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:netherite_ingot" }, material: "silentgear:netherite" }] }, count: 1, id: "silentgear:coating" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "5FEAF09CE01AE760"
+			optional: true
+			tasks: [{
+				id: "29EF97D8E3AF59D1"
+				item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "silentgear:sinew_fiber" }, material: "silentgear:sinew" }] }, count: 1, id: "silentgear:binding" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11C74927AD480637"]
+			id: "52261D574A75EBF0"
+			optional: true
+			tasks: [{
+				id: "1740FEAA05B98941"
+				item: { components: { "silentgear:material_list": [{ item: { count: 1, id: "minecraft:white_wool" }, material: "silentgear:wool/white" }] }, count: 1, id: "silentgear:lining" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+	]
+}

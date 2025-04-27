@@ -4,9 +4,12 @@
 	chapter.04607E84EA1DF8CE.title: "Macabre"
 	chapter.04903DB0CD6EF5A5.title: "Hostile Networks"
 	chapter.08E7EC48E4943543.title: "Apotheosis"
+	chapter.09EBEBA774B64571.title: "Transfer and Storage"
 	chapter.1045B116AB0950B3.title: "Mekanism"
 	chapter.10617C9BDBEB497A.title: "Croptopia"
 	chapter.12B29F5D587F8F3C.title: "Just Dire Things"
+	chapter.138C70AB2E28B0ED.title: "Tools and Weapon Tiers"
+	chapter.15249C1C89503BB7.title: "Armor Tiers"
 	chapter.15F2BEE1D1977381.title: "Grimore of Gaia"
 	chapter.20267E7D79F1B2E5.title: "Tips and Tricks"
 	chapter.22D3727CEB9F417A.title: "Welcome"
@@ -18,15 +21,16 @@
 	chapter.30C629AE30743178.title: "Xycraft"
 	chapter.3188A9B6930B946E.title: "The Aether"
 	chapter.3312E2B647A1D99C.title: "Iron's Spells"
+	chapter.35DC3ACA0B3229EA.title: "Powah"
 	chapter.36F2317966F1460F.title: "Immersive Engineering"
-	chapter.3C700D5CA6A6EAA2.title: "Relics"
+	chapter.3C700D5CA6A6EAA2.title: "Relics And Addons"
 	chapter.40E3C2CE1149E56E.title: "Sophisticated Storage"
-	chapter.488B06FEE1A4A84C.title: "Other Curios"
 	chapter.490E8E34FEDFFBAC.title: "OriTech"
 	chapter.4F36BBF92D1D70D2.title: "RF Tools"
 	chapter.4F466B333D793FBE.title: "The Bumblezone"
+	chapter.50E619E8D5E5E37C.title: "Generators"
 	chapter.51C50A7CF857BC85.title: "Flux Networks"
-	chapter.56892F45D7D5E815.title: "All the Dimensions"
+	chapter.56892F45D7D5E815.title: "All The Mods"
 	chapter.56DFFA3A90FFFAC1.title: "Beez"
 	chapter.57F97674BAD5BA91.title: "Mystical Agriculture"
 	chapter.5801624DBF95D23A.title: "Applied Energistics"
@@ -38,15 +42,17 @@
 	chapter.6C3E3F0C93D0CA45.title: "Kills"
 	chapter.6D0AFF6F36F1301D.title: "Doggy Talents"
 	chapter.6DFD8907DE91836E.title: "Ice and Fire"
+	chapter.6F8999869ED03806.title: "Silent Gear"
 	chapter.6FEEFF5F71395A83.title: "The Nether"
 	chapter.713090E2204B46ED.title: "Advanced Mekanism"
 	chapter.73BB868C4E262B76.title: "Vanilla Start"
 	chapter.74436712402AF9E2.title: "Artifacts"
 	chapter.78C0663E6C47260E.title: "Actually Additions"
-	chapter_group.1A26E5C97F305F62.title: "Curios"
+	chapter_group.1A26E5C97F305F62.title: "Tools and Gear"
 	chapter_group.246FA60C46CF4A12.title: "Storage"
 	chapter_group.375753674AC829E2.title: "Foodz"
 	chapter_group.3A55D13B47F16C8F.title: "Resources"
+	chapter_group.3F42C61D0539FFA7.title: "Power and Generation"
 	chapter_group.448D0BD75563037B.title: "Mobs"
 	chapter_group.473734473FE7CAD5.title: "Creative"
 	chapter_group.57971926FD205C72.title: "The Beginning"
@@ -89,6 +95,7 @@
 	quest.059A7E4E14B1C360.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.059A7E4E14B1C360.title: "Stray Spawn Egg"
 	quest.0678F09C1AB8B50C.title: "Witch x100"
+	quest.0699282291DBF958.quest_desc: ["Can be forge with Apotheosis."]
 	quest.074242BE8F3BF4A5.quest_desc: ["This block will not stop it from raining but will prevent the raindrops from appearing."]
 	quest.0785ED84E5AA811E.quest_desc: ["They have destroyed our builds far to much, it is time to pay with their life!"]
 	quest.0785ED84E5AA811E.quest_subtitle: "Pocket Explosion?"
@@ -98,6 +105,7 @@
 	quest.07D8DECAAA0EF635.quest_desc: ["These boney things need to die! Again? On the plus side, plants love the bone meal."]
 	quest.07D8DECAAA0EF635.quest_subtitle: "Spooky Scary Skeleton!"
 	quest.07D8DECAAA0EF635.title: "Skeleton x5"
+	quest.080702445BD4BBBA.quest_desc: ["The End."]
 	quest.080BAE3733E269B9.quest_subtitle: "A Nose to that is to big!"
 	quest.080BAE3733E269B9.title: "The Big Sniff"
 	quest.084F381EDCD63142.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -111,6 +119,7 @@
 	quest.0D58757FB5373354.quest_desc: ["Possibly has some descent trades, but pops out of nowhere at the most annoying time. Time to end them!"]
 	quest.0D58757FB5373354.quest_subtitle: "The Trader that wanders."
 	quest.0D58757FB5373354.title: "Wandering Trader"
+	quest.0D6B5BFE13A2E239.quest_desc: ["Cursed Pyramid and The End."]
 	quest.0D77B23A5EE0C106.quest_desc: ["All those pesky mobs just waiting to die. Lets help them with their wish!"]
 	quest.0D77B23A5EE0C106.quest_subtitle: "It's Justice I swear!"
 	quest.0D77B23A5EE0C106.title: "Kill'n Time!"
@@ -120,6 +129,7 @@
 	quest.0E2B167B609C3754.quest_desc: ["These guys love gold to much and is ruining the economy. Remove them so we may recover."]
 	quest.0E2B167B609C3754.quest_subtitle: "Golden Traders"
 	quest.0E2B167B609C3754.title: "Piglin x5"
+	quest.0E5C6ABC1F79BAFE.quest_subtitle: "Powder Upgrade!"
 	quest.1030936A2A3F895E.quest_subtitle: "Boy it's hot in here!"
 	quest.1030936A2A3F895E.title: "Better in the Nether"
 	quest.1117A6A3F27D1462.quest_desc: [
@@ -143,6 +153,7 @@
 	]
 	quest.134C5E17C94F5349.quest_subtitle: "As bright as the Sun!"
 	quest.134C5E17C94F5349.title: "Useful Torches"
+	quest.1362BB61A7807260.quest_desc: ["Husks, even worse than the regular zombie but found in deserts. Try not to be hit by them or you may need to eat more than normal."]
 	quest.1362BB61A7807260.quest_subtitle: "Brrraaaaiiinnnnsss! Cough Cough, anyone got water?"
 	quest.1362BB61A7807260.title: "Husk x5"
 	quest.136F9E6DB5A62956.title: "Shulker x50"
@@ -155,6 +166,7 @@
 	quest.141C8CB4BE29C5B9.title: "Archaeology"
 	quest.158311E8E3BE0691.quest_subtitle: "Bling Bling!"
 	quest.158311E8E3BE0691.title: "Diamond Gear"
+	quest.18380E988C67D978.quest_desc: ["Ars Nouvea relics can be found in loot chests in Ars Nouvea structures including those added by Ars Additions and Ars Elements."]
 	quest.1A4422226EAB1E0B.title: "Shulker x25"
 	quest.1BEB92F5725CA846.title: "Vindicator x100"
 	quest.1C0CA3AD1044329C.quest_desc: ["Free The End from this Mighty Beast, so it may be safer to explore."]
@@ -166,9 +178,12 @@
 	quest.1E74C743C26F20AB.quest_desc: ["These creepy crawlys have caused much pain to many out there. Rid of them when you see them."]
 	quest.1E74C743C26F20AB.quest_subtitle: "Kill it with FIRE!"
 	quest.1E74C743C26F20AB.title: "Spider x5"
+	quest.1E8F0078EF4A1876.quest_desc: ["Cursed Pyramid and The End"]
 	quest.1F3DD3C0D73DFF75.title: "Spider x25"
 	quest.1F4A403B230B5381.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1F4A403B230B5381.title: "Enderman Spawn Egg"
+	quest.1FE191DB6D89B831.quest_desc: ["Frosted Prison and The End."]
+	quest.205103B71429E944.quest_subtitle: "Recycling is good!"
 	quest.2254792ACDD84F93.title: "Zombies x100"
 	quest.22E0AD6A44FBE8EF.quest_subtitle: "Watch out for Link!"
 	quest.22E0AD6A44FBE8EF.title: "Pottery Pot"
@@ -209,6 +224,7 @@
 		""
 		"You can also create a party with /ftbteams party create <party_name> and then invite friends with /ftbteams party invite <player>"
 	]
+	quest.310952D3326EFF1E.quest_desc: ["These skeletons with their slowness arrows are a nuisance, take them out and remove their arrows from them."]
 	quest.310952D3326EFF1E.quest_subtitle: "Ice Cold!"
 	quest.310952D3326EFF1E.title: "Stray x5"
 	quest.31FC038EAFE19742.quest_desc: [
@@ -226,6 +242,7 @@
 	quest.338934375AFFE665.quest_desc: ["Cave Spiders are the bane of Miners all over the Minecraft world. Squash them beneath your boots."]
 	quest.338934375AFFE665.quest_subtitle: "You wandered into the wrong cave!"
 	quest.338934375AFFE665.title: "Cave Spider x5"
+	quest.33E567E2AD7C189C.quest_desc: ["These Cataclsym relics can be found in The End and possibly in The Cursed Pyramid in the Overworld or Frosted Prison in the Overworld or Dreadland."]
 	quest.33E71DF28F3EA31E.title: "Cave Spider x100"
 	quest.34516859E6C10664.quest_desc: ["A pumpkin on the head may be you best friend, when taking out an Enderman. Note: Enderman are 3 blocks high, that information may come in handy."]
 	quest.34516859E6C10664.quest_subtitle: "DO NOT LOOK AT THEIR EYES!"
@@ -234,6 +251,7 @@
 	quest.34CD482F7CFB79F8.title: "Guardian x25"
 	quest.361340A36383A5D6.quest_subtitle: "Where did that Dragon come from?"
 	quest.361340A36383A5D6.title: "This can't be the End"
+	quest.3648BBA5910A2071.quest_desc: ["The Following relics can be found in various loot chests in The Overworld."]
 	quest.36709BA367FD0F90.quest_desc: ["Pillagers have pillaged and pouched enough, lets help those Allays by removing as many Pillagers as you can."]
 	quest.36709BA367FD0F90.quest_subtitle: "I'm pillagin' this village!"
 	quest.36709BA367FD0F90.title: "Pillager x5"
@@ -257,6 +275,8 @@
 	]
 	quest.395333E99CB1CECE.quest_subtitle: "What happened to Stuart Little?"
 	quest.395333E99CB1CECE.title: "Shinktastic"
+	quest.3958751C64C46A1C.title: "Bow and Arrow"
+	quest.3A2631A79283A979.quest_subtitle: "Mixin Metals~"
 	quest.3B25050EBD52E2D3.title: "Pillager x25"
 	quest.3C0457BAD5779C0D.quest_desc: [
 		"Players can claim a certain number of chunks and other players cannot grief this area, unless in the same team as the land claim owner."
@@ -296,6 +316,9 @@
 		"&4Note: You may need to relog onto the server or reload your save to have the effect of new ranks.&r"
 	]
 	quest.4323C192241B7DBA.quest_subtitle: "Homes you say?"
+	quest.43810A165532F5F4.quest_desc: ["The Mimic from the Artifacts mod can drop all these relics."]
+	quest.43810A165532F5F4.quest_subtitle: "Adventures Worst Nightmare!"
+	quest.43810A165532F5F4.title: "Mimic Again?"
 	quest.43DC34DFD0F63B6E.quest_subtitle: "I'm Iron Man!"
 	quest.43DC34DFD0F63B6E.title: "Iron Gear"
 	quest.44E3A1C8FA69EF7C.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -309,18 +332,23 @@
 	quest.47125F51006E4D11.title: "Zombies x25"
 	quest.472A37807CDEC396.title: "Drowned x50"
 	quest.4746CB3A1622C539.title: "Wither Skeleton x50"
+	quest.47EFCA05A977892F.quest_desc: ["The Drowned, the bane of those exploring the oceans and always appear out of nowhere."]
 	quest.47EFCA05A977892F.quest_subtitle: "Brrraaaaiiinnnnsss! I'm Drowning!"
 	quest.47EFCA05A977892F.title: "Drowned x5"
+	quest.496CF2B09F7A9F6F.quest_desc: ["The Following relics can be found in various loot chests in The Nether."]
 	quest.4AB15F1AC5EDDD7F.title: "Wither Skeleton x100"
 	quest.4BE787C963F731C3.title: "Husk x100"
 	quest.4C8F34B35B933702.quest_desc: ["Oh no! You have perished, but don't worry. You can combine your key with an &2Ender Pearl&r to teleport to your grave."]
 	quest.4C8F34B35B933702.quest_subtitle: "A coin for the ferryman!"
 	quest.4C8F34B35B933702.title: "&4You DIED!&r"
 	quest.4CDB26ED08E6411C.title: "Magma Cube x25"
+	quest.4EFA569F65ACDDDF.title: "Golden Banana"
 	quest.5019C1C73765E7FB.title: "Shulker x100"
 	quest.519472C8CD07B9D6.quest_desc: ["This pack uses FTB Teams for \"team related features\" eg Quests and Claim permissions. And uses Open Parties and Claims for chunk claiming features."]
 	quest.519472C8CD07B9D6.title: "Teams And Claims"
+	quest.52261D574A75EBF0.title: "Lining"
 	quest.527541E86A04CEDF.title: "Piglin Brute x100"
+	quest.533E06537487B2E1.quest_desc: ["You can find any of these artifacts in most loot chests or by killing a mimic found in caves."]
 	quest.533E06537487B2E1.quest_subtitle: "Chest in Disquise!"
 	quest.533E06537487B2E1.title: "Mimic"
 	quest.53E9D0C3D9BA1A81.quest_subtitle: "Bigger Buckets!"
@@ -330,6 +358,7 @@
 	quest.5539BF931E4FDFFB.title: "Blaze x100"
 	quest.55BBC5B6E94F886E.quest_desc: ["Our modpack is a project that we have been wanting to do for a while and is a learning experience for us. We eventually want the modpack to focus around &bJust Dire Things&r as well as different areas, to make players experience the different mods to progress."]
 	quest.55BBC5B6E94F886E.quest_subtitle: "Modpacks are hard!"
+	quest.5604BC251A165B49.quest_desc: ["The typical zombie, not much of a threat by themselves but in groups beware. Keep an eye out for the baby zombies, the may become your end."]
 	quest.5604BC251A165B49.quest_subtitle: "Brrraaaaiiinnnnsss!"
 	quest.5604BC251A165B49.title: "Zombies x5"
 	quest.56E8204623AF9BFB.title: "Enderman x100"
@@ -341,6 +370,7 @@
 	quest.586F534FBF554E6A.title: "Enderman x25"
 	quest.5941FBAE62E00962.title: "Pillager x100"
 	quest.5A5E0A24435C3932.title: "Guardian x100"
+	quest.5A5F36F4EFE83C6F.quest_desc: ["Curse Pyramid, Frosted Prison and The End."]
 	quest.5A70048B7415D646.title: "Stray x100"
 	quest.5B77365AF81CF245.title: "Slime x100"
 	quest.5BD7CFADD0E1829C.quest_subtitle: "Work Work Work Work!"
@@ -354,6 +384,7 @@
 	quest.5DEADBED5FB7E74E.title: "Guardian Spawn Egg"
 	quest.5E3B546FC673D448.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.5E3B546FC673D448.title: "Skeleton Spawn Egg"
+	quest.5E5B007E31F4F1E0.quest_desc: ["These fish are guarding something, take them out to make it easier to investigate, be warned that hitting one when its spikes are out will be very painful for you."]
 	quest.5E5B007E31F4F1E0.quest_subtitle: "Guardians of the something!"
 	quest.5E5B007E31F4F1E0.title: "Guardian x5"
 	quest.5E917DE05E3B87B8.title: "Mystical Paxels"
@@ -364,6 +395,7 @@
 	quest.5F2D62738487ECAE.quest_desc: ["You got to start somewhere so why not start with getting some wooden logs?"]
 	quest.5F2D62738487ECAE.quest_subtitle: "Why doesn't it fall down?"
 	quest.5F2D62738487ECAE.title: "Punchin' Wood!"
+	quest.5F4851C058C158CF.quest_desc: ["The Following relics can be found in various loot chests in The End."]
 	quest.605854D0F091D731.quest_desc: ["Shulkers are hunted for their prized shulker shells, why not have some for yourself? Note: You can hit a shulker bullet to destroy it, other wise I would recommend not being hit by one unless your goal is to go up!"]
 	quest.605854D0F091D731.quest_subtitle: "Night Time. Day Time~"
 	quest.605854D0F091D731.title: "Shulker x5"
@@ -381,6 +413,19 @@
 	quest.65FF1A3C6087442C.title: "Zombies x50"
 	quest.664E7006C6876BE8.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.664E7006C6876BE8.title: "Wither Skeleton Spawn Egg"
+	quest.66C7534C0CC8DFFB.quest_desc: [
+		"The star light charger infuses items with star light and a catalyst. The star light charger requires 4 specific blocks in specific places to work. The star light charger requires it to be night for it to recharge its star light energy buffer."
+		""
+		"Crimson Steel is needed for tier 1 catalsyts."
+		"{image:floabg:textures/questpics/floabmp/tier1.png width:150 height:100 align:center}"
+		""
+		"Azure Electrum is needed for tier 2 and below catalsyts."
+		"{image:floabg:textures/questpics/floabmp/tier2.png width:150 height:100 align:center}"
+		""
+		"Tyrain Steel is needed for tier 3 and below catalsyts."
+		"{image:floabg:textures/questpics/floabmp/tier3.png width:150 height:100 align:center}"
+	]
+	quest.66C7534C0CC8DFFB.quest_subtitle: "Power of the Stars."
 	quest.67A3C886D2F6FE1C.title: "Drowned x25"
 	quest.67FBE7B8CEFC7B76.title: "Mekanism Steel"
 	quest.682169A4AA27D124.quest_subtitle: "Who farted?"
@@ -394,6 +439,7 @@
 	quest.69594B2E620EECC6.quest_subtitle: "Is it from the Prison of Elders?"
 	quest.69594B2E620EECC6.title: "Elder Guardian"
 	quest.69C6BF51E06E2227.quest_desc: ["&0Entrodor_Wolfry&r is the Owner of &4For Lack Of A Better Game&r or &4FLoaBG&r for short. Which is a gaming community that is still trying to grow."]
+	quest.6A56FABB3B805BF6.title: "Nether Banana"
 	quest.6B5B3EAE0CA0DDE5.title: "Piglin x100"
 	quest.6CD1120E3F2FEF01.quest_subtitle: "Fear the CUBE!"
 	quest.6D2150F7EB73A8D8.quest_desc: [
@@ -436,6 +482,7 @@
 	quest.7555327666DBD4C0.quest_subtitle: "Breaking the World!"
 	quest.7555327666DBD4C0.title: "Cobbled Together"
 	quest.7558B697A870FF20.title: "Pillager x50"
+	quest.76A5553B889E645A.quest_desc: ["Beware, these axe wielding madmen hit very hard and if you find one named Johnny, say goodbye to all your pets nearby."]
 	quest.76A5553B889E645A.quest_subtitle: "Here Comes Johnny!"
 	quest.76A5553B889E645A.title: "Vindicator x5"
 	quest.76A7B8F55D9472DA.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -458,23 +505,36 @@
 	task.02FDA41F26B075C0.title: "Any #c:dusts/steel"
 	task.04B4737D33942B9E.title: "Prudentium Armor"
 	task.0734C3CF913208C2.title: "Upgrades"
+	task.0A94A9B1C4CE52D2.title: "Bow"
 	task.0DEA8A2EC23239EA.title: "Awakened Supremium Armor"
 	task.0F06D8426F387C42.title: "Supremium Armor"
 	task.130CD864C5EC29EE.title: "Inferium Gear"
 	task.165AE0EDFB748C04.title: "Misc Commands"
+	task.1740FEAA05B98941.title: "Lining"
 	task.1A317469A169CA78.title: "Storage With Mekanism"
+	task.1A80E7E4F7F4B889.title: "Arrow"
 	task.1C937596FD509C87.title: "Kill Them All!"
+	task.205EBA300B4F0477.title: "Visit The End"
 	task.2142409CB902670B.title: "Joined the World!"
 	task.2477ACD7A6D932B5.title: "Visit A Nether Fortress"
+	task.2735CD21B5B940BF.title: "Sword"
 	task.28C75CC51B59A8E1.title: "Magnets"
 	task.292B0F0353EDDE2C.title: "Other Info"
+	task.29EF97D8E3AF59D1.title: "Binding"
+	task.2A5AACAC22E15CB2.title: "Silent Jewlery"
+	task.2C2988BD9AC795AB.title: "Any Silentgear Blueprint"
 	task.2CD647FC0FF73EA5.title: "Demagnetization Coils"
+	task.2D38D568BEAC6BEA.title: "Fishing Rod"
+	task.2D7CBBAB58B0F5DF.title: "Cataclysm"
 	task.30F8E1E3529F585D.title: "Tricks"
+	task.32CE030E210EE842.title: "Any Starlight Charger Catalysts"
 	task.33DEA9CC6F562F74.title: "Imperium Armor"
 	task.35D2FA1D4EE4C554.title: "Imperium Gear"
+	task.362FB1E2C0AA4B65.title: "Coating"
 	task.39137F9755F836AD.title: "Visit The Nether"
 	task.393186B7EC46243F.title: "Basic Energy Storage"
 	task.3BF6BB2E4B027811.title: "Tertium Gear"
+	task.3D97C95B359DA6B7.title: "Mimic"
 	task.3EE8486000AD6B37.title: "Tips"
 	task.402A4A5918316AD8.title: "Any #minecraft:logs"
 	task.42D09ADAB03AE213.title: "Creepers x25"
@@ -483,27 +543,42 @@
 	task.45986AB9A73712ED.title: "Tools"
 	task.470EB12F0227C182.title: "About Entrodor_Wolfry"
 	task.47E95A59D1BB29BC.title: "Any #minecraft:decorated_pot_sherds"
+	task.48CB015E0F69689B.title: "Grip"
+	task.4AF2AD21E214E2B0.title: "Pickaxe"
 	task.4BC5C760DBBAB6E0.title: "FLoaBG Custom Seeds"
 	task.4DF6FD3A6330AF32.title: "Parties and Claims"
 	task.505028E59E14F214.title: "Visit A Bastion Remnant"
 	task.52C4DEE57BE6B6CD.title: "Visit A End City"
 	task.52CDD05C3D4E844F.title: "Visit The End"
 	task.5595BF9962EAA450.title: "Prudentium Gear"
+	task.56668C1A0E683642.title: "Mattock"
 	task.598A51A1A4B867FD.title: "Any #c:brushes"
 	task.59A8A6F470A184AA.title: "Creepers x100"
+	task.5A361027E958416B.title: "Repair Kits"
+	task.5B2470E07BCF50A7.title: "Tip"
 	task.5CB46D2452BDE728.title: "Furnace"
 	task.5D641F322C1CB5DF.title: "Awakened Supremium Gear"
 	task.5EA5DCEF0DC0EFBE.title: "Land Claiming and you."
+	task.5F68039E45C117E0.title: "Axe"
 	task.62886DFAAF607457.title: "Crafting Table"
 	task.64ED8496DE6178C9.title: "Mystical Paxels"
 	task.6787F86113FE8773.title: "Creepers x50"
 	task.67B1E802F6C36341.title: "Tertium Armor"
 	task.682639296E2BEDCA.title: "Generators of Mekanism"
 	task.68B6AA0C74CF9E13.title: "FTB Teams"
+	task.6A8D2B425D80E1FA.title: "Ars Nouveau"
+	task.6AB0724B6E42CB64.title: "Any Grader Catalysts"
+	task.6B428E6E9494CA70.title: "Ring"
+	task.6B87B96DB50F085D.title: "Visit The Overworld"
 	task.6D74D967386C09F6.title: "Commands"
+	task.6EFA123253DAC4BD.title: "Bracelet"
 	task.723F6FF424645ADF.title: "Supremium Gear"
+	task.729499AF701E7334.title: "4x Catalyst Block"
 	task.756C8CF042BB682D.title: "Growing Essence"
 	task.767C0A38D1AB5853.title: "Any Type of Coal"
+	task.76B25600BD7A3BFE.title: "Visit The Nether"
 	task.7987C9596E1F347F.title: "Pack Info"
 	task.7AF29117A4B33D4E.title: "Homes"
+	task.7D8E8D194E0C7D26.title: "Necklace"
+	task.7E731CC2D3CBF627.title: "Silent Gear"
 }

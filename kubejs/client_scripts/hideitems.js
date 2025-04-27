@@ -12,25 +12,31 @@ RecipeViewerEvents.removeEntries('item', event => {
 })
     
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
+    const materials = ["atm_star", "greg_star", "ender_pearl", "nether_star", "sky_steel", "sky_bronze", "sky_osmium", "copper_alloy", "energetic_alloy", "vibrant_alloy", "redstone_alloy", "dark_steel",
+        "soularium", "end_steel", "compressed_iron", "pulsating_alloy", "conductive_alloy"]
 // Remove unused All The Compressed blocks
-    for(let i=1; i < 10; i++){
-        event.remove(`allthecompressed:atm_star_block_${i}x`)
-        event.remove(`allthecompressed:greg_star_block_${i}x`)
-        event.remove(`allthecompressed:ender_pearl_block_${i}x`)
-        event.remove(`allthecompressed:nether_star_block_${i}x`)
-        event.remove(`allthecompressed:sky_steel_block_${i}x`)
-        event.remove(`allthecompressed:sky_bronze_block_${i}x`)
-        event.remove(`allthecompressed:sky_osmium_block_${i}x`)
-        event.remove(`allthecompressed:copper_alloy_block_${i}x`)
-        event.remove(`allthecompressed:energetic_alloy_block_${i}x`)
-        event.remove(`allthecompressed:vibrant_alloy_block_${i}x`)
-        event.remove(`allthecompressed:redstone_alloy_block_${i}x`)
-        event.remove(`allthecompressed:dark_steel_block_${i}x`)
-        event.remove(`allthecompressed:soularium_block_${i}x`)
-        event.remove(`allthecompressed:end_steel_block_${i}x`)
-        event.remove(`allthecompressed:compressed_iron_block_${i}x`)
-        event.remove(`allthecompressed:pulsating_alloy_block_${i}x`)
-    }   
+    
+        materials.forEach(material => {
+            for(let i=1; i < 10; i++){
+        event.remove(`allthecompressed:${material}_block_${i}x`)
+        // event.remove(`allthecompressed:atm_star_block_${i}x`)
+        // event.remove(`allthecompressed:greg_star_block_${i}x`)
+        // event.remove(`allthecompressed:ender_pearl_block_${i}x`)
+        // event.remove(`allthecompressed:nether_star_block_${i}x`)
+        // event.remove(`allthecompressed:sky_steel_block_${i}x`)
+        // event.remove(`allthecompressed:sky_bronze_block_${i}x`)
+        // event.remove(`allthecompressed:sky_osmium_block_${i}x`)
+        // event.remove(`allthecompressed:copper_alloy_block_${i}x`)
+        // event.remove(`allthecompressed:energetic_alloy_block_${i}x`)
+        // event.remove(`allthecompressed:vibrant_alloy_block_${i}x`)
+        // event.remove(`allthecompressed:redstone_alloy_block_${i}x`)
+        // event.remove(`allthecompressed:dark_steel_block_${i}x`)
+        // event.remove(`allthecompressed:soularium_block_${i}x`)
+        // event.remove(`allthecompressed:end_steel_block_${i}x`)
+        // event.remove(`allthecompressed:compressed_iron_block_${i}x`)
+        // event.remove(`allthecompressed:pulsating_alloy_block_${i}x`)
+        // event.remove(`allthecompressed:conductive_iron_block_${i}x`)
+    }})   
 // Remove unused Mystical Seeds, Essences and Cruxs  
     const seeds = [
         "rubber", "saltpeter", "apatite", "graphite", "grains_of_infinity", "mystical_flower", "marble", "basalt", "menril", "blizz", "blitz", "basalz", "amethyst_bronze", "slimesteel", "pig_iron",

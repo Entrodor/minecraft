@@ -130,3 +130,4 @@ kubejs/startup_scripts/jsconfig.json
 !/config/akashictome-common.toml
 !/config/bcc-common.toml
 !/config/itemphysic.json
+!/config/powah.json5

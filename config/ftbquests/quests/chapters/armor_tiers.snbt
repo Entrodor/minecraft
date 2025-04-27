@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_tiers"
+	group: "1A26E5C97F305F62"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 1
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "allthewizardgear:unobtainium_mage_chestplate"
+	}
+	id: "15249C1C89503BB7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

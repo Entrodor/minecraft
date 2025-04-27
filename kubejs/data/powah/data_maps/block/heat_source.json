@@ -1,0 +1,19 @@
+{
+    "values": {
+      "justdirethings:coalblock_t1":{
+          "temperature": 1000
+      },
+      "justdirethings:coalblock_t2":{
+        "temperature": 1500
+      },
+      "justdirethings:coalblock_t3":{
+        "temperature": 2500
+      },
+      "justdirethings:coalblock_t4":{
+        "temperature": 4500
+      },
+      "allthecompressed:antimatter_block":{
+        "temperature": 90000
+      }
+    }
+  }

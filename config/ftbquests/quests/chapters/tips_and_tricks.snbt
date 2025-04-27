@@ -519,5 +519,81 @@
 			x: -1.5d
 			y: 6.0d
 		}
+		{
+			dependencies: [
+				"74CBBDB32DED6205"
+				"7F1A11703ECB2756"
+			]
+			id: "4BCE6BA9D71A154D"
+			tasks: [{
+				id: "391D3CB83EE1D5CA"
+				item: { count: 1, id: "modular_angelring:gold_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BCE6BA9D71A154D"]
+			id: "2F28A11CB08D18B5"
+			tasks: [{
+				id: "4692E10F8A2A0EC1"
+				item: { count: 1, id: "modular_angelring:angel_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F28A11CB08D18B5"]
+			id: "27A741A785D94452"
+			tasks: [
+				{
+					id: "47D79CDD669A930E"
+					item: { count: 1, id: "modular_angelring:angel_ring_upgrade_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "7B783010C0AF2102"
+					item: { count: 1, id: "modular_angelring:blank_module" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27A741A785D94452"]
+			id: "26C494F5253C6484"
+			tasks: [{
+				id: "7E9471D679EB6258"
+				item: { count: 1, id: "modular_angelring:inertia_module" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27A741A785D94452"]
+			id: "37EB6700B01EB043"
+			tasks: [{
+				id: "3DBC281E58E491C5"
+				item: { count: 1, id: "modular_angelring:speed_module" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27A741A785D94452"]
+			id: "7DD1B0F0F6C25BE0"
+			tasks: [{
+				id: "1BA65446C54EC47D"
+				item: { count: 1, id: "modular_angelring:night_vision_module" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
 	]
 }

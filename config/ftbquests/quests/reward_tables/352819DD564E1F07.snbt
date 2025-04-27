@@ -8,7 +8,7 @@
 	rewards: [
 		{
 			count: 8
-			id: "58D51FEE87A2A867"
+			id: "0C9F4D7C0DBBE7F2"
 			item: {
 				count: 1
 				id: "mekanism:basic_universal_cable"
@@ -16,7 +16,7 @@
 		}
 		{
 			count: 8
-			id: "4408927CF3A77AAF"
+			id: "62EE5629B9584472"
 			item: {
 				count: 1
 				id: "mekanism:basic_mechanical_pipe"
@@ -24,7 +24,7 @@
 		}
 		{
 			count: 8
-			id: "2BF684C289DC0786"
+			id: "42E61C681F58C26A"
 			item: {
 				count: 1
 				id: "mekanism:basic_thermodynamic_conductor"
@@ -32,7 +32,7 @@
 		}
 		{
 			count: 8
-			id: "694CBE573201C411"
+			id: "7AED7D7D114BF66D"
 			item: {
 				count: 1
 				id: "mekanism:basic_logistical_transporter"
@@ -40,7 +40,7 @@
 		}
 		{
 			count: 8
-			id: "1C1E6750EB2E41B0"
+			id: "3E50813E372E52D9"
 			item: {
 				count: 1
 				id: "mekanism:basic_pressurized_tube"
@@ -48,7 +48,7 @@
 		}
 		{
 			count: 4
-			id: "28E8F8BF688CCFC5"
+			id: "7F516695287E8EDF"
 			item: {
 				count: 1
 				id: "mekanism:alloy_atomic"
@@ -56,7 +56,7 @@
 		}
 		{
 			count: 8
-			id: "4464039D352EA182"
+			id: "2E504E8C46F97300"
 			item: {
 				count: 1
 				id: "mekanism:alloy_reinforced"
@@ -64,7 +64,7 @@
 		}
 		{
 			count: 16
-			id: "22482CAF0DEE4B31"
+			id: "5F206FD5644E95E8"
 			item: {
 				count: 1
 				id: "mekanism:alloy_infused"
@@ -72,7 +72,7 @@
 		}
 		{
 			count: 4
-			id: "37E215BEC61EC8D2"
+			id: "005585B737E9755A"
 			item: {
 				count: 1
 				id: "mekanism:ultimate_control_circuit"
@@ -80,7 +80,7 @@
 		}
 		{
 			count: 4
-			id: "5F01D531E0EF3B24"
+			id: "6FC88A40C16821E1"
 			item: {
 				count: 1
 				id: "mekanism:elite_control_circuit"
@@ -88,7 +88,7 @@
 		}
 		{
 			count: 8
-			id: "5834B568EFA2B572"
+			id: "72866FC3E13C74CF"
 			item: {
 				count: 1
 				id: "mekanism:advanced_control_circuit"
@@ -96,7 +96,7 @@
 		}
 		{
 			count: 8
-			id: "636C7818435FD470"
+			id: "2A97D7FFDC9A35D8"
 			item: {
 				count: 1
 				id: "mekanism:basic_control_circuit"
