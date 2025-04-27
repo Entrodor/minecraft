@@ -902,6 +902,10 @@
     "modId": "jearchaeology",
     "version": "1.21.1-1.1.6"
   },
+  "jeed-1.21-2.2.18.jar": {
+    "modId": "jeed",
+    "version": "1.21-2.2.18"
+  },
   "jumpoverfences-neoforge-1.21-1.6.0.jar": {
     "modId": "jumpoverfences",
     "version": "1.6.0"
@@ -1122,6 +1126,10 @@
   "MedievalCraft(Weapons)-1.21.1-1.0.0.jar": {
     "modId": "medieval_craft_weapons",
     "version": "1.0.0"
+  },
+  "MEED-1.21.1-6.7.jar": {
+    "modId": "moderately",
+    "version": "5.0.0"
   },
   "Mekanism-1.21.1-10.7.13.78.jar": {
     "modId": "mekanism",
@@ -1382,10 +1390,6 @@
   "polymorph-neoforge-1.0.9+1.21.1.jar": {
     "modId": "polymorph",
     "version": "1.0.9+1.21.1"
-  },
-  "potiondescriptions-1.21.1-NeoForge-1.0.0.jar": {
-    "modId": "potiondescriptions",
-    "version": "1.0.0"
   },
   "potionsmaster-21.1.113-0.6.9.1-packdev.jar": {
     "modId": "potionsmaster",
