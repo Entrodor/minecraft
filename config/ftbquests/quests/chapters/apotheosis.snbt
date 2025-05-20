@@ -9,5 +9,173 @@
 	id: "08E7EC48E4943543"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "2B05025213CA657E"
+			tasks: [{
+				id: "050BFB9F5DCBB721"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "073FC568BFB6540D"
+			tasks: [{
+				id: "2E6009CF87E4A3AB"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "62F2AB4AF835FD72"
+			tasks: [{
+				id: "00ACA9066F9D1E61"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "13FB532ADD1A9669"
+			tasks: [{
+				id: "51760EA094B4E626"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13FB532ADD1A9669"]
+			id: "184B00E5783CBD80"
+			tasks: [{
+				advancement: "apotheosis:progression/haven"
+				criterion: ""
+				id: "3C84C400F66E939D"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["184B00E5783CBD80"]
+			id: "46F3F4D9EAD07691"
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "3E6ACD16828C358B"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46F3F4D9EAD07691"]
+			id: "5ACB0FF5A7F7C8B9"
+			tasks: [{
+				advancement: "apotheosis:progression/ascent"
+				criterion: ""
+				id: "25092F5B667AF152"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5ACB0FF5A7F7C8B9"]
+			id: "283CB41E804BBB19"
+			tasks: [{
+				advancement: "apotheosis:progression/summit"
+				criterion: ""
+				id: "37F3E2FD618664B7"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["283CB41E804BBB19"]
+			id: "4B8E643F0A5C81AE"
+			tasks: [{
+				advancement: "apotheosis:progression/pinnacle"
+				criterion: ""
+				id: "1EC89C6AFB61C782"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"62F2AB4AF835FD72"
+				"2B05025213CA657E"
+			]
+			id: "4D1C368C32BF1899"
+			tasks: [{
+				id: "6E658C6ED0A7AAC4"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62F2AB4AF835FD72"]
+			id: "2FD5B0D1F9019C99"
+			tasks: [{
+				id: "702A4A7EA32EE042"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"62F2AB4AF835FD72"
+				"2B05025213CA657E"
+			]
+			id: "2754817E2944A581"
+			tasks: [{
+				id: "0837DC916798D372"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"62F2AB4AF835FD72"
+				"2B05025213CA657E"
+			]
+			id: "1F83AFB54B141664"
+			tasks: [{
+				id: "4C3BD322837D8C4E"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B05025213CA657E"
+				"62F2AB4AF835FD72"
+			]
+			id: "678AC4F67E4764BA"
+			tasks: [{
+				id: "5B7CEB32314D600F"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "3FD4F97F2A602E35"
+			tasks: [{
+				id: "4BDC96CF4D4081DD"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
 }

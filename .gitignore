@@ -131,3 +131,4 @@ kubejs/startup_scripts/jsconfig.json
 !/config/bcc-common.toml
 !/config/itemphysic.json
 !/config/powah.json5
+!/config/waystones-common.toml

@@ -595,5 +595,17 @@
 			x: 1.0d
 			y: -6.5d
 		}
+		{
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "3A3B26BEBD0F4D3C"
+			tasks: [{
+				id: "1833BF8FEE218642"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
 	]
 }

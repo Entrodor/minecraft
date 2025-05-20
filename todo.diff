@@ -13,7 +13,6 @@ To Do List
 + Wormhole recipe and configuration rebalanced
 + Test Open Claims/Parties with tombstone mod
 + Explorers/Nature compass threading settings (not available anymore, rip - Entrodor_Wolfry 2025)
-- Create quests for different mods (always in progress)
 - Configure Ore generator (mekanism lasers) and Mining Laser (industrial foregoing) outputs (mining laser may not need changing)
 - Fix any other OreGen/Ore Output/Resource Output etc
 - double check any recipe that needs to be changed or removed (always in progress)
@@ -36,11 +35,20 @@ To Do List
 + Change Apothosis spawner upgrade items to be more inline with atm or better balanced
 + Change what can drop as affixed items (apothic_compats, changed stuff via KJS data)
 + change what mobs can spawn as apothic bosses (apothic_compats, changed stuff via KJS data)
-- add quests which reward bonus claim chunks
 + write scrips to prevent players from placing/activating nukes from oritech and industrial foregoing
 + mods_optimizer settings
 + fix moreoverlays (jei shit)
-- iceandfire dragon spawn chenages. initial attempt done, 
-- lightning cave biomes: allthemodium:the_other, allthemodium:warped_forest
-- fire cave biomes: allthemodium:desert, allthemodium:desert_hills
-- ice cave biomes: allthemodium:the_other, allthemodium:crimson_forest
++ iceandfire dragon spawn chenages. initial attempt done, 
++ lightning cave biomes: allthemodium:the_other, allthemodium:warped_forest
++ fire cave biomes: allthemodium:desert, allthemodium:desert_hills
++ ice cave biomes: allthemodium:the_other, allthemodium:crimson_forest
+
+Quest Related Tasks
+- Create quests for different mods (always in progress)
+- add quests which reward bonus claim chunks
+- Reorganize Tips and Tricks
+- Tips and Tricks > Waystones - Edit Description/Rewards/Task
+- Apotheosis > Apothic World Tiers - Add Descriptions/Rewards
+- Apotheosis > Apothic Affixes - Setup quests relating to Affixes, as well as Rewards
+- Apotheosis > Apothic Enchanting - Setup quests relating to Enchanting, as well as Rewards
+- Apotheosis > Apothic Spawners - Setup quests relating to Spanwers, as well as Rewards

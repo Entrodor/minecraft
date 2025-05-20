@@ -96,6 +96,10 @@
 	quest.059A7E4E14B1C360.title: "Stray Spawn Egg"
 	quest.0678F09C1AB8B50C.title: "Witch x100"
 	quest.0699282291DBF958.quest_desc: ["Can be forge with Apotheosis."]
+	quest.073FC568BFB6540D.quest_desc: [
+		"Spawners can be upgraded/downgraded with various materials."
+		"These quests will show off how"
+	]
 	quest.074242BE8F3BF4A5.quest_desc: ["This block will not stop it from raining but will prevent the raindrops from appearing."]
 	quest.0785ED84E5AA811E.quest_desc: ["They have destroyed our builds far to much, it is time to pay with their life!"]
 	quest.0785ED84E5AA811E.quest_subtitle: "Pocket Explosion?"
@@ -160,6 +164,12 @@
 	quest.138DCDE753D77338.title: "Skeleton x50"
 	quest.139BCBFAA571D1E2.quest_subtitle: "Most Expensive Pickaxe!"
 	quest.13A6DE7F9C44349F.title: "Flower of the Torch"
+	quest.13FB532ADD1A9669.quest_desc: [
+		"Apotheosis now has World Tiers, which affects the rarity of the affixed loot and \"Apothic Invaders you will encounter."
+		"The World Tiers also affect bonuses for the player, and bonuses for enemies spawned near the player."
+		""
+		"By default you can use Ctrl + T to open the World Tiers menu."
+	]
 	quest.1400DABAA26D2AE4.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1400DABAA26D2AE4.title: "Blaze Spawn Egg"
 	quest.141C8CB4BE29C5B9.quest_subtitle: "Happy Little Accident~"
@@ -182,6 +192,12 @@
 	quest.1F3DD3C0D73DFF75.title: "Spider x25"
 	quest.1F4A403B230B5381.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
 	quest.1F4A403B230B5381.title: "Enderman Spawn Egg"
+	quest.1F83AFB54B141664.quest_desc: [
+		"Apotheosis And Curios come together to make you more bloody overpowered."
+		""
+		"Curios now support affixes"
+	]
+	quest.1F83AFB54B141664.title: "Apothic + Curios"
 	quest.1FE191DB6D89B831.quest_desc: ["Frosted Prison and The End."]
 	quest.205103B71429E944.quest_subtitle: "Recycling is good!"
 	quest.2254792ACDD84F93.title: "Zombies x100"
@@ -205,11 +221,21 @@
 	]
 	quest.2741751E71B33171.quest_subtitle: "Infinite Sides!"
 	quest.2741751E71B33171.title: "Entangled Reality"
+	quest.2754817E2944A581.quest_desc: [
+		"Description about the Gems added by Apotheosis + addons and how to use them"
+		""
+		"Rewards: ??"
+	]
 	quest.27B8090B645B4CD9.title: "Stray x50"
 	quest.282D8E71EDBAD2A4.title: "Piglin x50"
 	quest.289A39192951B671.quest_subtitle: "A Girls Best Friend!"
 	quest.289A39192951B671.title: "DIAMONDS"
 	quest.2A10D0A0B07AE40D.title: "Wither Skeleton x25"
+	quest.2B05025213CA657E.quest_desc: [
+		"These quests will show off the various enchanting tables, and any \"recommended\" setups for Apotheosis' custom enchanting system."
+		""
+		"Data/Info mostly copied from AllTheMods apotheosis help page."
+	]
 	quest.2B4E276A4BBF6B5F.quest_desc: ["Slimes may seem harmless, well at least the tiny ones are. Time to cut their numbers down a bit."]
 	quest.2B4E276A4BBF6B5F.quest_subtitle: "Is this Nickelodeon?"
 	quest.2B4E276A4BBF6B5F.title: "Slime x5"
@@ -223,6 +249,12 @@
 		"To add friends to your Team, open your Inventory and click the \"My Team\" button in the top left (the 3 person icon), then click \"Create a party\", enter whatever details you want to add and confirm it, then reopen the same screen and in the top right you can click the green plus icon to add your friends."
 		""
 		"You can also create a party with /ftbteams party create <party_name> and then invite friends with /ftbteams party invite <player>"
+	]
+	quest.2FD5B0D1F9019C99.quest_desc: [
+		"Description for Enhancement Table"
+		"Description for Tablet of Malice"
+		""
+		"Rewards: ??"
 	]
 	quest.310952D3326EFF1E.quest_desc: ["These skeletons with their slowness arrows are a nuisance, take them out and remove their arrows from them."]
 	quest.310952D3326EFF1E.quest_subtitle: "Ice Cold!"
@@ -277,6 +309,11 @@
 	quest.395333E99CB1CECE.title: "Shinktastic"
 	quest.3958751C64C46A1C.title: "Bow and Arrow"
 	quest.3A2631A79283A979.quest_subtitle: "Mixin Metals~"
+	quest.3A3B26BEBD0F4D3C.quest_desc: [
+		"Waystones mod has been changed in a couple ways."
+		"Firstly: Recipes have been changed to make the mod a little more mid-game, sorry :P"
+		"Secondly: Waystones require a netherite pickaxe now, to stop people from being able to get them easily in early game"
+	]
 	quest.3B25050EBD52E2D3.title: "Pillager x25"
 	quest.3C0457BAD5779C0D.quest_desc: [
 		"Players can claim a certain number of chunks and other players cannot grief this area, unless in the same team as the land claim owner."
@@ -293,6 +330,7 @@
 	quest.3C736E0567A02B8B.title: "Vanquisher"
 	quest.3CABFBE30B8C1BDA.title: "Hoglin x50"
 	quest.3E0C6ABF8944C6F2.title: "Hoglin x25"
+	quest.3FD4F97F2A602E35.quest_desc: ["Apotheosis supports some other mods, we'll try list a few here or something"]
 	quest.3FD5EED9E6F2A600.quest_subtitle: "Diggy Diggy Hole! - Some Dwarf"
 	quest.3FD5EED9E6F2A600.title: "Time to MINEcraft!"
 	quest.4067955D6C95A9BE.quest_desc: [
@@ -342,6 +380,12 @@
 	quest.4C8F34B35B933702.quest_subtitle: "A coin for the ferryman!"
 	quest.4C8F34B35B933702.title: "&4You DIED!&r"
 	quest.4CDB26ED08E6411C.title: "Magma Cube x25"
+	quest.4D1C368C32BF1899.quest_desc: [
+		"Description For Reforging Table And required materials"
+		""
+		"Rewards: ??"
+	]
+	quest.4D1C368C32BF1899.title: "Affix Reforging"
 	quest.4EFA569F65ACDDDF.title: "Golden Banana"
 	quest.5019C1C73765E7FB.title: "Shulker x100"
 	quest.519472C8CD07B9D6.quest_desc: ["This pack uses FTB Teams for \"team related features\" eg Quests and Claim permissions. And uses Open Parties and Claims for chunk claiming features."]
@@ -409,6 +453,10 @@
 		"The custom textures/items from &5KubeJS&r were made in a couple minutes and are more of a temporary solution and will be made into a mod at some point with better textures."
 	]
 	quest.62BD531AAE825758.quest_subtitle: "There's more?"
+	quest.62F2AB4AF835FD72.quest_desc: [
+		"All about Apothic Affixes, rerolling, and enhancing."
+		"have fun being overpowered :)"
+	]
 	quest.6550150BC6C10277.title: "Piglin Brute x25"
 	quest.65FF1A3C6087442C.title: "Zombies x50"
 	quest.664E7006C6876BE8.quest_desc: ["Give us the required materials, you recive 1 spawn egg. Good deal?"]
@@ -426,6 +474,7 @@
 		"{image:floabg:textures/questpics/floabmp/tier3.png width:150 height:100 align:center}"
 	]
 	quest.66C7534C0CC8DFFB.quest_subtitle: "Power of the Stars."
+	quest.678AC4F67E4764BA.quest_desc: ["Apotheosis now supports more Iron's Spells and Spellbooks"]
 	quest.67A3C886D2F6FE1C.title: "Drowned x25"
 	quest.67FBE7B8CEFC7B76.title: "Mekanism Steel"
 	quest.682169A4AA27D124.quest_subtitle: "Who farted?"
@@ -501,16 +550,20 @@
 	reward_table.594294977C70DECC.title: "vanillasaplings"
 	reward_table.7B186461AC196484.title: "vanillafish"
 	task.0024E4ED7F1FADA9.title: "Commands"
+	task.00ACA9066F9D1E61.title: "Apothic Affixes"
 	task.0144D5348062EF66.title: "Inferium Armor"
 	task.02FDA41F26B075C0.title: "Any #c:dusts/steel"
 	task.04B4737D33942B9E.title: "Prudentium Armor"
+	task.050BFB9F5DCBB721.title: "Apothic Enchanting"
 	task.0734C3CF913208C2.title: "Upgrades"
+	task.0837DC916798D372.title: "Apothic Gems"
 	task.0A94A9B1C4CE52D2.title: "Bow"
 	task.0DEA8A2EC23239EA.title: "Awakened Supremium Armor"
 	task.0F06D8426F387C42.title: "Supremium Armor"
 	task.130CD864C5EC29EE.title: "Inferium Gear"
 	task.165AE0EDFB748C04.title: "Misc Commands"
 	task.1740FEAA05B98941.title: "Lining"
+	task.1833BF8FEE218642.title: "Waystones"
 	task.1A317469A169CA78.title: "Storage With Mekanism"
 	task.1A80E7E4F7F4B889.title: "Arrow"
 	task.1C937596FD509C87.title: "Kill Them All!"
@@ -526,6 +579,7 @@
 	task.2CD647FC0FF73EA5.title: "Demagnetization Coils"
 	task.2D38D568BEAC6BEA.title: "Fishing Rod"
 	task.2D7CBBAB58B0F5DF.title: "Cataclysm"
+	task.2E6009CF87E4A3AB.title: "Apothic Spawners"
 	task.30F8E1E3529F585D.title: "Tricks"
 	task.32CE030E210EE842.title: "Any Starlight Charger Catalysts"
 	task.33DEA9CC6F562F74.title: "Imperium Armor"
@@ -546,8 +600,11 @@
 	task.48CB015E0F69689B.title: "Grip"
 	task.4AF2AD21E214E2B0.title: "Pickaxe"
 	task.4BC5C760DBBAB6E0.title: "FLoaBG Custom Seeds"
+	task.4BDC96CF4D4081DD.title: "Apothic + More"
+	task.4C3BD322837D8C4E.title: "Apothic & Curios"
 	task.4DF6FD3A6330AF32.title: "Parties and Claims"
 	task.505028E59E14F214.title: "Visit A Bastion Remnant"
+	task.51760EA094B4E626.title: "Apothic World Tiers"
 	task.52C4DEE57BE6B6CD.title: "Visit A End City"
 	task.52CDD05C3D4E844F.title: "Visit The End"
 	task.5595BF9962EAA450.title: "Prudentium Gear"
@@ -556,10 +613,12 @@
 	task.59A8A6F470A184AA.title: "Creepers x100"
 	task.5A361027E958416B.title: "Repair Kits"
 	task.5B2470E07BCF50A7.title: "Tip"
+	task.5B7CEB32314D600F.title: "Apothic + Iron's"
 	task.5CB46D2452BDE728.title: "Furnace"
 	task.5D641F322C1CB5DF.title: "Awakened Supremium Gear"
 	task.5EA5DCEF0DC0EFBE.title: "Land Claiming and you."
 	task.5F68039E45C117E0.title: "Axe"
+	task.6153BB70CECDAFB0.title: "Apotheosis"
 	task.62886DFAAF607457.title: "Crafting Table"
 	task.64ED8496DE6178C9.title: "Mystical Paxels"
 	task.6787F86113FE8773.title: "Creepers x50"
@@ -571,7 +630,9 @@
 	task.6B428E6E9494CA70.title: "Ring"
 	task.6B87B96DB50F085D.title: "Visit The Overworld"
 	task.6D74D967386C09F6.title: "Commands"
+	task.6E658C6ED0A7AAC4.title: "Reforging"
 	task.6EFA123253DAC4BD.title: "Bracelet"
+	task.702A4A7EA32EE042.title: "Affix Enhancing"
 	task.723F6FF424645ADF.title: "Supremium Gear"
 	task.729499AF701E7334.title: "4x Catalyst Block"
 	task.756C8CF042BB682D.title: "Growing Essence"
