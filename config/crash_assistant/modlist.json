@@ -411,6 +411,10 @@
     "modId": "create",
     "version": "6.0.4"
   },
+  "create_better_motors-3.1.3.jar": {
+    "modId": "create_better_motors",
+    "version": "3.1.3"
+  },
   "create_deep_dark-1.9.0-neoforge-1.21.1.jar": {
     "modId": "create_deep_dark",
     "version": "1.9.0"
